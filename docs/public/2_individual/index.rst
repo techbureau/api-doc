@@ -1,12 +1,11 @@
 ===========================
-2.個別情報
+個別情報
 ===========================
 
 それぞれの公開APIの情報です。
 
 .. toctree::
    :maxdepth: 2
-   :numbered: 3
 
    1_currencies
    2_currency_pairs
