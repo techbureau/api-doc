@@ -9,4 +9,4 @@
    :numbered: 3
 
    1_common
-   individual/index
+   2_individual/index
