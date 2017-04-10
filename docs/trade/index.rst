@@ -9,4 +9,4 @@
    :numbered: 3
 
    1_common
-   2_get_info
+   2_individual/index
