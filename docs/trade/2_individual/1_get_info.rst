@@ -14,37 +14,41 @@ get_info
 .. code-block:: python
 
     {
-	    "success":1,
-	    "return":{
-		    "funds":{
-			    "jpy":15320,
-			    "btc":1.389,
+        "success":1,
+        "return":{
+            "funds":{
+                "jpy":15320,
+                "btc":1.389,
                 "xem":100.2,
-			    "mona":2600,
-			    "kaori":0.1
-		    },
-		    "deposit":{
-			    "jpy":20440,
-			    "btc":1.479,
+                "mona":2600,
+                "kaori":0.1
+            },
+            "deposit":{
+                "jpy":20440,
+                "btc":1.479,
                 "xem":100.2,
-			    "mona":3200,
-			    "kaori":0.1
-		    },
-		    "rights":{
-			    "info":1,
-			    "trade":1,
-			    "withdraw":0,
-			    "personal_info":0,
-			    "id_info":0,
-		    },
-		    "trade_count":18,
-		    "open_orders":3,
-		    "server_time":1401950833
-	    }
+                "mona":3200,
+                "kaori":0.1
+            },
+            "rights":{
+                "info":1,
+                "trade":1,
+                "withdraw":0,
+                "personal_info":0,
+                "id_info":0,
+            },
+            "trade_count":18,
+            "open_orders":3,
+            "server_time":1401950833
+        }
     }
 
 .. csv-table::
    :header: "キー", "詳細", "型"
 
-   "funds", "通貨の名前", "string"
-   "deposit", "token種別", "boolean"
+   "funds", "", "dict"
+   "deposit", "", "dict"
+   "rights", "", "dict"
+   "trade_count", "", "int"
+   "open_orders", "", "int"
+   "server_time", "", "int"
