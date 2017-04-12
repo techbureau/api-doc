@@ -21,7 +21,7 @@ get_id_info
                 "email": "メールアドレス",
                 "name": "名前",
                 "kana": "名前カナ",
-                "certified": true
+                "certified": true //本人確認が完了したユーザかどうか
             }
         }
     }
