@@ -3,4 +3,4 @@ testfile
 =============================
 
 
-testfileです
+testfileです。
