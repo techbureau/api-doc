@@ -18,10 +18,11 @@ trade_history
    "since", "No", "開始タイムスタンプ", "UNIX time", "0"
    "end", "No", "終了タイムスタンプ", "UNIX time", "infinity"
    "currency_pair", "No", "通貨ペア。指定なしで全ての通貨ペア", "(例) btc_jpy	", "全ペア"
-   "is_token", "No", "true：カウンターパーティトークンの情報を取得 false：カウンターパーティトークン以外の情報を取得", "boolean", "false"
+   "is_token", "No", "'true：カウンターパーティトークンの情報を取得' \
+   'false：カウンターパーティトークン以外の情報を取得'", "boolean", "false"
 
-注意: ・“since”もしくは”end”をセットした場合、”order”は強制的に”ASC”となります。
-      ・“currency_pair”と”is_token”の両方を指定した場合は”currency_pair”が優先されます。両方指定しない場合はカウンターパーティトークン以外の情報を取得します。
+注意:・“since”もしくは”end”をセットした場合、”order”は強制的に”ASC”となります。
+    ・“currency_pair”と”is_token”の両方を指定した場合は”currency_pair”が優先されます。両方指定しない場合はカウンターパーティトークン以外の情報を取得します。
 
 実行例
 ==============
