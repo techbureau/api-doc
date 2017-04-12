@@ -46,7 +46,7 @@ get_info
 .. csv-table::
    :header: "キー", "詳細", "型"
 
-   "funds", "", "dict"
+   "funds", "残高", "dict"
    "deposit", "", "dict"
    "rights", "", "dict"
    "trade_count", "", "int"
