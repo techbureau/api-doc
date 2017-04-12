@@ -41,8 +41,11 @@ get_infoの軽量版で、過去のトレード数を除く項目を返します
         "success": 1
     }
 
-ふつうの文章だよ::
+.. csv-table::
+   :header: "キー", "詳細", "型"
 
-    コードブロック
-
-ふつうの文章
+   "deposit", "余力?", "dict"
+   "funds", "残高", "dict"
+   "open_orders", "アクティブな注文", "int"
+   "rights", "APIキーの確認", "dict"
+   "server_time", "サーバータイム", "int"
