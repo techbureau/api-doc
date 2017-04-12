@@ -21,12 +21,12 @@ get_personal_info
         }
     }
 
-    .. csv-table::
-       :header: "キー", "詳細", "型"
+.. csv-table::
+   :header: "キー", "詳細", "型"
 
-       "funds", "残高", "dict"
-       "deposit", "余力?", "dict"
-       "rights", "APIキーの確認", "dict"
-       "trade_count", "総トレード数", "int"
-       "open_orders", "アクティブな注文", "int"
-       "server_time", "サーバータイム", "int"
+   "funds", "残高", "dict"
+   "deposit", "余力?", "dict"
+   "rights", "APIキーの確認", "dict"
+   "trade_count", "総トレード数", "int"
+   "open_orders", "アクティブな注文", "int"
+   "server_time", "サーバータイム", "int"
