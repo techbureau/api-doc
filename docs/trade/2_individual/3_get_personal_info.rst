@@ -24,5 +24,5 @@ get_personal_info
 .. csv-table::
    :header: "キー", "詳細", "型"
 
-   "ranking_nickname", "ニックネーム", "dict"
-   "icon_path", "still", "dict"
+   "ranking_nickname", "ニックネーム", "str"
+   "icon_path", "　", "　"

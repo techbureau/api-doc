@@ -29,8 +29,8 @@ get_id_info
 .. csv-table::
    :header: "キー", "詳細", "型"
 
-   "id", "", "dict"
-   "email", "still", "dict"
-   "name", "APIキー", "dict"
+   "id", "ユーザーID", "str"
+   "email", "メールアドレス", "str"
+   "name", "APIキー", "int"
    "kana", "総トレード数", "int"
    "certified", "認証済み", "bool"
