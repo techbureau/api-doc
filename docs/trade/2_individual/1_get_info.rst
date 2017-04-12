@@ -47,8 +47,8 @@ get_info
    :header: "キー", "詳細", "型"
 
    "funds", "残高", "dict"
-   "deposit", "余力?", "dict"
-   "rights", "APIキーの確認", "dict"
+   "deposit", "still", "dict"
+   "rights", "APIキー", "dict"
    "trade_count", "総トレード数", "int"
    "open_orders", "アクティブな注文", "int"
-   "server_time", "サーバータイム", "int"
+   "server_time", "still", "int"
