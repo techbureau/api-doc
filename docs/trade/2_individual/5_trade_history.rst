@@ -18,5 +18,5 @@ trade_history
    "since", "No", "開始タイムスタンプ", "dict", "dict"
    "end", "No", "終了タイムスタンプ", "dict", "dict"
    "currency_pair", "No", "通貨ペア。指定なしで全ての通貨ペア", "dict", "dict"
-   "is_token", "No", "true：カウンターパーティトークンの情報を取得
-   |false：カウンターパーティトークン以外の情報を取得", "dict", "dict"
+   "is_token", "No", "true：カウンターパーティトークンの情報を取得"
+                      "false：カウンターパーティトークン以外の情報を取得", "dict", "dict"
