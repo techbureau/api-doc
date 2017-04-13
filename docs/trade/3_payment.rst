@@ -30,16 +30,18 @@
     * 結果はjsonフォーマットにて返されます。
     * 成功時の結果JSONフォーマットは以下のようになります。
 
-        "{"success":1,"return":{<return>}}"
+.. code-block:: python
+    {"success":1,"return":{<return>}}
 
     * 失敗時の結果JSONフォーマットは以下のようになります。
 
-        "{"success":0,"error":"<some error message>"}"
+.. code-block:: python
+    {"success":0,"error":"<some error message>"}
 
 
-    nonceパラメーターについて
-    --------------
-        nonceパラメーターはAPIコールの重複を防く効力を持ち、また、呼び出し側での濫用を抑制することに役立ちます。 APIキー毎のnonceの値については、呼び出し側で管理して下さいますようお願いします。 unixtimeをnonceに利用すると簡単に管理できますが、１秒に１度以上のAPIコールができなくなる可能性があることに注意してください。 2016年2月以降、小数点以下の値も受け付けるようになりましたので、マイクロ秒まで含むunixtimeを利用して管理することが可能になっています。
+nonceパラメーターについて
+--------------
+    nonceパラメーターはAPIコールの重複を防く効力を持ち、また、呼び出し側での濫用を抑制することに役立ちます。 APIキー毎のnonceの値については、呼び出し側で管理して下さいますようお願いします。 unixtimeをnonceに利用すると簡単に管理できますが、１秒に１度以上のAPIコールができなくなる可能性があることに注意してください。 2016年2月以降、小数点以下の値も受け付けるようになりましたので、マイクロ秒まで含むunixtimeを利用して管理することが可能になっています。
 
 
 メソッド
@@ -55,7 +57,7 @@
     * *インボイスの検索 getInvoiceIdsByOrderNumber*
         注文番号を使用してインボイスを検索します。 暗号通貨決済用のインボイスには有効期限があるため、ひとつの注文から複数のインボイスを発行する必要がある可能性があります。
         また、Bitcoinで決済を選択したが、やはりMonacoinで決済したい、などという場合もあるかと思います。
-    Zaif決済APIでは、インボイスの作成時に注文番号の重複チェックは行なわないようになっており、同じ注文番号から複数のインボイスを発行することが可能になっています。
+        Zaif決済APIでは、インボイスの作成時に注文番号の重複チェックは行なわないようになっており、同じ注文番号から複数のインボイスを発行することが可能になっています。
 
     * *インボイスのキャンセル cancelInvoice*
         作成したインボイスを取消します。
@@ -71,11 +73,11 @@
     となります。{invoiceId}はインボイスの作成時に発行されたIDになります。
     下記のようにしてiframeによる表示を行うことも可能です。
 
-    .. code-block:: python
-        <iframe id="zaif_ec_iframe"
-        scrolling="no"
-        allowtransparency="true"
-        frameborder="0"  src='https://zaif.jp/invoice/iframe/{invoiceId}'
-        style='width:500px; overflow: hidden; padding:10px;'></iframe>
+.. code-block:: python
+    <iframe id="zaif_ec_iframe"
+    scrolling="no"
+    allowtransparency="true"
+    frameborder="0"  src='https://zaif.jp/invoice/iframe/{invoiceId}'
+    style='width:500px; overflow: hidden; padding:10px;'></iframe>
 
     また、インボイス作成時に取得したデータを利用し、事業者様のECサイト上で独自にフォームを表示していただくことも可能です。
