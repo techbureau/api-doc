@@ -10,3 +10,4 @@
 
    1_common
    2_individual/index
+   3_payment
