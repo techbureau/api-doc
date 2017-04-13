@@ -26,18 +26,18 @@ deposit_history
 実行例
 ==============
 .. code-block:: python
-{
-    "success": 1,
-    "return": {
-        "txid":,
-        "funds": {
-            "jpy": 15320,
-            "btc": 1.392,
-            "xem": 100.2,
-            "mona": 2600
+    {
+        "success": 1,
+        "return": {
+            "txid":,
+            "funds": {
+                "jpy": 15320,
+                "btc": 1.392,
+                "xem": 100.2,
+                "mona": 2600
+            }
         }
     }
-}
 
 
 .. csv-table::
