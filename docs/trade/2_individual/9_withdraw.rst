@@ -24,6 +24,7 @@ xemの出金時には、手数料は自動計算され、opt_feeに値をセッ�
 実行例
 ==============
 .. code-block:: python
+
     {
       "success": 1,
       "return": {

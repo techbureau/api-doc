@@ -26,6 +26,7 @@ deposit_history
 実行例
 ==============
 .. code-block:: python
+
     {
         "success": 1,
         "return": {
@@ -38,7 +39,6 @@ deposit_history
             }
         }
     }
-
 
 .. csv-table::
    :header: "キー", "詳細", "型"
