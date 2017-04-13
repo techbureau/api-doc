@@ -29,9 +29,13 @@
     * メソッド毎に必要なPOSTパラメーターおよび上記の認証用のパラメーターも合わせて送信します。
     * 結果はjsonフォーマットにて返されます。
     * 成功時の結果JSONフォーマットは以下のようになります。
-    "{"success":1,"return":{<return>}}"
+
+        "{"success":1,"return":{<return>}}"
+
     * 失敗時の結果JSONフォーマットは以下のようになります。
-    "{"success":0,"error":"<some error message>"}"
+
+        "{"success":0,"error":"<some error message>"}"
+
 
     nonceパラメーターについて
     --------------
