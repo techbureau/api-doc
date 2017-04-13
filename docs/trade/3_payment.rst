@@ -72,13 +72,13 @@ nonceパラメーターについて
     となります。{invoiceId}はインボイスの作成時に発行されたIDになります。
     下記のようにしてiframeによる表示を行うことも可能です。
 
-  .. code-block:: python
+    .. code-block:: python
 
-      <iframe id="zaif_ec_iframe"
-      scrolling="no"
-      allowtransparency="true"
-      frameborder="0"  src='https://zaif.jp/invoice/iframe/{invoiceId}'
-      style='width:500px; overflow: hidden; padding:10px;'></iframe>
+        <iframe id="zaif_ec_iframe"
+        scrolling="no"
+        allowtransparency="true"
+        frameborder="0"  src='https://zaif.jp/invoice/iframe/{invoiceId}'
+        style='width:500px; overflow: hidden; padding:10px;'></iframe>
 
 
     また、インボイス作成時に取得したデータを利用し、事業者様のECサイト上で独自にフォームを表示していただくことも可能です。
