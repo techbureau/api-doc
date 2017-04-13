@@ -11,8 +11,8 @@
 
    public/index
    trade/index
-   library
-   
+   library/index
+
 
 Indices and tables
 ==================
