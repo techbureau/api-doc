@@ -31,7 +31,7 @@
     * 成功時の結果JSONフォーマットは以下のようになります。
     .. code-block:: python
 
-          {"success":1,"return":{<return>}}
+        {"success":1,"return":{<return>}}
 
     * 失敗時の結果JSONフォーマットは以下のようになります。
     .. code-block:: python
