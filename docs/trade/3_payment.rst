@@ -29,14 +29,14 @@
     * メソッド毎に必要なPOSTパラメーターおよび上記の認証用のパラメーターも合わせて送信します。
     * 結果はjsonフォーマットにて返されます。
     * 成功時の結果JSONフォーマットは以下のようになります。
+      .. code-block:: python
 
-.. code-block:: python
-    {"success":1,"return":{<return>}}
+          {"success":1,"return":{<return>}}
 
     * 失敗時の結果JSONフォーマットは以下のようになります。
+    .. code-block:: python
 
-.. code-block:: python
-    {"success":0,"error":"<some error message>"}
+        {"success":0,"error":"<some error message>"}
 
 
 nonceパラメーターについて
@@ -74,10 +74,12 @@ nonceパラメーターについて
     下記のようにしてiframeによる表示を行うことも可能です。
 
 .. code-block:: python
+
     <iframe id="zaif_ec_iframe"
     scrolling="no"
     allowtransparency="true"
     frameborder="0"  src='https://zaif.jp/invoice/iframe/{invoiceId}'
     style='width:500px; overflow: hidden; padding:10px;'></iframe>
+
 
     また、インボイス作成時に取得したデータを利用し、事業者様のECサイト上で独自にフォームを表示していただくことも可能です。
