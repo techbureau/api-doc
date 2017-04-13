@@ -11,7 +11,7 @@ cancel_order
 .. csv-table::
    :header: "パラメーター", "必須項目", "詳細", "型"
 
-   "order_id", "Yes", "注文ID（tradeまたはactive_ordersで取得できます）", "-"
+   "order_id", "Yes", "注文ID（tradeまたはactive_ordersで取得できます）", "　"
    "is_token", "No", "true：カウンターパーティトークンのオーダーを取り消したい時 false：カウンターパーティトークン以外のオーダーを取り消したい時", "false"
 
 
