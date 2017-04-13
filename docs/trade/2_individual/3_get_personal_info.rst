@@ -25,4 +25,4 @@ get_personal_info
    :header: "キー", "詳細", "型"
 
    "ranking_nickname", "ニックネーム", "str"
-   "icon_path", "　", "　"
+   "icon_path", "画像のパス", "str"

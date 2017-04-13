@@ -1,5 +1,5 @@
 =============================
-get_info ユーザー情報受取り
+get_info
 =============================
 
 
@@ -47,8 +47,8 @@ get_info ユーザー情報受取り
    :header: "キー", "詳細", "型"
 
    "funds", "残高", "dict"
-   "deposit", "　", "dict"
+   "deposit", "入金額", "dict"
    "rights", "APIキー", "dict"
    "trade_count", "総トレード数", "int"
-   "open_orders", "アクティブな注文", "int"
-   "server_time", "　", "int"
+   "open_orders", "アクティブな注文数", "int"
+   "server_time", "サーバー時間", "int"
