@@ -20,6 +20,8 @@ xemの出金時には、手数料は自動計算され、opt_feeに値をセッ�
    "amount", "Yes", "引き出す金額(例: 0.3)", "numerical", "-"
    "opt_fee", "No", "	採掘者への手数料(例: 0.003) ただしcurrencyがbtc、mona以外の時に指定するとエラーとなります。", "numerical", "-"
 
+
+実行例
 ==============
 .. code-block:: python
 
