@@ -14,11 +14,11 @@ xemの出金時には、手数料は自動計算され、opt_feeに値をセッ�
 .. csv-table::
    :header: "パラメーター", "必須項目", "詳細", "型", "デフォルト"
 
-   "currency", "Yes", "引き出す通貨。公開情報APIのcurrenciesで取得できるものが指定できます。ただしjpyは指定できません。", "btc や mona 等", "-"
+   "currency", "Yes", "引き出す通貨。公開情報APIのcurrenciesで取得できるものが指定できます。ただしjpyは指定できません。", "例)btc 等", "-"
    "address", "Yes", "送信先のアドレス", "address str", "-"
-   "message", "No", "送信メッセージ(XEMのみ)", "	ASCII str", "-"
+   "message", "No", "送信メッセージ(XEMのみ)", "ASCII str", "-"
    "amount", "Yes", "引き出す金額(例: 0.3)", "numerical", "-"
-   "opt_fee", "No", "	採掘者への手数料(例: 0.003) ただしcurrencyがbtc、mona以外の時に指定するとエラーとなります。", "numerical", "-"
+   "opt_fee", "No", "採掘者への手数料(例: 0.003) ただしcurrencyがbtc、mona以外の時に指定するとエラーとなります。", "numerical", "-"
 
 
 実行例

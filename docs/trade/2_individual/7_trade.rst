@@ -11,11 +11,11 @@ trade
 .. csv-table::
    :header: "パラメーター", "必須項目", "詳細", "型"
 
-   "currency_pair", "Yes", "(例) btc_jpy	", "str(例 btc_jpy)"
+   "currency_pair", "Yes", "(例) btc_jpy", "str(例 btc_jpy)"
    "action", "Yes", "注文の種類", "bid もしくは ask"
    "price", "Yes", "指値注文価格", "numerical"
-   "amount", "Yes", "	数量(例: 0.3)", "numerical"
-   "limit", "No", "	リミット注文価格", "numerical"
+   "amount", "Yes", "数量(例: 0.3)", "numerical"
+   "limit", "No", "リミット注文価格", "numerical"
 
 
 価格および数量の数値について

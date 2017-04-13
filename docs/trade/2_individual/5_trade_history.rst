@@ -17,7 +17,7 @@ trade_history
    "order", "No", "ソート順", "ASC (昇順)もしくは DESC (降順)", "DESC"
    "since", "No", "開始タイムスタンプ", "UNIX time", "0"
    "end", "No", "終了タイムスタンプ", "UNIX time", "infinity"
-   "currency_pair", "No", "通貨ペア。指定なしで全ての通貨ペア", "(例) btc_jpy	", "全ペア"
+   "currency_pair", "No", "通貨ペア。指定なしで全ての通貨ペア", "(例) btc_jpy", "全ペア"
    "is_token", "No", "true：カウンターパーティトークンの情報を取得 false：カウンターパーティトークン以外の情報を取得", "bool", "false"
 
 
