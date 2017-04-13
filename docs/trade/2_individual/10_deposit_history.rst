@@ -26,7 +26,6 @@ deposit_history
 実行例
 ==============
 .. code-block:: python
-
 {
     "success": 1,
     "return": {
