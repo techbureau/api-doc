@@ -29,7 +29,7 @@ get_id_info
 .. csv-table::
    :header: "キー", "詳細", "型"
 
-   "id", "ユーザーID", "str"
+   "id", "ユーザーid", "str"
    "email", "メールアドレス", "str"
    "name", "APIキー", "int"
    "kana", "総トレード数", "int"

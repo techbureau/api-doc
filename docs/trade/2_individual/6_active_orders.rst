@@ -56,3 +56,13 @@ actiuve_orders
            }
        }
     }
+
+
+.. csv-table::
+   :header: "キー", "詳細", "型"
+
+   "currency_pair", "通貨ペア", "str"
+   "action", "bid(買い) or ask(売り)", "str"
+   "amount", "数量", "int"
+   "price", "価格", "int"
+   "timestamp", "タイムスタンプ", "int"
