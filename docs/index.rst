@@ -11,6 +11,7 @@
 
    public/index
    trade/index
+   payment/index
    library/index
 
 
