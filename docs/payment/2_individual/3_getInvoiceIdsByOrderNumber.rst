@@ -4,7 +4,7 @@ getInvoiceIdsByOrderNumber
 
 * インボイスの検索
 注文番号でインボイスを検索し、インボイスIDを返します。
-インボイスの詳細についてはインボイス情報の取得メソッドを使用してください。
+インボイスの詳細については `インボイス情報の取得メソッド <http://techbureau-api-document.readthedocs.io/ja/latest/payment/2_individual/2_getInvoice.html>`_ を使用してください。
 
 パラメータ
 ==============

@@ -12,6 +12,7 @@
    public/index
    trade/index
    payment/index
+   QAuth/index
    library/index
 
 
