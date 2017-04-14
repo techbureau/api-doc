@@ -1,14 +1,12 @@
 ===========================
-決済API
+ 決済API ドキュメント
 ===========================
 
-決済APIの情報です。
+決済を行うためのAPIの情報です。
 
 .. toctree::
    :maxdepth: 2
+   :numbered: 3
 
    1_common
-   2_createInvoice
-   3_getInvoice
-   4_getInvoiceIdsByOrderNumber
-   5_cancelInvoice
+   2_individual/index
