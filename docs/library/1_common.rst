@@ -28,7 +28,10 @@ Zaif取引所(Bitcoin/Monacoin)のAPIをGolangから使う
 
 Python
 ========
-Akira-Taniguchi/zaifapi: zaifのAPIを簡単にコール出来るようにしました。
+zaifapi : https://github.com/techbureau/zaifapi
+zaifのAPIを簡単にコール出来るようにしました。
+
+[Zaif]Pythonで簡単に仮想通貨の取引が出来るようにしてみた : http://qiita.com/Akira-Taniguchi/items/e52930c881adc6ecfe07
 
 .. note::
 
