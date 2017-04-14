@@ -11,7 +11,7 @@ getInvoiceIdsByOrderNumber
 .. csv-table::
    :header: "パラメーター", "必須項目", "詳細", "型", "値または例"
 
-   "method", "Yes", "メソッド名", "str", "getInvoiceIdsByOrderNumber"
+   "method", "Yes", "メソッド名", "str", "getInvoice"
    "key", "Yes", "APIキー", "str", "　"
    "md5secret", "Yes(1)", "APIシークレットのmd5。(1)md5またはsha1のどちらかをセット", "str", "　"
    "sha1secret", "Yes(1)", "APIシークレットのsha1。(1)md5またはsha1のどちらかをセット", "str", "　"
