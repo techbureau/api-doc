@@ -72,7 +72,7 @@ nonceパラメーターについて
 
     作成したインボイスから支払フォームを表示することにより、利用者からBitcoin/Monacoinによる支払いを促します。 支払いフォームのURLは
 
-    * *https://zaif.jp/invoice/form/{invoiceId}*
+    * https://zaif.jp/invoice/form/{invoiceId}
 
     となります。{invoiceId}はインボイスの作成時に発行されたIDになります。
     下記のようにしてiframeによる表示を行うことも可能です。
