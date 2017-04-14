@@ -6,11 +6,11 @@ OAuth認証機能を利用するには
 ================================
 Zaifのアカウント情報を利用したサービス(以下クライアントサービス)を展開する業者(以下クライアント)がOAuth認証機能を利用できるようにするための手順を記述します。
 
-.. image:: images/oauth_slideshow_1.png
+    .. image:: images/oauth_slideshow_1.png
 
-.. image:: images/oauth_slideshow_2.png
+    .. image:: images/oauth_slideshow_2.png
 
-.. image:: images/oauth_slideshow_3.png
+    .. image:: images/oauth_slideshow_3.png
 
 1. *サービス基本情報を登録します*
     Zaifにログインし、『アカウント』→『連携アプリケーション基本設定』から「連携アプリケーションの情報を新しく作成する」ボタンを押下し、サービスの詳細な情報を設定してください。
