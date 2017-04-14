@@ -49,19 +49,20 @@ nonceパラメーターについて
 メソッド
 ==============
 
-    * `インボイスの作成 createInvoice <https://wiki.zaif.jp/index.php/インボイスの作成>`_
+    * `インボイスの作成 createInvoice <http://techbureau-api-document.readthedocs.io/ja/latest/payment/2_individual/1_createInvoice.html>`_
+
         Bitcoin/Monacoinによる決済の開始時に、インボイスの作成を行います。 決済金額・商品名・通貨などの情報を送信してインボイスを作成し、暗号通貨による決済を開始します。
 
-    * `インボイス情報の取得 getInvoice <https://wiki.zaif.jp/index.php/インボイスの作成>`_
+    * `インボイス情報の取得 getInvoice <http://techbureau-api-document.readthedocs.io/ja/latest/payment/2_individual/2_getInvoice.html>`_
         作成したインボイスの状態を取得します。
         このAPIを利用すると、支払が完了しているかどうかなどについて、ECサイト側から確認することができます。
 
-    * `インボイスの検索 getInvoiceIdsByOrderNumber <https://wiki.zaif.jp/index.php/インボイスの検索>`_
+    * `インボイスの検索 getInvoiceIdsByOrderNumber <http://techbureau-api-document.readthedocs.io/ja/latest/payment/2_individual/3_getInvoiceIdsByOrderNumber.html>`_
         注文番号を使用してインボイスを検索します。 暗号通貨決済用のインボイスには有効期限があるため、ひとつの注文から複数のインボイスを発行する必要がある可能性があります。
         また、Bitcoinで決済を選択したが、やはりMonacoinで決済したい、などという場合もあるかと思います。
         Zaif決済APIでは、インボイスの作成時に注文番号の重複チェックは行なわないようになっており、同じ注文番号から複数のインボイスを発行することが可能になっています。
 
-    * `インボイスのキャンセル cancelInvoice <https://wiki.zaif.jp/index.php/インボイスのキャンセル>`_
+    * `インボイスのキャンセル cancelInvoice <http://techbureau-api-document.readthedocs.io/ja/latest/payment/2_individual/4_cancelInvoice.html>`_
         作成したインボイスを取消します。
         支払が完了していたり既に有効期限が切れている場合はエラーとなります。
 

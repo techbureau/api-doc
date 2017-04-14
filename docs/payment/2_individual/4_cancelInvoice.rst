@@ -30,7 +30,7 @@ cancelInvoice
     "invoiceId", "作成したインボイスを識別するためのID", "str", "04e42516-1652-11e5-9eb4-4437e6999eec"
     "created", "インボイス作成日時。unixtime", "int", "　"
     "expired", "インボイスの有効期限。unixtime", "int", "　"
-    "status", "インボイスの状態", "str", "new/paid/confirmed/complete/expired/invalid"
+    "status", "インボイスの状態", "str", "canceled"
     "settled", "決済完了日時。unixtime", "int", "　"
     "amount", "決済対象金額（送信された金額）", "int", "　"
     "currency", "決済対象の暗号通貨", "str", "btc または mona"
