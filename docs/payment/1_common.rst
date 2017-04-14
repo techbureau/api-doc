@@ -50,7 +50,6 @@ nonceパラメーターについて
 ==============
 
     * `インボイスの作成 createInvoice <http://techbureau-api-document.readthedocs.io/ja/latest/payment/2_individual/1_createInvoice.html>`_
-
         Bitcoin/Monacoinによる決済の開始時に、インボイスの作成を行います。 決済金額・商品名・通貨などの情報を送信してインボイスを作成し、暗号通貨による決済を開始します。
 
     * `インボイス情報の取得 getInvoice <http://techbureau-api-document.readthedocs.io/ja/latest/payment/2_individual/2_getInvoice.html>`_
