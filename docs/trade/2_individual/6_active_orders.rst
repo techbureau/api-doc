@@ -14,7 +14,7 @@ actiuve_orders
    "is_token", "No", "true：カウンターパーティトークンの情報を取得 false：カウンターパーティトークン以外の情報を取得", "bool", "false"
    "is_token_both", "No", "true：全てのアクティブなオーダー情報を取得 false：currency_pairやis_tokenに従ったオーダー情報を取得", "bool", "false"
 
-実行例
+戻り値
 ==============
 .. code-block:: python
 

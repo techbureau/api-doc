@@ -15,7 +15,7 @@ cancel_order
    "is_token", "No", "true：カウンターパーティトークンのオーダーを取り消したい時 false：カウンターパーティトークン以外のオーダーを取り消したい時", "false"
 
 
-実行例
+戻り値
 ==============
 .. code-block:: python
 

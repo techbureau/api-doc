@@ -23,7 +23,7 @@ deposit_history
 
 注意: “since”もしくは”end”をセットした場合、”order”は強制的に”ASC”となります。
 
-実行例
+戻り値
 ==============
 .. code-block:: python
 

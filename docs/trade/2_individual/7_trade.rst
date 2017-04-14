@@ -31,7 +31,7 @@ trade
 指定できる単位等、詳細な情報は公開API情報APIのcurrency_pairsで取得できます
 
 
-実行例
+戻り値
 ==============
 .. code-block:: python
 

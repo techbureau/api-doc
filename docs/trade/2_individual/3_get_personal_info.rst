@@ -9,7 +9,7 @@ get_personal_info
 ==============
 なし
 
-実行例
+戻り値
 ==============
 .. code-block:: python
 

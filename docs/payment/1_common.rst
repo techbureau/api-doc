@@ -1,5 +1,5 @@
 =============================
-決済API
+共通情報
 =============================
 
 .. warning::
@@ -35,7 +35,7 @@
           {"success":1,"return":{<return>}}
 
     * 失敗時の結果JSONフォーマットは以下のようになります。
-    
+
       .. code-block:: python
 
           {"success":0,"error":"<some error message>"}

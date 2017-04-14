@@ -26,7 +26,7 @@ trade_history
   ・“currency_pair”と”is_token”の両方を指定した場合は”currency_pair”が優先されます。両方指定しない場合はカウンターパーティトークン以外の情報を取得します。
 
 
-実行例
+戻り値
 ==============
 .. code-block:: python
 
