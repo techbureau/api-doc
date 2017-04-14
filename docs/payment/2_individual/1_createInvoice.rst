@@ -13,16 +13,16 @@ createInvoice
    :header: "パラメーター", "必須項目", "詳細", "型", "値または例"
 
    "method", "Yes", "メソッド名", "str", "createInvoice"
-   "key", "Yes", "APIキー	", "str", "　"
-   "md5secret", "Yes(1)", "	APIシークレットのmd5。(1)md5またはsha1のどちらかをセット", "str", "　"
+   "key", "Yes", "APIキー", "str", "　"
+   "md5secret", "Yes(1)", "APIシークレットのmd5。(1)md5またはsha1のどちらかをセット", "str", "　"
    "sha1secret", "Yes(1)", "APIシークレットのsha1。(1)md5またはsha1のどちらかをセット", "str", "　"
    "nonce", "Yes", "APIシークレットのsha1。(1)md5またはsha1のどちらかをセット", "int", "　"
-   "speed", "No", "		決済完了とみなすスピード。デフォルトはmedium high:0 cofirmation/medium:1 confirmation/low:6 confirmations", "str", "high medium low"
+   "speed", "No", "決済完了とみなすスピード。デフォルトはmedium high:0 cofirmation/medium:1 confirmation/low:6 confirmations", "str", "high medium low"
    "notificationUri", "No", "決済完了したタイミングでの通知先URI 事業者様のECサイトシステムに通知を行うためのものになります", "str", "　"
    "notificationMethod", "No", "決済完了したタイミングでの通知先URIへ通知する際に使用されるHTTPメソッド。デフォルトはPOSTになります", "str", "GET または POST"
    "redirectUri", "No", "決済フォームで着金後、ECサイトへ戻るためのリダイレクト先のURI。設定されなかった場合はリダイレクトせず着金後のステータスが表示されます", "str", "　"
-   "currency", "Yes", "	決済に使用する暗号通貨", "str", "btc または mona"
-   "amount", "Yes", "	決済金額（日本円）。実際の請求対象金額。1円単位、カンマ無し", "int", "　"
+   "currency", "Yes", "決済に使用する暗号通貨", "str", "btc または mona"
+   "amount", "Yes", "決済金額（日本円）。実際の請求対象金額。1円単位、カンマ無し", "int", "　"
    "subTotal", "No", "小計（日本円）", "int", "　"
    "tax", "No", "消費税（日本円）", "int", "　"
    "regularPrice", "No", "定価（日本円）。割引前の金額", "int", "　"
@@ -105,7 +105,7 @@ createInvoice
 * returnパラメーター
 
 .. csv-table::
-:header: "キー", "詳細", "型", "値または例"
+    :header: "キー", "詳細", "型", "値または例"
 
     "invoiceId", "作成したインボイスを識別するためのID", "str", "04e42516-1652-11e5-9eb4-4437e6999eec"
     "invoiceUri", "作成したインボイスに対する支払フォームのURI", "str", "　"
@@ -133,7 +133,7 @@ notificationUriを設定した場合、speedで設定した状態となったタ
 * 送信されるパラメーター
 
 .. csv-table::
-:header: "キー", "詳細", "型", "値または例"
+    :header: "キー", "詳細", "型", "値または例"
 
     "invoiceId", "作成したインボイスを識別するためのID", "str", "04e42516-1652-11e5-9eb4-4437e6999eec"
     "settled", "決済完了日時。unixtime", "int", "　"
