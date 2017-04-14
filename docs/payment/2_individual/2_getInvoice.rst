@@ -9,7 +9,7 @@ getInvoice
 パラメータ
 ==============
 .. csv-table::
-   :header: "パラメーター", "必須項目", "詳細", "型", "値または例"
+   :header: "パラメーター", "必須", "詳細", "型", "値または例"
 
    "method", "Yes", "メソッド名", "str", "getInvoice"
    "key", "Yes", "APIキー", "str", "　"
