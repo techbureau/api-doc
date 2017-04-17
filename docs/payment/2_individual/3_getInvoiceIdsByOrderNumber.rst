@@ -10,6 +10,7 @@ getInvoiceIdsByOrderNumber
 ==============
 .. csv-table::
    :header: "パラメーター", "必須", "詳細", "型", "値または例"
+   :widths: 5, 5, 25, 3, 5
 
    "method", "Yes", "メソッド名", "str", "getInvoice"
    "key", "Yes", "APIキー", "str", "　"
@@ -18,7 +19,7 @@ getInvoiceIdsByOrderNumber
    "nonce", "Yes", "1以上の数、呼び出し毎に増分して送信してください", "int", "　"
    "orderNumber", "Yes", "注文番号", "str", "　"
 
-
+|
 戻り値
 ==============
 * 成功例
@@ -35,6 +36,7 @@ getInvoiceIdsByOrderNumber
         }
     }
 
+|
 * 成功例（検索結果なし）
 .. code-block:: python
 
@@ -46,6 +48,7 @@ getInvoiceIdsByOrderNumber
         }
     }
 
+|
 * returnパラメーター
 
 .. csv-table::

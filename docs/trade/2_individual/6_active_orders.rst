@@ -9,6 +9,7 @@ actiuve_orders
 ==============
 .. csv-table::
    :header: "パラメーター", "必須", "詳細", "型", "デフォルト"
+   :widths: 5, 5, 20, 10, 5
 
    "currency_pair", "No", "取得する通貨ペア。公開情報APIのcurrency_pairsで取得できるものが指定できます。指定なしで全ての通貨ペアの情報を取得します。", "str(例 btc_jpy)", "全てのペア"
    "is_token", "No", "true：カウンターパーティトークンの情報を取得 false：カウンターパーティトークン以外の情報を取得", "bool", "false"

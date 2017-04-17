@@ -11,6 +11,7 @@ createInvoice
 ==============
 .. csv-table::
    :header: "パラメーター", "必須", "詳細", "型", "値または例"
+   :widths: 5, 5, 30, 3, 5
 
    "method", "Yes", "メソッド名", "str", "createInvoice"
    "key", "Yes", "APIキー", "str", "　"
@@ -42,9 +43,7 @@ createInvoice
    "buyerCellphone", "No", "利用者携帯番号", "str", "　"
    "buyerEmail", "No", "利用者メールアドレス", "str", "　"
 
-
-
-
+|
 * *speed（決済スピード）について*
     highとすると、暗号通貨ネットワーク上での送金トランザクションについて、確認前の状態でも、着金次第決済完了とみなします。
     mediumとすると、1件以上の確認が入ったタイミングで決済完了とみなします。これはbitcoinで平均10分、monacoinで平均2分程度になります。
@@ -54,7 +53,7 @@ createInvoice
 * *利用者の氏名・住所などについて*
     利用者の氏名・住所・電話番号などのフィールドについては、送信していただくと決済フォームに表示されます。ただし、利用者IDについては表示されません。 決済フォームはインボイスIDがもれない限りアクセスすることができませんが、インターネット上ではアクセス制限なしに公開される状態になりますので、個人情報保護の観点から、必要でない場合（注文番号などから顧客が関連付けできる場合）は顧客の情報を送信されないことをお勧めします。
 
-
+|
 戻り値
 ==============
 * 成功時のJSON、10800円をBTC決済でリクエストした例
@@ -79,6 +78,7 @@ createInvoice
         }
     }
 
+|
 * 成功時のJSON、10000円をMONA決済でリクエストした例
 .. code-block:: python
 
@@ -101,11 +101,12 @@ createInvoice
         }
     }
 
-
+|
 * returnパラメーター
 
 .. csv-table::
     :header: "キー", "詳細", "型", "値または例"
+    :widths: 5, 15, 3, 10
 
     "invoiceId", "作成したインボイスを識別するためのID", "str", "04e42516-1652-11e5-9eb4-4437e6999eec"
     "invoiceUri", "作成したインボイスに対する支払フォームのURI", "str", "　"
@@ -124,7 +125,7 @@ createInvoice
     "referenceNumber", "送信されたリファレンス番号（送信された場合のみ）", "str", "　"
     "buyerId", "送信された利用者ID（送信された場合のみ）", "str", "　"
 
-
+|
 決済完了通知(notificationUri)について
 ==========================================
 
@@ -134,23 +135,26 @@ notificationUriを設定した場合、speedで設定した状態となったタ
 
 .. csv-table::
     :header: "キー", "詳細", "型", "値または例"
+    :widths: 5, 15, 3, 10
 
     "invoiceId", "作成したインボイスを識別するためのID", "str", "04e42516-1652-11e5-9eb4-4437e6999eec"
     "settled", "決済完了日時。unixtime", "int", "　"
     "amount", "決済対象金額（送信された金額）", "int", "　"
     "btc", "Bitcoinによる請求額（bitcoinによる決済時のみ）", "int", "　"
-    "mona", "	Monacoinによる請求額（monacoinによる決済時のみ）", "int", "　"
+    "mona", "Monacoinによる請求額（monacoinによる決済時のみ）", "int", "　"
     "address", "BitcoinまたMonacoinの決済用支払先アドレス", "str", "　"
     "orderNumber", "設定された注文番号（送信された場合のみ）", "str", "　"
-    "referenceNumber", "	設定されたリファレンス番号（送信された場合のみ）", "str", "　"
+    "referenceNumber", "設定されたリファレンス番号（送信された場合のみ）", "str", "　"
     "buyerId", "設定された利用者ID（送信された場合のみ）", "str", "　"
 
+|
 * notificationMethodにGETを設定した場合は、パラメーターは送信されません
     notificationMethodにGETを設定した場合は、パラメーターは一切送信されません。 notificationMethodにGETを設定する場合、notificationUriに注文を識別できるような工夫をして設定してください
 
 * 通知のエラー時の対応について
     エラー時の再送については準備中です。
 
+|
 決済完了時のリダイレクト(redirectUri)について
 ==================================================
 

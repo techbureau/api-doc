@@ -10,6 +10,7 @@ trade
 
 .. csv-table::
    :header: "パラメーター", "必須", "詳細", "型"
+   :widths: 5, 5, 10, 10
 
    "currency_pair", "Yes", "(例) btc_jpy", "str(例 btc_jpy)"
    "action", "Yes", "注文の種類", "bid もしくは ask"

@@ -15,6 +15,7 @@ xemの出金時には、手数料は自動計算され、opt_feeに値をセッ�
 
 .. csv-table::
    :header: "パラメーター", "必須", "詳細", "型", "デフォルト"
+   :widths: 5, 5, 19, 5, 5
 
    "currency", "Yes", "引き出す通貨。公開情報APIのcurrenciesで取得できるものが指定できます。ただしjpyは指定できません。", "例)btc 等", "　"
    "address", "Yes", "送信先のアドレス", "address str", "　"

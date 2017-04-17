@@ -9,7 +9,7 @@ Java
 zaif.jp API for Java JavaからZaif.jpのAPIを使うためのライブラリです。: https://github.com/nyatla/JZaif
 
 JavaScript
-========
+================
 node.js zaif.jp module : https://www.npmjs.com/package/zaif.jp / https://github.com/you21979/node-zaif
 
 Qiita : Node.js – zaif（取引所）でAPIを使って取引する : http://qiita.com/you21979@github/items/32da1d0e1782e9e31938
@@ -23,16 +23,17 @@ PHP
 Zaif4PHP : https://github.com/tk1024/Zaif4PHP/
 
 Golang
-========
+================
 Zaif取引所(Bitcoin/Monacoin)のAPIをGolangから使う
 
 Python
-========
+================
 zaifapi : https://github.com/techbureau/zaifapi
 zaifのAPIを簡単にコール出来るようにしました。
 
 [Zaif]Pythonで簡単に仮想通貨の取引が出来るようにしてみた : http://qiita.com/Akira-Taniguchi/items/e52930c881adc6ecfe07
 
+|
 .. note::
 
     ここで紹介させていただいているライブラリは、Zaifおよびテックビューロ株式会社と直接関係のない一般の方々が作成して公開しておられるもの、いわゆる「非公式ライブラリ」となります。

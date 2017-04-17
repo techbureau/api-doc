@@ -7,10 +7,12 @@ cancelInvoice
 支払が完了していたり既に有効期限が切れている場合はエラーとなります。
 部分的に入金されていた場合は、過払いとして処理されます。
 
+|
 パラメータ
 ==============
 .. csv-table::
    :header: "パラメーター", "必須", "詳細", "型", "値または例"
+   :widths: 5, 5, 25, 3, 5
 
    "method", "Yes", "メソッド名", "str", "getInvoice"
    "key", "Yes", "APIキー", "str", "　"
@@ -19,13 +21,14 @@ cancelInvoice
    "nonce", "Yes", "1以上の数、呼び出し毎に増分して送信してください", "int", "　"
    "invoiceId", "Yes", "キャンセルしたいinvoiceId	", "str", "　"
 
-
+|
 戻り値
 ==============
 * returnパラメーター
 
 .. csv-table::
     :header: "キー", "詳細", "型", "値または例"
+    :widths: 5, 25, 3, 15
 
     "invoiceId", "作成したインボイスを識別するためのID", "str", "04e42516-1652-11e5-9eb4-4437e6999eec"
     "created", "インボイス作成日時。unixtime", "int", "　"
