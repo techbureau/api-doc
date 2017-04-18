@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'techbureau api document'
+project = 'Zaif api document'
 copyright = '2017, techbureau'
 author = 'techbureau'
 
@@ -85,7 +85,7 @@ todo_include_todos = False
 #
 html_theme = 'haiku'
 # html_theme = 'sphinx_rtd_theme'
-# テーマのwidthの開放
+# テーマの widthを開放
 # html_style = 'css/my_theme.css'
 
 
