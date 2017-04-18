@@ -25,6 +25,7 @@ Zaif4PHP : https://github.com/tk1024/Zaif4PHP/
 Golang
 ================
 Zaif取引所(Bitcoin/Monacoin)のAPIをGolangから使う
+http://qiita.com/yanakend/items/e516f250800c4b876e65
 
 Python
 ================
