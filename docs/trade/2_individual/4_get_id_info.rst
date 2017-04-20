@@ -11,7 +11,7 @@ get_id_info
 
 戻り値
 ==============
-.. code-block:: python
+.. code-block::python
 
     {
         "success": 1,

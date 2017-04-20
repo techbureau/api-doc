@@ -29,7 +29,7 @@ currencyにallを指定した場合、有効な全ての通貨情報を取得し
         ...
     ]
 
-|
+
 currencyにbtc等、有効な通貨情報を指定した場合、その情報のみを取得します。
 
 .. code-block:: python
@@ -47,11 +47,11 @@ currencyにbtc等、有効な通貨情報を指定した場合、その情報の
    "name", "通貨の名前", "string"
    "is_token", "token種別", "boolean"
 
-|
+
 補足
 ==============
 
 token種別
 --------------
 
-| tokenの場合、true
+ tokenの場合、true

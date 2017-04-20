@@ -3,6 +3,7 @@ getInvoiceIdsByOrderNumber
 =============================
 
 * インボイスの検索
+
 注文番号でインボイスを検索し、インボイスIDを返します。
 インボイスの詳細については `インボイス情報の取得メソッド <http://techbureau-api-document.readthedocs.io/ja/latest/payment/2_individual/2_getInvoice.html>`_ を使用してください。
 
@@ -19,10 +20,11 @@ getInvoiceIdsByOrderNumber
    "nonce", "Yes", "1以上の数、呼び出し毎に増分して送信してください", "int", "　"
    "orderNumber", "Yes", "注文番号", "str", "　"
 
-|
+
 戻り値
 ==============
 * 成功例
+
 .. code-block:: python
 
     {
@@ -36,8 +38,9 @@ getInvoiceIdsByOrderNumber
         }
     }
 
-|
+
 * 成功例（検索結果なし）
+
 .. code-block:: python
 
     {
@@ -48,7 +51,7 @@ getInvoiceIdsByOrderNumber
         }
     }
 
-|
+
 * returnパラメーター
 
 .. csv-table::
