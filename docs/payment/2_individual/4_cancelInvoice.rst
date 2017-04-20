@@ -25,7 +25,7 @@ cancelInvoice
 
 戻り値
 ==============
-# * returnパラメーター
+* returnパラメーター
 
 .. csv-table::
     :header: "キー", "詳細", "型", "値または例"
