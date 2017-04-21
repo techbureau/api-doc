@@ -14,7 +14,7 @@ ZaifAPIドキュメント
    payment/index
    oauth/index
    library/index
-
+   faq/index
 
 Indices and tables
 ==================
