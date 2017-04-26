@@ -21,14 +21,16 @@ trade
 
 価格および数量の数値について
 下記の単位以外で注文しようとした場合、invalid price parameterまたはinvalid amount parameterというエラーが返されます
-    ・価格（priceおよびlimit）
-          | btc_jpy : 5円単位
-          | mona_jpy : 0.1円単位
-          | mona_btc : 0.00000001BTC単位
-    ・数量（amount）
-          | btc_jpy : 0.0001BTC単位
-          | mona_jpy : 1MONA単位
-          | mona_btc : 1MONA単位
+
+  ・価格（priceおよびlimit）
+        | btc_jpy : 5円単位
+        | mona_jpy : 0.1円単位
+        | mona_btc : 0.00000001BTC単位
+  ・数量（amount）
+        | btc_jpy : 0.0001BTC単位
+        | mona_jpy : 1MONA単位
+        | mona_btc : 1MONA単位
+
 指定できる単位等、詳細な情報は公開API情報APIのcurrency_pairsで取得できます
 
 
