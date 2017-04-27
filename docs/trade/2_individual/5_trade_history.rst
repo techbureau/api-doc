@@ -23,8 +23,8 @@ trade_history
 
 
 注意:
-  ・“since”もしくは”end”をセットした場合、”order”は強制的に”ASC”となります。
-  ・“currency_pair”と”is_token”の両方を指定した場合は”currency_pair”が優先されます。両方指定しない場合はカウンターパーティトークン以外の情報を取得します。
+  | ・“since”もしくは”end”をセットした場合、”order”は強制的に”ASC”となります。
+  | ・“currency_pair”と”is_token”の両方を指定した場合は”currency_pair”が優先されます。両方指定しない場合はカウンターパーティトークン以外の情報を取得します。
 
 
 戻り値
