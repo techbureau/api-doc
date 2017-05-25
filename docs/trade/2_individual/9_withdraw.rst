@@ -31,6 +31,7 @@ xemの出金時には、手数料は自動計算され、opt_feeに値をセッ�
     {
       "success": 1,
       "return": {
+          "fee": 0.001,
           "txid":,
           "funds": {
               "jpy": 15320,
