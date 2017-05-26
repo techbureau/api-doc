@@ -57,6 +57,6 @@ trade
    :header: "キー", "詳細", "型"
 
    "received", "取引量", "int"
-   "remains", "残っている取引", "int"
-   "order_id", "注文のid", "int"
+   "remains", "残っている注文の量", "int"
+   "order_id", "注文のid。約定した場合、戻り値は 0になります", "int"
    "funds", "残高", "dict"
