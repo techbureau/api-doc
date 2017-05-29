@@ -56,7 +56,7 @@ trade
 .. csv-table::
    :header: "キー", "詳細", "型"
 
-   "received", "取引量", "int"
-   "remains", "残っている注文の量", "int"
-   "order_id", "注文のid。約定した場合、戻り値は 0になります", "int"
+   "received", "今回の注文で約定した取引量", "float"
+   "remains", "今回の注文で約定せず、板に残った取引量", "float"
+   "order_id", "今回の注文がすべて成立した場合は0、一部、もしくはすべて約定しなかった場合は板に残った注文のID。", "int"
    "funds", "残高", "dict"
