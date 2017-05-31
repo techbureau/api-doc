@@ -44,6 +44,6 @@ xemの出金時には、手数料は自動計算され、opt_feeに値をセッ�
 .. csv-table::
    :header: "キー", "詳細", "型"
 
-   "txid", "振替えID", "int"
+   "txid", "振替えID", "str"
    "fee", "今回の引き出しにかかった手数料", "float"
    "funds", "残高", "dict"
