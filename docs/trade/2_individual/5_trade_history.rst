@@ -56,5 +56,5 @@ trade_history
    "price", "価格", "int"
    "fee", "手数料", "int"
    "your_action", "bid or ask", "str"
-   "bounus", "マイナス手数料分", "int"
+   "bonus", "マイナス手数料分", "float"
    "timestamp", "タイムスタンプ", "int"
