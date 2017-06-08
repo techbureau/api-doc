@@ -21,14 +21,14 @@ get_info
                 "btc":1.389,
                 "xem":100.2,
                 "mona":2600,
-                "kaori":0.1
+                "pepecash":0.1
             },
             "deposit":{
                 "jpy":20440,
                 "btc":1.479,
                 "xem":100.2,
                 "mona":3200,
-                "kaori":0.1
+                "pepecash":0.1
             },
             "rights":{
                 "info":1,
