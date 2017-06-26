@@ -55,6 +55,6 @@ trade_history
    "amount", "数量", "int"
    "price", "価格", "int"
    "fee", "手数料", "int"
-   "your_action", "bid or ask", "str"
+   "your_action", "bidまたはask、自己取引の場合はbothとなります", "str"
    "bonus", "マイナス手数料分", "float"
-   "timestamp", "タイムスタンプ", "int"
+   "timestamp", "UNIX タイムスタンプ", "int"
