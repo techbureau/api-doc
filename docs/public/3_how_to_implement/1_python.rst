@@ -5,6 +5,7 @@ Python
 .. code-block:: python
 
     import requests
+    import json
 
 
     response = requests.get('https://api.zaif.jp/api/1/last_price/btc_jpy')
