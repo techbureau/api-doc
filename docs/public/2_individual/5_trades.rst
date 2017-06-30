@@ -5,14 +5,22 @@ trades
 
 リクエスト
 ==============
-/trades/{currency_pair}
+/trades/{currency_pair}?{prameter}
 
 currency_pairに指定できる値は :ref:`public-currency-pairs` を参照してください。
 
 
 パラメータ
 ==============
-なし
+.. csv-table::
+   :header: "パラメーター", "必須", "詳細", "型"
+   :widths: 5, 5, 20, 10
+
+   "from_id", "No", "指定数値以降のtidをレコードから取得", "int"
+   "end_id", "No", "指定数値以前のtidをレコードまで取得", "int"
+   "since", "No", "開始タイムスタンプ", "UNIX time"
+   "end", "No", "終了タイムスタンプ", "UNIX time"
+
 
 戻り値
 ==============

@@ -5,7 +5,7 @@
 それぞれのトレードAPIの情報です。
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    1_get_info
    2_get_info2
