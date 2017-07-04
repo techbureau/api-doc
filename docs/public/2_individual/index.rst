@@ -13,4 +13,3 @@
    4_ticker
    5_trades
    6_depth
-   7_streaming

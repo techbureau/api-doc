@@ -1,14 +1,16 @@
 =============================
-streaming
+ストリーミング API
 =============================
 websocketを利用したリアルタイム板情報と終値のAPIを配信テスト中です。Public APIでの板情報は呼び出し制限があるためご不便をおかけしましたが、こちらをご利用いただければと思います。
 
 リクエスト
 ==============
-wss://ws.zaif.jp:8888/stream?currency_pair={currency_pair}
+| wss://ws.zaif.jp:8888/stream?currency_pair={currency_pair}
+| wss://ws.zaif.jp/stream?currency_pair={currency_pair}
+| ws://ws.zaif.jp/stream?currency_pair={currency_pair}
 
-currency_pairに指定できる値は :ref:`public-currency-pairs` で取得できる通貨ペア情報の内、
-is_tokenがfalseになっているものです。
+| ストリーミングは上記3パターンの接続方法があります。
+| currency_pairに指定できる値は :ref:`public-currency-pairs` で取得できる通貨ペア情報の内、is_tokenがfalseになっているものです。
 
 
 
