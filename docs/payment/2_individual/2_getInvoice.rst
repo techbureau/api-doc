@@ -11,7 +11,7 @@ getInvoice
 パラメータ
 ==============
 .. csv-table::
-   :header: "パラメーター", "必須", "詳細", "型", "値または例"
+   :header: "パラメータ", "必須", "詳細", "型", "値または例"
    :widths: 5, 5, 25, 3, 5
 
    "method", "Yes", "メソッド名", "str", "getInvoice"
@@ -24,7 +24,7 @@ getInvoice
 
 戻り値
 ==============
-* returnパラメーター
+* returnパラメータ
 
 .. csv-table::
     :header: "キー", "詳細", "型", "値または例"

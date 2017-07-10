@@ -11,7 +11,7 @@ createInvoice
 パラメータ
 ==============
 .. csv-table::
-   :header: "パラメーター", "必須", "詳細", "型", "値または例"
+   :header: "パラメータ", "必須", "詳細", "型", "値または例"
    :widths: 5, 5, 30, 3, 5
 
    "method", "Yes", "メソッド名", "str", "createInvoice"
@@ -105,7 +105,7 @@ createInvoice
     }
 
 
-* returnパラメーター
+* returnパラメータ
 
 .. csv-table::
     :header: "キー", "詳細", "型", "値または例"
@@ -134,7 +134,7 @@ createInvoice
 
 notificationUriを設定した場合、speedで設定した状態となったタイミングで、決済完了の通知がHTTP(S)で送信されます。
 
-* 送信されるパラメーター
+* 送信されるパラメータ
 
 .. csv-table::
     :header: "キー", "詳細", "型", "値または例"
@@ -151,8 +151,8 @@ notificationUriを設定した場合、speedで設定した状態となったタ
     "buyerId", "設定された利用者ID（送信された場合のみ）", "str", "　"
 
 
-* notificationMethodにGETを設定した場合は、パラメーターは送信されません
-    notificationMethodにGETを設定した場合は、パラメーターは一切送信されません。 notificationMethodにGETを設定する場合、notificationUriに注文を識別できるような工夫をして設定してください
+* notificationMethodにGETを設定した場合は、パラメータは送信されません
+    notificationMethodにGETを設定した場合は、パラメータは一切送信されません。 notificationMethodにGETを設定する場合、notificationUriに注文を識別できるような工夫をして設定してください
 
 * 通知のエラー時の対応について
     エラー時の再送については準備中です。
@@ -169,6 +169,6 @@ Bitcoin建てまたはMonacoin建ての決済
 ==========================================
 
 円建てではなく、Bitcoin建てまたはMonacoin建てでの決済を行うことができます。
-createInvoiceのbillingCurrencyパラメーター（一覧にはないパラメーターです）に"btc"または"mona"を指定して下さい。このときcurrencyパラメーターも同じ暗号通貨を指定する必要があります。
+createInvoiceのbillingCurrencyパラメータ（一覧にはないパラメータです）に"btc"または"mona"を指定して下さい。このときcurrencyパラメータも同じ暗号通貨を指定する必要があります。
 返り値からrateは削除されることに注意してください。
 BTCまたはMONAがそのまま決済事業者様のアカウントに精算されますので、決済手数料は完全にゼロ％になりますが、円換算を行う際の相場の変動リスクはそのまま決済事業者様が担うことになりますことにご注意ください。

@@ -9,7 +9,7 @@ cancel_order
 ==============
 
 .. csv-table::
-   :header: "パラメーター", "必須", "詳細", "型"
+   :header: "パラメータ", "必須", "詳細", "型"
    :widths: 5, 5, 13, 5
 
    "order_id", "Yes", "注文ID（tradeまたはactive_ordersで取得できます）", "　"

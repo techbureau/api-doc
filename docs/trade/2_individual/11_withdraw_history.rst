@@ -10,7 +10,7 @@ withdraw_history
 ==============
 
 .. csv-table::
-   :header: "パラメーター", "必須", "詳細", "型", "デフォルト"
+   :header: "パラメータ", "必須", "詳細", "型", "デフォルト"
    :widths: 5, 5, 25, 15, 5
 
    "currency", "Yes", "通貨。公開情報APIのcurrenciesで取得できるものが指定できます。", "例)jpy 等", "　"
