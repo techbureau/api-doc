@@ -8,7 +8,7 @@ active_orders
 パラメータ
 ==============
 .. csv-table::
-   :header: "パラメーター", "必須", "詳細", "型", "デフォルト"
+   :header: "パラメータ", "必須", "詳細", "型", "デフォルト"
    :widths: 5, 5, 20, 10, 5
 
    "currency_pair", "No", "取得する通貨ペア。公開情報APIのcurrency_pairsで取得できるものが指定できます。指定なしで全ての通貨ペアの情報を取得します。", "str(例 btc_jpy)", "全てのペア"
@@ -27,7 +27,8 @@ active_orders
                 "action": "ask",
                 "amount": 0.03,
                 "price": 56000,
-                "timestamp": 1402021125
+                "timestamp": 1402021125,
+                "comment" : "demo"
             }
         }
     }
@@ -43,7 +44,8 @@ active_orders
                    "action": "ask",
                    "amount": 0.03,
                    "price": 56000,
-                   "timestamp": 1402021125
+                   "timestamp": 1402021125,
+                   "comment" : "demo"
                },
                "token_active_orders": {
                    "235": {
@@ -51,7 +53,8 @@ active_orders
                        "action": "ask",
                        "amount": 0.3,
                        "price": 10,
-                       "timestamp": 1402064525
+                       "timestamp": 1402064525,
+                       "comment" : "demo"
                    }
                }
            }
@@ -67,3 +70,4 @@ active_orders
    "amount", "数量", "int"
    "price", "価格", "int"
    "timestamp", "タイムスタンプ", "int"
+   "comment", "注文のコメント", "str"

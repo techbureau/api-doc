@@ -8,7 +8,7 @@ trade_history
 パラメータ
 ==============
 .. csv-table::
-   :header: "パラメーター", "必須", "詳細", "型", "デフォルト"
+   :header: "パラメータ", "必須", "詳細", "型", "デフォルト"
    :widths: 5, 5, 20, 10, 5
 
    "from", "No", "この順番のレコードから取得", "int", "0"
@@ -42,7 +42,8 @@ trade_history
                 "fee": 0,
                 "your_action": "ask",
                 "bonus": 1.6,
-                "timestamp": 1402018713
+                "timestamp": 1402018713,
+                "comment" : "demo"
             }
         }
     }
@@ -58,3 +59,4 @@ trade_history
    "your_action", "bidまたはask、自己取引の場合はbothとなります", "str"
    "bonus", "マイナス手数料分", "float"
    "timestamp", "UNIX time", "int"
+   "comment", "注文のコメント", "str"

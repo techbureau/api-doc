@@ -9,7 +9,7 @@ trade
 ==============
 
 .. csv-table::
-   :header: "パラメーター", "必須", "詳細", "型"
+   :header: "パラメータ", "必須", "詳細", "型"
    :widths: 5, 5, 10, 10
 
    "currency_pair", "Yes", "(例) btc_jpy", "str(例 btc_jpy)"
@@ -17,10 +17,18 @@ trade
    "price", "Yes", "指値注文価格", "numerical"
    "amount", "Yes", "数量(例: 0.3)", "numerical"
    "limit", "No", "リミット注文価格", "numerical"
+   "comment", "No", "コメントの追加", "str"
 
+| **パラメータ limitについて**
+| リミット値（利確のための反対売買の指値）を指定することができます
+| リミット値を指定した場合、注文が成立した分だけの数量について、自動的にリミット注文が発行されます
 
-価格および数量の数値について
-下記の単位以外で注文しようとした場合、invalid price parameterまたはinvalid amount parameterというエラーが返されます
+| **パラメータ commentについて**
+| コメントは255字以内で半角英数字記号のみに対応しています
+| また、スラッシュは使えませんでご注意ください
+
+| **価格および数量の数値について**
+| 下記の単位以外で注文しようとした場合、invalid price parameterまたはinvalid amount parameterというエラーが返されます
 
   ・価格（priceおよびlimit）
         | btc_jpy : 5円単位
