@@ -5,7 +5,8 @@ trades
 
 リクエスト
 ==============
-/trades/{currency_pair}
+| /trades/{currency_pair}
+| 例. https://api.zaif.jp/api/1/trades/btc_jpy
 
 currency_pairに指定できる値は :ref:`public-currency-pairs` を参照してください。
 
@@ -13,6 +14,7 @@ currency_pairに指定できる値は :ref:`public-currency-pairs` を参照し�
 パラメータ
 ==============
 なし
+
 
 戻り値
 ==============
@@ -46,8 +48,8 @@ currency_pairに指定できる値は :ref:`public-currency-pairs` を参照し�
    "price", "取引価格", "float"
    "amount", "取引量", "float"
    "tid", "取引ID", "int"
-   "currency_pair", "通貨ペア", "string"
-   "trade_type", "取引種別", "string"
+   "currency_pair", "通貨ペア", "str"
+   "trade_type", "取引種別", "str"
 
 補足
 ==============

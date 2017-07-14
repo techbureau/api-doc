@@ -5,7 +5,8 @@ last_price
 
 リクエスト
 ==============
-/last_price/{currency_pair}
+| /last_price/{currency_pair}
+| 例. https://api.zaif.jp/api/1/last_price/btc_jpy
 
 currency_pairに指定できる値は :ref:`public-currency-pairs` を参照してください。
 

@@ -5,7 +5,8 @@ depth
 
 リクエスト
 ==============
-/depth/{currency_pair}
+| /depth/{currency_pair}
+| 例. https://api.zaif.jp/api/1/depth/btc_jpy
 
 currency_pairに指定できる値は :ref:`public-currency-pairs` を参照してください。
 

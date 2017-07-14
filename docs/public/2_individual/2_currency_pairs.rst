@@ -7,7 +7,8 @@ currency_pairs
 
 リクエスト
 ==============
-/currency_pairs/{currency_pair}
+| /currency_pairs/{currency_pair}
+| 例. https://api.zaif.jp/api/1/currency_pairs/btc_jpy
 
 パラメータ
 ==============

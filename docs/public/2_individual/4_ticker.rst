@@ -5,7 +5,8 @@ ticker
 
 リクエスト
 ==============
-/ticker/{currency_pair}
+| /ticker/{currency_pair}
+| 例. https://api.zaif.jp/api/1/ticker/btc_jpy
 
 currency_pairに指定できる値は :ref:`public-currency-pairs` を参照してください。
 
