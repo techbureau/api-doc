@@ -18,7 +18,7 @@ createInvoice
    "key", "Yes", "APIキー", "str", "　"
    "md5secret", "Yes(1)", "APIシークレットのmd5。(1)md5またはsha1のどちらかをセット", "str", "　"
    "sha1secret", "Yes(1)", "APIシークレットのsha1。(1)md5またはsha1のどちらかをセット", "str", "　"
-   "nonce", "Yes", "APIシークレットのsha1。(1)md5またはsha1のどちらかをセット", "int", "　"
+   "nonce", "Yes", "1以上の数を実行都度増分して送信します。増分量は少数点以下の値にも対応しております。", "int", "　"
    "speed", "No", "決済完了とみなすスピード。デフォルトはmedium high:0 cofirmation/medium:1 confirmation/low:6 confirmations", "str", "high medium low"
    "notificationUri", "No", "決済完了したタイミングでの通知先URI 事業者様のECサイトシステムに通知を行うためのものになります", "str", "　"
    "notificationMethod", "No", "決済完了したタイミングでの通知先URIへ通知する際に使用されるHTTPメソッド。デフォルトはPOSTになります", "str", "GET または POST"
