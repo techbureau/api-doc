@@ -8,7 +8,7 @@ websocketを利用したリアルタイム板情報と終値のAPIを配信テ�
 | wss://ws.zaif.jp/stream?currency_pair={currency_pair}
 | ws://ws.zaif.jp/stream?currency_pair={currency_pair}
 
-| ストリーミングは上記3パターンの接続方法があります。
+| ストリーミングは上記2つの接続方法があります。
 | currency_pairに指定できる値は :ref:`public-currency-pairs` で取得できる通貨ペア情報の内、is_tokenがfalseになっているものです。
 
 
