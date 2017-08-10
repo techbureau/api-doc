@@ -5,7 +5,6 @@ websocketを利用したリアルタイム板情報と終値のAPIを配信テ�
 
 リクエスト
 ==============
-| wss://ws.zaif.jp:8888/stream?currency_pair={currency_pair}
 | wss://ws.zaif.jp/stream?currency_pair={currency_pair}
 | ws://ws.zaif.jp/stream?currency_pair={currency_pair}
 
