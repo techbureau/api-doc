@@ -6,7 +6,7 @@ currencies
 リクエスト
 ==============
 | /currencies/{currency}
-| 例. https://api.zaif.jp/api/1/currencies/btc_jpy
+| 例. https://api.zaif.jp/api/1/currencies/btc
 
 パラメータ
 ==============
