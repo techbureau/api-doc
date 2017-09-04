@@ -10,7 +10,7 @@ cancel_order
 
 .. csv-table::
    :header: "パラメータ", "必須", "詳細", "型", "デフォルト"
-   :widths: 5, 5, 13, 5
+   :widths: 5, 5, 20, 10, 5
 
    "order_id", "Yes", "注文ID（tradeまたはactive_ordersで取得できます）", "int", " "
    "currency_pair", "No", "通貨ペア。", "(例) btc_jpy", " "
