@@ -9,11 +9,15 @@ cancel_order
 ==============
 
 .. csv-table::
-   :header: "パラメータ", "必須", "詳細", "型"
+   :header: "パラメータ", "必須", "詳細", "型", "デフォルト"
    :widths: 5, 5, 13, 5
 
-   "order_id", "Yes", "注文ID（tradeまたはactive_ordersで取得できます）", "　"
-   "is_token", "No", "true：カウンターパーティトークンのオーダーを取り消したい時　false：カウンターパーティトークン以外のオーダーを取り消したい時", "false"
+   "order_id", "Yes", "注文ID（tradeまたはactive_ordersで取得できます）", "int", " "
+   "currency_pair", "No", "通貨ペア。", "(例) btc_jpy", " "
+   "is_token", "No", "【非推奨、削除予定】true：カウンターパーティトークンのオーダーを取り消したい時　false：カウンターパーティトークン以外のオーダーを取り消したい時", "false"
+
+注意:
+  | ・“currency_pair”と”is_token”の両方を指定した場合は”currency_pair”が優先されます。両方指定しない場合はカウンターパーティトークン以外の情報を操作します。
 
 
 戻り値
