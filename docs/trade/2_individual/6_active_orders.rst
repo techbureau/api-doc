@@ -12,8 +12,8 @@ active_orders
    :widths: 5, 5, 20, 10, 5
 
    "currency_pair", "No", "取得する通貨ペア。公開情報APIのcurrency_pairsで取得できるものが指定できます。指定なしで全ての通貨ペアの情報を取得します。", "str(例 btc_jpy)", "全てのペア"
-   "is_token", "No", "true：カウンターパーティトークンの情報を取得 false：カウンターパーティトークン以外の情報を取得", "bool", "false"
-   "is_token_both", "No", "true：全てのアクティブなオーダー情報を取得 false：currency_pairやis_tokenに従ったオーダー情報を取得", "bool", "false"
+   "is_token", "No", "【非推奨、削除予定】true：カウンターパーティトークンの情報を取得 false：カウンターパーティトークン以外の情報を取得", "bool", "false"
+   "is_token_both", "No", "【非推奨、削除予定】true：全てのアクティブなオーダー情報を取得 false：currency_pairやis_tokenに従ったオーダー情報を取得", "bool", "false"
 
 戻り値
 ==============
