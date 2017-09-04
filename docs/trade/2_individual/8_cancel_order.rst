@@ -14,7 +14,7 @@ cancel_order
 
    "order_id", "Yes", "注文ID（tradeまたはactive_ordersで取得できます）", "int", " "
    "currency_pair", "No", "通貨ペア。", "(例) btc_jpy", " "
-   "is_token", "No", "【非推奨、削除予定】true：カウンターパーティトークンのオーダーを取り消したい時　false：カウンターパーティトークン以外のオーダーを取り消したい時", "false"
+   "is_token", "No", "【非推奨、削除予定】true：カウンターパーティトークンのオーダーを取り消したい時　false：カウンターパーティトークン以外のオーダーを取り消したい時", "bool", "false"
 
 注意:
   | ・“currency_pair”と”is_token”の両方を指定した場合は”currency_pair”が優先されます。両方指定しない場合はカウンターパーティトークン以外の情報を操作します。
