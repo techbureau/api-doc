@@ -11,8 +11,8 @@ Zaifの取引に関わるAPIです。APIを使用して自動売買や資産状�
    :maxdepth: 2
 
    public/index
-   public_futures/index
    trade/index
+   public_futures/index
    trade_leverage/index
    faq/index
 
