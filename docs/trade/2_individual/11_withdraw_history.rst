@@ -49,7 +49,7 @@ withdraw_history
 .. csv-table::
    :header: "キー", "詳細", "型"
 
-   "timestamp", "", "int"
+   "timestamp", "出金日時", "UNIX_TIMESTAMP"
    "address", "出金先アドレス", "str"
    "amount", "取引量", "int"
    "txid", "トランザクションid", "str"

@@ -44,7 +44,7 @@ currency_pairに指定できる値は :ref:`public-currency-pairs` を参照し�
 .. csv-table::
    :header: "キー", "詳細", "型"
 
-   "date", "取引日時(エポックタイム)", "int"
+   "date", "取引日時", "UNIX_TIMESTAMP"
    "price", "取引価格", "float"
    "amount", "取引量", "float"
    "tid", "取引ID", "int"

@@ -69,5 +69,5 @@ active_orders
    "action", "bid(買い) or ask(売り)", "str"
    "amount", "数量", "int"
    "price", "価格", "int"
-   "timestamp", "タイムスタンプ", "int"
+   "timestamp", "発注日時", "UNIX_TIMESTAMP"
    "comment", "注文のコメント", "str"
