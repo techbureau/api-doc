@@ -15,6 +15,7 @@ Zaifの取引に関わるAPIです。APIを使用して自動売買や資産状�
    public_futures/index
    trade_leverage/index
    faq/index
+   library/index
 
 OAuthAPI ドキュメント
 ========================
