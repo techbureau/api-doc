@@ -6,7 +6,7 @@ Zaifの公開API/取引APIを各種プログラミング言語から簡単に使
 
 Java
 ========
-zaif.jp API for Java JavaからZaif.jpのAPIを使うためのライブラリです。: https://github.com/nyatla/JZaif
+zaif.jp API for Java JavaからZaif.jpのAPIを使うためのライブラリです。: https://github.com/techbureau/JZaif
 
 JavaScript
 ================
@@ -16,7 +16,7 @@ Qiita : Node.js – zaif（取引所）でAPIを使って取引する : http://q
 
 Ruby
 ========
-RubyGems – zaif : https://rubygems.org/gems/zaif
+RubyGems – zaif : https://github.com/techbureau/zaif-ruby
 
 PHP
 ========
