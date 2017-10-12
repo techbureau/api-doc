@@ -25,6 +25,7 @@ get_positions
 
 注意:
   | ・“since”もしくは”end”をセットした場合、”order”は強制的に”ASC”となります。
+  | ・“from_id”もしくは”end_id”をセットした場合、”order”は強制的に”ASC”となります。
 
 
 戻り値
