@@ -28,7 +28,7 @@ expired access token
     | トークンの有効期限が切れています。`トークン再発行API <https://techbureau-api-document.readthedocs.io/ja/latest/oauth/1_common.html#id3>`_ を参考にし、トークンの再発行をしてください。
 
 
-パラメータチェック
+実行前チェック
 ================================================
 
 method not found
@@ -46,6 +46,11 @@ nonce not incremented
 nonce out of range
 ------------------------------------------------
     | nonce値が最大値を超えています。新しいAPIキーを発行してください。
+
+time wait restriction, please wait a minute.
+------------------------------------------------
+    | 短時間に多数の現物・レバレッジ取引APIが実行されています。1分ほど待機した後再実行するなどをお願いします。
+
 
 取引系
 ================================================
