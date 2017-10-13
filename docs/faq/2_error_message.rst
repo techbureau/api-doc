@@ -14,7 +14,7 @@ no data found for the key
 
 secret mismatch
 ------------------------------------------------
-    | 署名がうまく言っていません。`API共通方法 <https://techbureau-api-document.readthedocs.io/ja/latest/trade/1_common.html#id7>`_ にて署名方法を確認してください。
+    | 署名に失敗しています。`API共通方法 <https://techbureau-api-document.readthedocs.io/ja/latest/trade/1_common.html#id7>`_ にて署名方法を確認してください。
 
 認証(OAuth)
 ================================================
