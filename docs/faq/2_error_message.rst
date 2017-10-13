@@ -12,7 +12,7 @@ no data found for the key
 ------------------------------------------------
     | APIキーが無効です。`開発者向けAPI画面 <https://zaif.jp/api_keys>`_ にて正しいAPIのキーが指定されているか確認してください。
 
-secret mismatch
+signature mismatch
 ------------------------------------------------
     | 署名に失敗しています。`API共通方法 <https://techbureau-api-document.readthedocs.io/ja/latest/trade/1_common.html#id7>`_ にて署名方法を確認してください。
 
@@ -42,6 +42,7 @@ invalid {} parameter
 nonce not incremented
 ------------------------------------------------
     | 前回API実行時よりnonce値が加算されていません。nonce値はAPI実行ごとに加算してください。
+    | 複数プロセス・スレッドからAPIコールを使用している場合、終了を待ったり、APIキーを使い分けるなどの工夫をしてください。
 
 nonce out of range
 ------------------------------------------------
