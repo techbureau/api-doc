@@ -51,5 +51,5 @@ withdraw_history
 
    "timestamp", "出金日時", "UNIX_TIMESTAMP"
    "address", "出金先アドレス", "str"
-   "amount", "取引量", "int"
+   "amount", "取引量", "float"
    "txid", "トランザクションid", "str"

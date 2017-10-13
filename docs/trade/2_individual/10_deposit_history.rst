@@ -29,19 +29,27 @@ deposit_history
 .. code-block:: python
 
     {
-        "success": 1,
-        "return": {
-            "txid":,
-            "funds": {
-                "jpy": 15320,
-                "btc": 1.392,
-                "xem": 100.2,
-                "mona": 2600
-            }
+        "success":1,
+        "return":{
+            "3816":{
+              "timestamp":1435745065,
+              "address":"12qwQ3sPJJAosodSUhSpMds4WfUPBeFEM2",
+              "amount":0.001,
+              "txid":"64dcf59523379ba282ae8cd61d2e9382c7849afe3a3802c0abb08a60067a159f",
+            },
+            "3814":{
+              "timestamp":1435548083,
+              "address":"12qwQ3sPJJAosodSUhSpMds4WfUPBeFEM2",
+              "amount":0.001,
+              "txid":"7d012cfff6e67a8938f93215367eef4177604459631ea62c85550980dca71819"
+            },
         }
     }
 
 .. csv-table::
    :header: "キー", "詳細", "型"
 
-   "funds", "残高", "dict"
+   "timestamp", "出金日時", "UNIX_TIMESTAMP"
+   "address", "出金先アドレス", "str"
+   "amount", "取引量", "float"
+   "txid", "トランザクションid", "str"
