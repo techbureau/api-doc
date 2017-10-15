@@ -1,0 +1,259 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:3
+msgid "cancelInvoice"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:5
+msgid "インボイスのキャンセル"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:7
+msgid ""
+"作成したインボイスを取消します。 支払が完了していたり既に有効期限が切れている場合はエラーとなります。 "
+"部分的に入金されていた場合は、過払いとして処理されます。"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:13
+msgid "パラメータ"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "必須"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "詳細"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "型"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "値または例"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "method"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "Yes"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "メソッド名"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "str"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "getInvoice"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "key"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "APIキー"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "md5secret"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "Yes(1)"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "APIシークレットのmd5。(1)md5またはsha1のどちらかをセット"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "sha1secret"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "APIシークレットのsha1。(1)md5またはsha1のどちらかをセット"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "nonce"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "1以上の数、呼び出し毎に増分して送信してください"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "int"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "invoiceId"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "キャンセルしたいinvoiceId"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:27
+msgid "戻り値"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:28
+msgid "returnパラメータ"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "キー"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "作成したインボイスを識別するためのID"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "04e42516-1652-11e5-9eb4-4437e6999eec"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "created"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "インボイス作成日時。unixtime"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "expired"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "インボイスの有効期限。unixtime"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "status"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "インボイスの状態"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "canceled"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "settled"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "決済完了日時。unixtime"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "amount"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "決済対象金額（送信された金額）"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "currency"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "決済対象の暗号通貨"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "btc または mona"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "rate"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "決済時の換算レート"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "btc"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "Bitcoinによる請求額（bitcoinによる決済時のみ）"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "mona"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "Monacoinによる請求額（monacoinによる決済時のみ）"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "address"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "BitcoinまたMonacoinの決済用支払先アドレス"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "BIP21"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "bitcoinまたはmonacoinの支払いURI"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "speed"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "決済スピード（送信されたものまたはデフォルトで適用されたもの"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "orderNumber"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "送信された注文番号"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:49
+msgid "キャンセル失敗時はエラーが帰るため、成功時のstatusは常に'canceled'となります"
+msgstr ""
+

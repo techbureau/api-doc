@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../trade/2_individual/8_cancel_order.rst:3
+msgid "cancel_order"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:6
+msgid "注文の取消しを行います。"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+#: ../../trade/2_individual/8_cancel_order.rst:9
+msgid "パラメータ"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "必須"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "詳細"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "型"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "デフォルト"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "order_id"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "Yes"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "注文ID（tradeまたはactive_ordersで取得できます）"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "int"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "currency_pair"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "No"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "通貨ペア。"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "(例) btc_jpy"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "is_token"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid ""
+"【非推奨、削除予定】true：カウンターパーティトークンのオーダーを取り消したい時　"
+"false：カウンターパーティトークン以外のオーダーを取り消したい時"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "bool"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "false"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:21
+msgid "注意:"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst
+msgid "・“currency_pair”と”is_token”の両方を指定した場合は”currency_pair”が優先されます。両方指定しない場合はカウンターパーティトークン以外の情報を操作します。"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:24
+msgid "戻り値"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "キー"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "注文id"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "funds"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "残高"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "dict"
+msgstr ""
+

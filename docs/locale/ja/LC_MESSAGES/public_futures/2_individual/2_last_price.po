@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../public_futures/2_individual/2_last_price.rst:1
+#: ../../public_futures/2_individual/2_last_price.rst:3
+msgid "last_price"
+msgstr ""
+
+#: ../../public_futures/2_individual/2_last_price.rst:4
+msgid "現在の終値を取得します。"
+msgstr ""
+
+#: ../../public_futures/2_individual/2_last_price.rst:7
+msgid "リクエスト"
+msgstr ""
+
+#: ../../public_futures/2_individual/2_last_price.rst:8
+msgid "/last_price/{group_id}/{currency_pair}"
+msgstr ""
+
+#: ../../public_futures/2_individual/2_last_price.rst:9
+msgid "例. https://api.zaif.jp/fapi/1/last_price/1/btc_jpy"
+msgstr ""
+
+#: ../../public_futures/2_individual/2_last_price.rst:11
+msgid "group_id,currency_pairに指定できる値は :ref:`public_futures-groups` を参照してください。"
+msgstr ""
+
+#: ../../public_futures/2_individual/2_last_price.rst:15
+msgid "パラメータ"
+msgstr ""
+
+#: ../../public_futures/2_individual/2_last_price.rst:16
+msgid "なし"
+msgstr ""
+
+#: ../../public_futures/2_individual/2_last_price.rst:19
+msgid "戻り値"
+msgstr ""
+
+#: ../../public_futures/2_individual/2_last_price.rst:20
+msgid "group_idにallを指定すると終了した物を含めて全ての先物の終値が、activeを指定すると現在取引可能な先物全ての終値が全て取得されます。"
+msgstr ""
+
+#: ../../public_futures/2_individual/2_last_price.rst:30
+msgid "group_idに個別のグループIDを指定するとそのグループIDの終値が取得されます。"
+msgstr ""
+
+#: ../../public_futures/2_individual/2_last_price.rst:1
+msgid "キー"
+msgstr ""
+
+#: ../../public_futures/2_individual/2_last_price.rst:1
+msgid "詳細"
+msgstr ""
+
+#: ../../public_futures/2_individual/2_last_price.rst:1
+msgid "型"
+msgstr ""
+
+#: ../../public_futures/2_individual/2_last_price.rst:1
+msgid "group_id"
+msgstr ""
+
+#: ../../public_futures/2_individual/2_last_price.rst:1
+msgid "グループID"
+msgstr ""
+
+#: ../../public_futures/2_individual/2_last_price.rst:1
+msgid "int"
+msgstr ""
+
+#: ../../public_futures/2_individual/2_last_price.rst:1
+msgid "現在の終値"
+msgstr ""
+
+#: ../../public_futures/2_individual/2_last_price.rst:1
+msgid "float"
+msgstr ""
+

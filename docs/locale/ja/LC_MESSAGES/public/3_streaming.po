@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../public/3_streaming.rst:3
+msgid "ストリーミング API"
+msgstr ""
+
+#: ../../public/3_streaming.rst:4
+msgid ""
+"websocketを利用したリアルタイム板情報と終値のAPIを配信テスト中です。Public "
+"APIでの板情報は呼び出し制限があるためご不便をおかけしましたが、こちらをご利用いただければと思います。"
+msgstr ""
+
+#: ../../public/3_streaming.rst:7
+msgid "リクエスト"
+msgstr ""
+
+#: ../../public/3_streaming.rst:8
+msgid "wss://ws.zaif.jp/stream?currency_pair={currency_pair}"
+msgstr ""
+
+#: ../../public/3_streaming.rst:9
+msgid "ws://ws.zaif.jp/stream?currency_pair={currency_pair}"
+msgstr ""
+
+#: ../../public/3_streaming.rst:11
+msgid "ストリーミングは上記2つの接続方法があります。"
+msgstr ""
+
+#: ../../public/3_streaming.rst:12
+msgid ""
+"currency_pairに指定できる値は :ref:`public-currency-pairs` "
+"で取得できる通貨ペア情報の内、is_tokenがfalseになっているものです。"
+msgstr ""
+
+#: ../../public/3_streaming.rst:17
+msgid "戻り値"
+msgstr ""
+

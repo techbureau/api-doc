@@ -1,0 +1,384 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:42+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../faq/1_common.rst:3 ../../faq/2_individual/index.rst:4
+msgid "よくあるお問い合わせ"
+msgstr ""
+
+#: ../../faq/1_common.rst:5 ../../faq/2_individual/index.rst:6
+#: ../../faq/index.rst:5
+msgid "よくあるお問い合わせ一覧です。"
+msgstr ""
+
+#: ../../faq/1_common.rst:8 ../../faq/2_individual/2_trade.rst:23
+msgid "取引履歴の確認でorder_idを使って取引結果を照合できない"
+msgstr ""
+
+#: ../../faq/1_common.rst
+msgid "order_idは取引注文のidで、trade_history APIのidは取引結果のidですので、別物になります。"
+msgstr ""
+
+#: ../../faq/1_common.rst
+msgid "したがって、trade_history APIでは、order_idを使ってデータを参照することはできません。"
+msgstr ""
+
+#: ../../faq/1_common.rst:14
+msgid "withdrawで出金ができない"
+msgstr ""
+
+#: ../../faq/1_common.rst:15
+msgid "Zaifでは不正送金の対策として、アカウントに対する最初の日本円入金から７日間は、APIによる仮想通貨の出金を制限しております。"
+msgstr ""
+
+#: ../../faq/1_common.rst:19
+msgid "active_orders の注文IDが部分約定したのに変わらない"
+msgstr ""
+
+#: ../../faq/1_common.rst
+msgid "active_ordersの注文IDは現在板にある注文のIDになります。"
+msgstr ""
+
+#: ../../faq/1_common.rst
+msgid "その注文が、全約定しない限り同じIDで残り続けます。また、約定した数量はamountから引かれるため、"
+msgstr ""
+
+#: ../../faq/1_common.rst
+msgid "その注文の残量などを確認したい場合はもう一度active_ordersを実効し、ご確認ください。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:3
+msgid "エラーメッセージ一覧"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:9
+msgid "認証"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:12
+msgid "no data found for the key"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid ""
+"APIキーが無効です。`開発者向けAPI画面 <https://zaif.jp/api_keys>`_ "
+"にて正しいAPIのキーが指定されているか確認してください。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:16
+msgid "signature mismatch"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid ""
+"署名に失敗しています。`API共通方法 <https://techbureau-api-"
+"document.readthedocs.io/ja/latest/trade/1_common.html#id7>`_ "
+"にて署名方法を確認してください。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:20
+msgid "認証(OAuth)"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:23
+msgid "invalid access token"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "無効なトークンが指定されています。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:27
+msgid "expired access token"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid ""
+"トークンの有効期限が切れています。`トークン再発行API <https://techbureau-api-"
+"document.readthedocs.io/ja/latest/oauth/1_common.html#id3>`_ "
+"を参考にし、トークンの再発行をしてください。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:32
+msgid "実行前チェック"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:35
+msgid "method not found"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "指定されたメソッドが存在しません。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:39
+msgid "invalid {} parameter"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "指定されているパラメータが無効です。各APIのドキュメントを参考にして、正常なパラメータを指定してください。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:43
+msgid "nonce not incremented"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "前回API実行時よりnonce値が加算されていません。nonce値はAPI実行ごとに加算してください。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "複数プロセス・スレッドからAPIコールを使用している場合、終了を待ったり、APIキーを使い分けるなどの工夫をしてください。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:48
+msgid "nonce out of range"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "nonce値が最大値を超えています。新しいAPIキーを発行してください。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:52
+msgid "time wait restriction, please try later."
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "短時間に多くの取引APIが同じメソッドで呼び出しされたときに発生します。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "取引履歴・入出金履歴については最大60秒、その他のメソッドは1〜10秒程度の制限がかかりますので、数秒のWAITとリトライを行うなどして対応をお願いします。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "制限される秒数や回数については、注文状況などにより予告なく変更することがあります。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:58
+msgid "取引系"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:61
+msgid "insufficient funds"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "取引に必要な残高が存在しません。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:65
+msgid "limit must be greater than the price"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "売り注文時、limitはpriceより高い値段を設定する必要があります。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:69
+msgid "limit must be a smaller value than the price"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "買い注文時、limitはpriceより低い値段を設定する必要があります。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:73
+msgid "trade temporarily unavailable."
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "取引が一時的に停止されています。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:77
+msgid "your account is restricted now, KYC required."
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "本人確認が完了していないため、取引ができません。本人確認を完了させてください。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:81
+msgid "illegal comment"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "コメントに無効な文字が設定されています。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:85
+msgid "merchant account dont have trade permission"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "業者用のアカウントは取引を許可されていません。"
+msgstr ""
+
+#: ../../faq/2_individual/1_public.rst:3
+msgid "公開情報API"
+msgstr ""
+
+#: ../../faq/2_individual/1_public.rst:5
+msgid "公開情報APIに関する、よくあるお問い合わせ一覧です"
+msgstr ""
+
+#: ../../faq/2_individual/1_public.rst:9
+msgid "currencies"
+msgstr ""
+
+#: ../../faq/2_individual/1_public.rst:12
+msgid "currency_pairs"
+msgstr ""
+
+#: ../../faq/2_individual/1_public.rst:15
+msgid "last_price"
+msgstr ""
+
+#: ../../faq/2_individual/1_public.rst:18
+msgid "ticker"
+msgstr ""
+
+#: ../../faq/2_individual/1_public.rst:21
+msgid "trades"
+msgstr ""
+
+#: ../../faq/2_individual/1_public.rst:24
+msgid "depth"
+msgstr ""
+
+#: ../../faq/2_individual/1_public.rst:27
+msgid "streaming"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:3
+msgid "取引API"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:5
+msgid "取引APIに関する、よくあるお問い合わせ一覧です"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:8
+msgid "get_info"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:11
+msgid "get_info2"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:14
+#: ../../faq/2_individual/3_payment.rst:14
+msgid "get_personal_info"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:17
+msgid "get_id_info"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:20
+msgid "trade_history"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:24
+msgid ""
+"order_idは取引注文のidで、trade history APIのidは取引結果のidなので別物となります。 したがって、trade "
+"history APIでは、order_idを使ってデータを参照することはできません。"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:28
+msgid "actiuve_orders"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:31
+msgid "cancel_order"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:35
+msgid "withdraw"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:38
+msgid "出金ができない"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:39
+msgid "初入金から7日は出金できないZaifの仕様となっています"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:42
+msgid "deposit_history"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:45
+msgid "withdraw_history"
+msgstr ""
+
+#: ../../faq/2_individual/3_payment.rst:3
+msgid "決済API"
+msgstr ""
+
+#: ../../faq/2_individual/3_payment.rst:5
+msgid "決済APIに関する、よくあるお問い合わせ一覧です"
+msgstr ""
+
+#: ../../faq/2_individual/3_payment.rst:8
+msgid "createInvoice"
+msgstr ""
+
+#: ../../faq/2_individual/3_payment.rst:11
+msgid "getInvoice"
+msgstr ""
+
+#: ../../faq/2_individual/3_payment.rst:17
+msgid "getInvoiceIdsByOrderNumber"
+msgstr ""
+
+#: ../../faq/2_individual/3_payment.rst:20
+msgid "cancelInvoice"
+msgstr ""
+
+#: ../../faq/2_individual/4_oauth.rst:3
+msgid "OAuth"
+msgstr ""
+
+#: ../../faq/2_individual/4_oauth.rst:5
+msgid "OAuthに関する、よくあるお問い合わせ一覧です"
+msgstr ""
+
+#: ../../faq/2_individual/5_library.rst:3
+msgid "ライブラリー"
+msgstr ""
+
+#: ../../faq/2_individual/5_library.rst:5
+msgid "ライブラリーに関する、よくあるお問い合わせ一覧です"
+msgstr ""
+
+#: ../../faq/2_individual/6_other.rst:3
+msgid "その他"
+msgstr ""
+
+#: ../../faq/2_individual/6_other.rst:5
+msgid "その他よくあるお問い合わせ一覧です。"
+msgstr ""
+
+#: ../../faq/index.rst:3
+msgid "Q&A"
+msgstr ""
+

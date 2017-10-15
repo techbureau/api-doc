@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../public_futures/2_individual/3_ticker.rst:3
+msgid "ticker"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:4
+msgid "ティッカーを取得します。"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:7
+msgid "リクエスト"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:8
+msgid "/ticker/{group_id}/{currency_pair}"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:9
+msgid "例. https://api.zaif.jp/fapi/1/ticker/1/btc_jpy"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:11
+msgid "group_id,currency_pairに指定できる値は :ref:`public_futures-groups` を参照してください。"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:15
+msgid "パラメータ"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:16
+msgid "なし"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:19
+msgid "戻り値"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:1
+msgid "キー"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:1
+msgid "詳細"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:1
+msgid "型"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:1
+msgid "last"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:1
+msgid "終値"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:1
+msgid "float"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:1
+msgid "high"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:1
+msgid "過去24時間の高値"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:1
+msgid "low"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:1
+msgid "過去24時間の安値"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:1
+msgid "vwap"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:1
+msgid "過去24時間の加重平均"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:1
+msgid "volume"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:1
+msgid "過去24時間の出来高"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:1
+msgid "bid"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:1
+msgid "買気配値"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:1
+msgid "ask"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:1
+msgid "売気配値"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:44
+msgid "補足"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:47
+msgid "vwap算出方法"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:49
+msgid "個々の取引価格*個々の取引量　→　A"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:50
+msgid "Aの過去24時間分を合算　→　B"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:51
+msgid "過去24時間分の個々の取引量を合算　→　C"
+msgstr ""
+
+#: ../../public_futures/2_individual/3_ticker.rst:52
+msgid "B/C →　vwap"
+msgstr ""
+

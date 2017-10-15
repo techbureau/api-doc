@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../trade_leverage/4_error_message_list/1_list.rst:3
+msgid "エラーメッセージ一覧"
+msgstr ""
+
+#: ../../trade_leverage/4_error_message_list/1_list.rst:6
+msgid "InsufficientFunds"
+msgstr ""
+
+#: ../../trade_leverage/4_error_message_list/1_list.rst:7
+msgid "残高不足。取引に必要な量が保有残高にありません。"
+msgstr ""
+
+#: ../../trade_leverage/4_error_message_list/1_list.rst:10
+msgid "illegal currency (currency name)"
+msgstr ""
+
+#: ../../trade_leverage/4_error_message_list/1_list.rst:11
+msgid "無効な通貨または通貨ペアを指定しています。"
+msgstr ""
+
+#: ../../trade_leverage/4_error_message_list/1_list.rst:12
+msgid "取引可能な通貨は公開API情報APIのcurrency_pairsより確認できます。"
+msgstr ""
+
+#: ../../trade_leverage/4_error_message_list/1_list.rst:15
+msgid "invalid currency_pair parameter"
+msgstr ""
+
+#: ../../trade_leverage/4_error_message_list/1_list.rst:16
+msgid "無効な通貨ペアを指定しています。"
+msgstr ""
+
+#: ../../trade_leverage/4_error_message_list/1_list.rst:17
+msgid "また、イベントトークンはサポートしていません。"
+msgstr ""
+
+#: ../../trade_leverage/4_error_message_list/1_list.rst:20
+msgid "merchant account dont have trade permission"
+msgstr ""
+
+#: ../../trade_leverage/4_error_message_list/1_list.rst:21
+msgid "EC事業者設定でzaif取引所を使用しない設定になっている可能性があります。"
+msgstr ""
+
+#: ../../trade_leverage/4_error_message_list/1_list.rst:22
+msgid "アカウント設定ページのEC事業者設定からご確認ください。"
+msgstr ""
+
+#: ../../trade_leverage/4_error_message_list/1_list.rst:23
+msgid "https://zaif.jp/merchant_setting"
+msgstr ""
+
+#: ../../trade_leverage/4_error_message_list/1_list.rst:26
+msgid "limit must be greater than the price"
+msgstr ""
+
+#: ../../trade_leverage/4_error_message_list/1_list.rst:27
+msgid "リミットをプライスより大きい数値に変えてください。"
+msgstr ""
+
+#: ../../trade_leverage/4_error_message_list/1_list.rst:30
+msgid "limit must be a smaller value than the price"
+msgstr ""
+
+#: ../../trade_leverage/4_error_message_list/1_list.rst:31
+msgid "リミットをプライスより小さい数値に変えてください。"
+msgstr ""
+
+#: ../../trade_leverage/4_error_message_list/1_list.rst:34
+msgid "nonce not incremented"
+msgstr ""
+
+#: ../../trade_leverage/4_error_message_list/1_list.rst:35
+msgid "パラメータに付与しているnonceの値を増分してください。"
+msgstr ""
+
+#: ../../trade_leverage/4_error_message_list/1_list.rst:36
+msgid "また、増分量は少数点以下の値にも対応しております。"
+msgstr ""
+

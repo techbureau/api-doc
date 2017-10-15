@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../trade/2_individual/9_withdraw.rst:3
+msgid "withdraw"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:6
+msgid ""
+"資金の引き出しリクエストを送信します。 "
+"2015年12月15日より、リクエスト時には一旦トランザクションIDは空で帰るようになりました。通常１〜２分でトランザクションが発生しますので、後ほどwithdraw_historyメソッドを利用して確認してください"
+" xemの出金時には、手数料は自動計算され、opt_feeに値をセットして送信しますとエラーを返しますのでご注意ください。"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:10
+msgid "不正送金の対策として、アカウントに対する最初の日本円入金から７日間は、APIによる仮想通貨の出金を制限しております。"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:14
+msgid "パラメータ"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "パラメーター"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "必須"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "詳細"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "型"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "デフォルト"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "currency"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "Yes"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "引き出す通貨。公開情報APIのcurrenciesで取得できるものが指定できます。ただしjpyは指定できません。"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "例)btc 等"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "address"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "送信先のアドレス"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "address str"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "message"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "No"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "送信メッセージ(XEMのみ)"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "ASCII str"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "amount"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "引き出す金額(例: 0.3)"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "numerical"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "opt_fee"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "採掘者への手数料(例: 0.003) ただしcurrencyがbtc、mona以外の時に指定するとエラーとなります。"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:28
+msgid "戻り値"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "キー"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "txid"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "振替えID"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "str"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "fee"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "今回の引き出しにかかった手数料"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "float"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "funds"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "残高"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "dict"
+msgstr ""
+

@@ -1,0 +1,1006 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:42+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../payment/1_common.rst:3
+msgid "共通情報"
+msgstr ""
+
+#: ../../payment/1_common.rst:6
+msgid "決済APIは、Zaif上で決済を行うためのAPIです。決済APIの利用には事業者用アカウントおよびAPI Keyが必要になります。"
+msgstr ""
+
+#: ../../payment/1_common.rst:10
+msgid "認証"
+msgstr ""
+
+#: ../../payment/1_common.rst:11
+msgid ""
+"決済APIを利用するには、アカウント情報のページからAPI Keyの発行をおこなってください。 取得したAPI "
+"Keyを利用して、下記のパラメータを認証情報として、POSTパラメータに付加して送信してください。"
+msgstr ""
+
+#: ../../payment/1_common.rst:14
+msgid "*md5を利用したパターン*"
+msgstr ""
+
+#: ../../payment/1_common.rst:14 ../../payment/1_common.rst:17
+msgid "key – APIキー。 例: 490f983a-5fab-49b2-b789-9d1f130874d3"
+msgstr ""
+
+#: ../../payment/1_common.rst:15
+msgid "md5secret – Secret Keyをmd5ハッシュ化した文字列"
+msgstr ""
+
+#: ../../payment/1_common.rst:18
+msgid "*sha1を利用したパターン*"
+msgstr ""
+
+#: ../../payment/1_common.rst:18
+msgid "sha1secret – Secret Keyをsha1ハッシュ化した文字列"
+msgstr ""
+
+#: ../../payment/1_common.rst:20
+msgid "認証方法についてはセキュリティ上の理由により、将来変更される可能性があります。"
+msgstr ""
+
+#: ../../payment/1_common.rst:24
+msgid "使用方法"
+msgstr ""
+
+#: ../../payment/1_common.rst:26
+msgid "https://api.zaif.jp/ecapi にPOSTします。"
+msgstr ""
+
+#: ../../payment/1_common.rst:27
+msgid "APIのメソッドを \"method\" というPOSTパラメータで送信します。"
+msgstr ""
+
+#: ../../payment/1_common.rst:28
+msgid "全てのAPIメソッドにおいて\"nonce\"パラメータを1以上の整数にて都度増分して送信します。"
+msgstr ""
+
+#: ../../payment/1_common.rst:29
+msgid "メソッド毎に必要なPOSTパラメータおよび上記の認証用のパラメータも合わせて送信します。"
+msgstr ""
+
+#: ../../payment/1_common.rst:30
+msgid "結果はjsonフォーマットにて返されます。"
+msgstr ""
+
+#: ../../payment/1_common.rst:31
+msgid "成功時の結果JSONフォーマットは以下のようになります。"
+msgstr ""
+
+#: ../../payment/1_common.rst:37
+msgid "失敗時の結果JSONフォーマットは以下のようになります。"
+msgstr ""
+
+#: ../../payment/1_common.rst:45
+msgid "nonceパラメータについて"
+msgstr ""
+
+#: ../../payment/1_common.rst:46
+msgid ""
+"nonceパラメータはAPIコールの重複を防く効力を持ち、また、呼び出し側での濫用を抑制することに役立ちます。 "
+"APIキー毎のnonceの値については、呼び出し側で管理して下さいますようお願いします。 "
+"unixtimeをnonceに利用すると簡単に管理できますが、１秒に１度以上のAPIコールができなくなる可能性があることに注意してください。 "
+"2016年2月以降、小数点以下の値も受け付けるようになりましたので、マイクロ秒まで含むunixtimeを利用して管理することが可能になっています。"
+msgstr ""
+
+#: ../../payment/1_common.rst:50
+msgid "メソッド"
+msgstr ""
+
+#: ../../payment/1_common.rst:53
+msgid ""
+"`インボイスの作成 createInvoice <http://techbureau-api-"
+"document.readthedocs.io/ja/latest/payment/2_individual/1_createInvoice.html>`_"
+msgstr ""
+
+#: ../../payment/1_common.rst:53
+msgid ""
+"Bitcoin/Monacoinによる決済の開始時に、インボイスの作成を行います。 "
+"決済金額・商品名・通貨などの情報を送信してインボイスを作成し、暗号通貨による決済を開始します。"
+msgstr ""
+
+#: ../../payment/1_common.rst:57
+msgid ""
+"`インボイス情報の取得 getInvoice <http://techbureau-api-"
+"document.readthedocs.io/ja/latest/payment/2_individual/2_getInvoice.html>`_"
+msgstr ""
+
+#: ../../payment/1_common.rst:56
+msgid "作成したインボイスの状態を取得します。 このAPIを利用すると、支払が完了しているかどうかなどについて、ECサイト側から確認することができます。"
+msgstr ""
+
+#: ../../payment/1_common.rst:62
+msgid ""
+"`インボイスの検索 getInvoiceIdsByOrderNumber <http://techbureau-api-"
+"document.readthedocs.io/ja/latest/payment/2_individual/3_getInvoiceIdsByOrderNumber.html>`_"
+msgstr ""
+
+#: ../../payment/1_common.rst:60
+msgid ""
+"注文番号を使用してインボイスを検索します。 "
+"暗号通貨決済用のインボイスには有効期限があるため、ひとつの注文から複数のインボイスを発行する必要がある可能性があります。 "
+"また、Bitcoinで決済を選択したが、やはりMonacoinで決済したい、などという場合もあるかと思います。 "
+"Zaif決済APIでは、インボイスの作成時に注文番号の重複チェックは行なわないようになっており、同じ注文番号から複数のインボイスを発行することが可能になっています。"
+msgstr ""
+
+#: ../../payment/1_common.rst:68
+msgid ""
+"`インボイスのキャンセル cancelInvoice <http://techbureau-api-"
+"document.readthedocs.io/ja/latest/payment/2_individual/4_cancelInvoice.html>`_"
+msgstr ""
+
+#: ../../payment/1_common.rst:65
+msgid "作成したインボイスを取消します。 支払が完了していたり既に有効期限が切れている場合はエラーとなります。"
+msgstr ""
+
+#: ../../payment/1_common.rst:71
+msgid "インボイスの表示"
+msgstr ""
+
+#: ../../payment/1_common.rst:73
+msgid "作成したインボイスから支払フォームを表示することにより、利用者からBitcoin/Monacoinによる支払いを促します。 支払いフォームのURLは"
+msgstr ""
+
+#: ../../payment/1_common.rst:75
+msgid "https://zaif.jp/invoice/form/{invoiceId}"
+msgstr ""
+
+#: ../../payment/1_common.rst:77
+msgid "となります。{invoiceId}はインボイスの作成時に発行されたIDになります。 下記のようにしてiframeによる表示を行うことも可能です。"
+msgstr ""
+
+#: ../../payment/1_common.rst:89
+msgid "また、インボイス作成時に取得したデータを利用し、事業者様のECサイト上で独自にフォームを表示していただくことも可能です。"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/1_createInvoice.rst:3
+msgid "createInvoice"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:5
+msgid "インボイスの作成"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:7
+msgid ""
+"決済金額・商品名・通貨などの情報を送信してインボイスを作成し、暗号通貨による決済を開始します。 "
+"インボイスを作成すると、決済用のBitcoinまたはMonacoinアドレスが発行され、暗号通貨建ての請求が行なわれます。 "
+"インボイスには有効期限（現在３０分としていますが、これは変更になる可能性があります）があり、有効期限内に顧客が決済用のアドレスへ支払を行うことにより、決済が完了します。"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/1_createInvoice.rst:12
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:12
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:11
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:13
+msgid "パラメータ"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "必須"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "詳細"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "型"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "値または例"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "method"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "Yes"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "メソッド名"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "str"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "key"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "APIキー"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "md5secret"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "Yes(1)"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "APIシークレットのmd5。(1)md5またはsha1のどちらかをセット"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "sha1secret"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "APIシークレットのsha1。(1)md5またはsha1のどちらかをセット"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "nonce"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "1以上の数を実行都度増分して送信します。増分量は少数点以下の値にも対応しております。"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "int"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "speed"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "No"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid ""
+"決済完了とみなすスピード。デフォルトはmedium high:0 cofirmation/medium:1 confirmation/low:6 "
+"confirmations"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "high medium low"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "notificationUri"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "決済完了したタイミングでの通知先URI 事業者様のECサイトシステムに通知を行うためのものになります"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "notificationMethod"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "決済完了したタイミングでの通知先URIへ通知する際に使用されるHTTPメソッド。デフォルトはPOSTになります"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "GET または POST"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "redirectUri"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "決済フォームで着金後、ECサイトへ戻るためのリダイレクト先のURI。設定されなかった場合はリダイレクトせず着金後のステータスが表示されます"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "currency"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "決済に使用する暗号通貨"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "btc または mona"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "amount"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "決済金額（日本円）。実際の請求対象金額。1円単位、カンマ無し"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "subTotal"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "小計（日本円）"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "tax"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "消費税（日本円）"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "regularPrice"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "定価（日本円）。割引前の金額"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "discount"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "割引（日本円）。値引き額"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "merchantName"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "店舗名"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "orderNumber"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "注文番号。店舗側での識別用に任意の番号やコードを利用することができます"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "referenceNumber"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "リファレンス番号。店舗側での識別用に任意の番号やコードを利用することができます"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "itemName"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "商品名"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "buyerId"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "利用者ID"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "buyerName"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "利用者名"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "buyerKana"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "利用者ふりがな"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "buyerZip"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "利用者郵便番号"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "buyerAddr1"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "利用者住所１"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "buyerAddr2"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "利用者住所２"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "buyerAddr3"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "利用者住所３"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "buyerPhone"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "利用者電話番号"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "buyerCellphone"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "利用者携帯番号"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "buyerEmail"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "利用者メールアドレス"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:52
+msgid "*speed（決済スピード）について*"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:49
+msgid ""
+"highとすると、暗号通貨ネットワーク上での送金トランザクションについて、確認前の状態でも、着金次第決済完了とみなします。 "
+"mediumとすると、1件以上の確認が入ったタイミングで決済完了とみなします。これはbitcoinで平均10分、monacoinで平均2分程度になります。"
+" "
+"lowとすると、6件以上の確認が入ったタイミングで決済完了とみなします。これはbitcoinで平均1時間、monacoinで平均12分程度になります。"
+" "
+"highとすると顧客側の送金が完了したタイミングとほぼ同時に着金し、決済完了とみなされますが、万一このトランザクションがネットワーク上で認証されなかった場合、決済が後から取り消しされる場合があります。"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:56
+msgid "*利用者の氏名・住所などについて*"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:55
+msgid ""
+"利用者の氏名・住所・電話番号などのフィールドについては、送信していただくと決済フォームに表示されます。ただし、利用者IDについては表示されません。"
+" "
+"決済フォームはインボイスIDがもれない限りアクセスすることができませんが、インターネット上ではアクセス制限なしに公開される状態になりますので、個人情報保護の観点から、必要でない場合（注文番号などから顧客が関連付けできる場合）は顧客の情報を送信されないことをお勧めします。"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:59
+#: ../../payment/2_individual/2_getInvoice.rst:26
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:25
+#: ../../payment/2_individual/4_cancelInvoice.rst:27
+msgid "戻り値"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:60
+msgid "成功時のJSON、10800円をBTC決済でリクエストした例"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:84
+msgid "成功時のJSON、10000円をMONA決済でリクエストした例"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:108
+#: ../../payment/2_individual/2_getInvoice.rst:27
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:55
+#: ../../payment/2_individual/4_cancelInvoice.rst:28
+msgid "returnパラメータ"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "キー"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "invoiceId"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "作成したインボイスを識別するためのID"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "04e42516-1652-11e5-9eb4-4437e6999eec"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "invoiceUri"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "作成したインボイスに対する支払フォームのURI"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "invoiceIframeUri"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "作成したインボイスに対するiframe版支払フォームのURI"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "created"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "インボイス作成日時。unixtime"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "expired"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "インボイスの有効期限。unixtime"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "決済対象金額（送信された金額）"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "決済対象の暗号通貨"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "rate"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "決済時の換算レート"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "btc"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "Bitcoinによる請求額（bitcoinによる決済時のみ）"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "mona"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "Monacoinによる請求額（monacoinによる決済時のみ）"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "address"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "BitcoinまたMonacoinの決済用支払先アドレス"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "BIP21"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "bitcoinまたはmonacoinの支払いURI"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "決済スピード（送信されたものまたはデフォルトで適用されたもの"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "送信された注文番号（送信された場合のみ）"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "送信されたリファレンス番号（送信された場合のみ）"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "送信された利用者ID（送信された場合のみ）"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:133
+msgid "決済完了通知(notificationUri)について"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:135
+msgid "notificationUriを設定した場合、speedで設定した状態となったタイミングで、決済完了の通知がHTTP(S)で送信されます。"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:137
+msgid "送信されるパラメータ"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "settled"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "決済完了日時。unixtime"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "設定された注文番号（送信された場合のみ）"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "設定されたリファレンス番号（送信された場合のみ）"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:1
+msgid "設定された利用者ID（送信された場合のみ）"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:155
+msgid "notificationMethodにGETを設定した場合は、パラメータは送信されません"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:155
+msgid ""
+"notificationMethodにGETを設定した場合は、パラメータは一切送信されません。 "
+"notificationMethodにGETを設定する場合、notificationUriに注文を識別できるような工夫をして設定してください"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:159
+msgid "通知のエラー時の対応について"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:158
+msgid "エラー時の再送については準備中です。"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:162
+msgid "決済完了時のリダイレクト(redirectUri)について"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:164
+msgid ""
+"顧客がzaif上の決済フォームを表示したまま送金（支払い）したとき、暗号通貨ネットワーク上で着金を確認したタイミングで自動的にリダイレクトされます。"
+" "
+"redirectUriを設定してない場合はリダイレクトされず、こちらのフォームが表示されたままになります。その際、入金ステータスは自動的に更新されます。"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:169
+msgid "Bitcoin建てまたはMonacoin建ての決済"
+msgstr ""
+
+#: ../../payment/2_individual/1_createInvoice.rst:171
+msgid ""
+"円建てではなく、Bitcoin建てまたはMonacoin建てでの決済を行うことができます。 "
+"createInvoiceのbillingCurrencyパラメータ（一覧にはないパラメータです）に\"btc\"または\"mona\"を指定して下さい。このときcurrencyパラメータも同じ暗号通貨を指定する必要があります。"
+" 返り値からrateは削除されることに注意してください。 "
+"BTCまたはMONAがそのまま決済事業者様のアカウントに精算されますので、決済手数料は完全にゼロ％になりますが、円換算を行う際の相場の変動リスクはそのまま決済事業者様が担うことになりますことにご注意ください。"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:3
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "getInvoice"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:6
+msgid "インボイス情報の取得"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:8
+msgid "作成したインボイスの情報を得ることができます。"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "1以上の数、呼び出し毎に増分して送信してください"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "発行されたinvoiceId"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "status"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "インボイスの状態"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "new/paid/confirmed/complete/expired/invalid"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "送信された注文番号"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:50
+msgid "インボイスの状態(status)"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:59
+msgid "インボイスには下記のような「状態」があります。"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:52
+msgid "new : 作成され、請求が開始された状態"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:53
+msgid "paid : 支払先アドレスに対して入金が行なわれ、着金した状態（speed=highの場合の決済完了タイミング）"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:54
+msgid ""
+"confirmed : "
+"支払先アドレスに対する入金が暗号通貨ネットワーク上で1確認以上された状態（speed=mediumの場合の決済完了タイミング）"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:55
+msgid "complete : 支払先アドレスに対する入金が暗号通貨ネットワーク上で6確認以上された状態（speed=lowの場合の決済完了タイミング）"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:56
+msgid "expired : 支払先アドレスに対して入金が行なわれず、有効期限が切れた状態"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:57
+msgid "invalid : 支払先アドレスに対して入金が開始されたが、なんらかの理由で確認されなかった状態や、入金金額が不足した状態で有効期限が切れた状態"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:58
+msgid "canceled : 作成者によりキャンセルされた状態"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:61
+msgid "インボイスの状態と他に、決済完了とみなすかどうかについては、インボイス作成時に設定されたspeedに従って下記の項目が対応します。"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:62
+msgid "settled: 決済完了日時（unixtime）、speedに応じて決済を完了とみなしたタイミングでセットされます"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:3
+msgid "getInvoiceIdsByOrderNumber"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:5
+msgid "インボイスの検索"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:7
+msgid ""
+"注文番号でインボイスを検索し、インボイスIDを返します。 インボイスの詳細については `インボイス情報の取得メソッド <http"
+"://techbureau-api-"
+"document.readthedocs.io/ja/latest/payment/2_individual/2_getInvoice.html>`_"
+" を使用してください。"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "注文番号"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:26
+msgid "成功例"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:42
+msgid "成功例（検索結果なし）"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "invoiceIdｓ"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "検索結果"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "dict"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "counts"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "検索結果の件数"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:3
+msgid "cancelInvoice"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:5
+msgid "インボイスのキャンセル"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:7
+msgid ""
+"作成したインボイスを取消します。 支払が完了していたり既に有効期限が切れている場合はエラーとなります。 "
+"部分的に入金されていた場合は、過払いとして処理されます。"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "キャンセルしたいinvoiceId"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:1
+msgid "canceled"
+msgstr ""
+
+#: ../../payment/2_individual/4_cancelInvoice.rst:49
+msgid "キャンセル失敗時はエラーが帰るため、成功時のstatusは常に'canceled'となります"
+msgstr ""
+
+#: ../../payment/2_individual/index.rst:3
+msgid "個別情報"
+msgstr ""
+
+#: ../../payment/2_individual/index.rst:5
+msgid "それぞれのトレードAPIの情報です。"
+msgstr ""
+
+#: ../../payment/index.rst:4
+msgid "決済API"
+msgstr ""
+
+#: ../../payment/index.rst:5
+msgid "決済を行うためのAPIの情報です。"
+msgstr ""
+
