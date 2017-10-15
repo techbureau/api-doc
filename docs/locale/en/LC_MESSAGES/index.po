@@ -20,27 +20,27 @@ msgstr ""
 
 #: ../../index.rst:7
 msgid "ZaifAPI ドキュメント"
-msgstr ""
+msgstr "ZaifAPI Documentation"
 
 #: ../../index.rst:8
 msgid "Zaifの取引に関わるAPIです。APIを使用して自動売買や資産状況の確認などを行いたい場合に使用します。"
-msgstr ""
+msgstr "API for trading, which helps traders to make orders, check assets, and so on."
 
 #: ../../index.rst:21
 msgid "OAuthAPI ドキュメント"
-msgstr ""
+msgstr "OAuthAPI Documentation"
 
 #: ../../index.rst:22
 msgid "OAuth認証のAPIです。Zaifアカウント情報を利用するサービスを開発する場合に使用します。"
-msgstr ""
+msgstr "API for Oauth, which helps developers to create services using Zaif accounts information."
 
 #: ../../index.rst:30
 msgid "決済API ドキュメント"
-msgstr ""
+msgstr "PaymentAPI Documentation"
 
 #: ../../index.rst:31
 msgid "Zaif Paymentを使用するEC事業者用のAPIです。bitcoinやmonacoinを使った決済サービスを導入するために使用します。"
-msgstr ""
+msgstr "API for settlement, which helps EC sites to introduce payment system based on cryptocurrency like bitcoin or monacoin"
 
 #: ../../index.rst:40
 msgid "Indices and tables"
