@@ -24,28 +24,28 @@ msgstr ""
 
 #: ../../trade/2_individual/8_cancel_order.rst:6
 msgid "注文の取消しを行います。"
-msgstr ""
+msgstr "cancel an order"
 
 #: ../../trade/2_individual/8_cancel_order.rst:1
 #: ../../trade/2_individual/8_cancel_order.rst:9
 msgid "パラメータ"
-msgstr ""
+msgstr "Parameters"
 
 #: ../../trade/2_individual/8_cancel_order.rst:1
 msgid "必須"
-msgstr ""
+msgstr "Required"
 
 #: ../../trade/2_individual/8_cancel_order.rst:1
 msgid "詳細"
-msgstr ""
+msgstr "Details"
 
 #: ../../trade/2_individual/8_cancel_order.rst:1
 msgid "型"
-msgstr ""
+msgstr "Type"
 
 #: ../../trade/2_individual/8_cancel_order.rst:1
 msgid "デフォルト"
-msgstr ""
+msgstr "Default"
 
 #: ../../trade/2_individual/8_cancel_order.rst:1
 msgid "order_id"
@@ -57,7 +57,7 @@ msgstr ""
 
 #: ../../trade/2_individual/8_cancel_order.rst:1
 msgid "注文ID（tradeまたはactive_ordersで取得できます）"
-msgstr ""
+msgstr "order_id(can be got by 'trade' or 'active_orders')"
 
 #: ../../trade/2_individual/8_cancel_order.rst:1
 msgid "int"
@@ -73,11 +73,11 @@ msgstr ""
 
 #: ../../trade/2_individual/8_cancel_order.rst:1
 msgid "通貨ペア。"
-msgstr ""
+msgstr "currency pair"
 
 #: ../../trade/2_individual/8_cancel_order.rst:1
 msgid "(例) btc_jpy"
-msgstr ""
+msgstr "e.g. btc_jpy"
 
 #: ../../trade/2_individual/8_cancel_order.rst:1
 msgid "is_token"
@@ -88,6 +88,8 @@ msgid ""
 "【非推奨、削除予定】true：カウンターパーティトークンのオーダーを取り消したい時　"
 "false：カウンターパーティトークン以外のオーダーを取り消したい時"
 msgstr ""
+"【deprecated】true：when to cancel an order of counter party token"
+"false：when to cancel an order of other than counter party token"
 
 #: ../../trade/2_individual/8_cancel_order.rst:1
 msgid "bool"
@@ -99,23 +101,23 @@ msgstr ""
 
 #: ../../trade/2_individual/8_cancel_order.rst:21
 msgid "注意:"
-msgstr ""
+msgstr "note:"
 
 #: ../../trade/2_individual/8_cancel_order.rst
 msgid "・“currency_pair”と”is_token”の両方を指定した場合は”currency_pair”が優先されます。両方指定しない場合はカウンターパーティトークン以外の情報を操作します。"
-msgstr ""
+msgstr "・If both 'currency_pair' and 'is_token' are specified, 'currency_pair' takes precedence. If neither, it means other than counter party token."
 
 #: ../../trade/2_individual/8_cancel_order.rst:24
 msgid "戻り値"
-msgstr ""
+msgstr "Return value"
 
 #: ../../trade/2_individual/8_cancel_order.rst:1
 msgid "キー"
-msgstr ""
+msgstr "Key"
 
 #: ../../trade/2_individual/8_cancel_order.rst:1
 msgid "注文id"
-msgstr ""
+msgstr "order id"
 
 #: ../../trade/2_individual/8_cancel_order.rst:1
 msgid "funds"
@@ -123,7 +125,7 @@ msgstr ""
 
 #: ../../trade/2_individual/8_cancel_order.rst:1
 msgid "残高"
-msgstr ""
+msgstr "asset balance"
 
 #: ../../trade/2_individual/8_cancel_order.rst:1
 msgid "dict"

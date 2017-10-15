@@ -28,34 +28,37 @@ msgid ""
 "2015年12月15日より、リクエスト時には一旦トランザクションIDは空で帰るようになりました。通常１〜２分でトランザクションが発生しますので、後ほどwithdraw_historyメソッドを利用して確認してください"
 " xemの出金時には、手数料は自動計算され、opt_feeに値をセットして送信しますとエラーを返しますのでご注意ください。"
 msgstr ""
+"Send an request of withdrawal."
+"Since 2015/12/15, transaction id comes back empty when the request is received."
+"the transaction usually start in 1~2minutes. You can see transaction id with 'withdraw_history' later."
 
 #: ../../trade/2_individual/9_withdraw.rst:10
 msgid "不正送金の対策として、アカウントに対する最初の日本円入金から７日間は、APIによる仮想通貨の出金を制限しております。"
-msgstr ""
+msgstr "To prevent unauthorized transfer, for the 7days from the first JPY deposit, we restrict the withdrawal of cryptocurrency by API."
 
 #: ../../trade/2_individual/9_withdraw.rst:14
 msgid "パラメータ"
-msgstr ""
+msgstr "Parameters"
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "パラメーター"
-msgstr ""
+msgstr "Parameters"
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "必須"
-msgstr ""
+msgstr "Required"
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "詳細"
-msgstr ""
+msgstr "Details"
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "型"
-msgstr ""
+msgstr "Type"
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "デフォルト"
-msgstr ""
+msgstr "Default"
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "currency"
@@ -67,11 +70,11 @@ msgstr ""
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "引き出す通貨。公開情報APIのcurrenciesで取得できるものが指定できます。ただしjpyは指定できません。"
-msgstr ""
+msgstr "The currency to withdraw. You can specify what you can get with 'currencies'(except jpy)"
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "例)btc 等"
-msgstr ""
+msgstr "e.g. btc"
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "address"
@@ -79,7 +82,7 @@ msgstr ""
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "送信先のアドレス"
-msgstr ""
+msgstr "the address to send"
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "address str"
@@ -95,7 +98,7 @@ msgstr ""
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "送信メッセージ(XEMのみ)"
-msgstr ""
+msgstr "outgoing message(only XEM)"
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "ASCII str"
@@ -107,7 +110,7 @@ msgstr ""
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "引き出す金額(例: 0.3)"
-msgstr ""
+msgstr "price to withdraw(e.g. 0.3)"
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "numerical"
@@ -119,15 +122,15 @@ msgstr ""
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "採掘者への手数料(例: 0.003) ただしcurrencyがbtc、mona以外の時に指定するとエラーとなります。"
-msgstr ""
+msgstr "Fee for miners(e.g. 0.003). However, an error occurs if currency_pair is except btc or mona"
 
 #: ../../trade/2_individual/9_withdraw.rst:28
 msgid "戻り値"
-msgstr ""
+msgstr "Return value"
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "キー"
-msgstr ""
+msgstr "Key"
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "txid"
@@ -135,7 +138,7 @@ msgstr ""
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "振替えID"
-msgstr ""
+msgstr "transaction id"
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "str"
@@ -147,7 +150,7 @@ msgstr ""
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "今回の引き出しにかかった手数料"
-msgstr ""
+msgstr "fee charged for the withdrawal"
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "float"
@@ -159,7 +162,7 @@ msgstr ""
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "残高"
-msgstr ""
+msgstr "asset balance"
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "dict"

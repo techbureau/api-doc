@@ -20,9 +20,9 @@ msgstr ""
 
 #: ../../public/2_individual/index.rst:3
 msgid "個別情報"
-msgstr ""
+msgstr "Individual information"
 
 #: ../../public/2_individual/index.rst:5
 msgid "それぞれの公開APIの情報です。"
-msgstr ""
+msgstr "Information on each method of PublicAPI"
 

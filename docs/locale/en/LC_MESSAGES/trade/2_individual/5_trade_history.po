@@ -24,28 +24,28 @@ msgstr ""
 
 #: ../../trade/2_individual/5_trade_history.rst:6
 msgid "ユーザー自身の取引履歴を取得します。"
-msgstr ""
+msgstr "Get trade history"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 #: ../../trade/2_individual/5_trade_history.rst:9
 msgid "パラメータ"
-msgstr ""
+msgstr "Parameters"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "必須"
-msgstr ""
+msgstr "Required"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "詳細"
-msgstr ""
+msgstr "Details"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "型"
-msgstr ""
+msgstr "Type"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "デフォルト"
-msgstr ""
+msgstr "Default"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "from"
@@ -57,7 +57,7 @@ msgstr ""
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "この順番のレコードから取得"
-msgstr ""
+msgstr "offset"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "int"
@@ -73,7 +73,7 @@ msgstr ""
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "取得するレコード数"
-msgstr ""
+msgstr "the number of records you get"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "1000"
@@ -85,7 +85,7 @@ msgstr ""
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "このトランザクションIDのレコードから取得"
-msgstr ""
+msgstr "retrieve records where id is specified value or bigger"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "end_id"
@@ -93,7 +93,7 @@ msgstr ""
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "このトランザクションIDのレコードまで取得"
-msgstr ""
+msgstr "retrieve records where id is specified value or smaller"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "infinity"
@@ -105,11 +105,11 @@ msgstr ""
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "ソート順"
-msgstr ""
+msgstr "order"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "ASC (昇順)もしくは DESC (降順)"
-msgstr ""
+msgstr "'ASC' or 'DESC'"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "DESC"
@@ -121,7 +121,7 @@ msgstr ""
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "開始タイムスタンプ"
-msgstr ""
+msgstr "start timestamp"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "UNIX_TIMESTAMP"
@@ -133,7 +133,7 @@ msgstr ""
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "終了タイムスタンプ"
-msgstr ""
+msgstr "end timestamp"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "currency_pair"
@@ -142,14 +142,16 @@ msgstr ""
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "通貨ペア。指定なしでbtc_jpy/mona_jpy/mona_btc/xem_jpy/xem_btc。eth_jpyやbch_jpyなどは指定の必要あり"
 msgstr ""
+"currency pairs. If not specified, btc_jpy/mona_jpy/mona_btc/xem_jpy/xem_btc are included."
+"Other pairs like eth_jpy, bch_jpy require individual specification."
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "(例) btc_jpy"
-msgstr ""
+msgstr "e.g. btc_jpy"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "指定なし"
-msgstr ""
+msgstr "Unspecified"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "is_token"
@@ -157,7 +159,7 @@ msgstr ""
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "【非推奨、削除予定】true：カウンターパーティトークンの情報を取得 false：カウンターパーティトークン以外の情報を取得"
-msgstr ""
+msgstr "[deprecated] true: get counter party tokens false: exclude counter party token and get"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "bool"
@@ -173,27 +175,27 @@ msgstr ""
 
 #: ../../trade/2_individual/5_trade_history.rst
 msgid "・“since”もしくは”end”をセットした場合、”order”は強制的に”ASC”となります。"
-msgstr ""
+msgstr "・If “since” or ”end” is set、”order” will automatically be ”ASC”."
 
 #: ../../trade/2_individual/5_trade_history.rst
 msgid "・“from_id”もしくは”end_id”をセットした場合、”order”は強制的に”ASC”となります。"
-msgstr ""
+msgstr "・If “from_id” or ”end_id” is set、”order” will automatically be ”ASC”."
 
 #: ../../trade/2_individual/5_trade_history.rst
 msgid "・“currency_pair”と”is_token”の両方を指定した場合は”currency_pair”が優先されます。両方指定しない場合はカウンターパーティトークン以外の情報を取得します。"
-msgstr ""
+msgstr "・If both “currency_pair” and ”is_token” are set ”currency_pair” will be given priority. If neither, counter party tokens will not be taken"
 
 #: ../../trade/2_individual/5_trade_history.rst:32
 msgid "戻り値"
-msgstr ""
+msgstr "Return value"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "キー"
-msgstr ""
+msgstr "Key"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "通貨ペア"
-msgstr ""
+msgstr "Currency pair"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "str"
@@ -205,7 +207,7 @@ msgstr ""
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "bid(買い) or ask(売り)"
-msgstr ""
+msgstr "'bid' or 'ask'"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "amount"
@@ -213,7 +215,7 @@ msgstr ""
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "数量"
-msgstr ""
+msgstr "amount"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "float"
@@ -225,7 +227,7 @@ msgstr ""
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "価格"
-msgstr ""
+msgstr "price"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "fee"
@@ -233,7 +235,7 @@ msgstr ""
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "手数料"
-msgstr ""
+msgstr "fee"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "your_action"
@@ -241,7 +243,7 @@ msgstr ""
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "bidまたはask、自己取引の場合はbothとなります"
-msgstr ""
+msgstr "'bid' or 'ask'. 'both' if self-dealing"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "bonus"
@@ -249,7 +251,7 @@ msgstr ""
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "マイナス手数料分"
-msgstr ""
+msgstr "portion of minus fee"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "timestamp"
@@ -257,7 +259,7 @@ msgstr ""
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "取引日時"
-msgstr ""
+msgstr "trade datetime"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "comment"
@@ -265,5 +267,5 @@ msgstr ""
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "注文のコメント"
-msgstr ""
+msgstr "comment"
 

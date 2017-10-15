@@ -24,28 +24,28 @@ msgstr ""
 
 #: ../../trade/2_individual/6_active_orders.rst:6
 msgid "現在有効な注文一覧を取得します（未約定注文一覧）。"
-msgstr ""
+msgstr "get list of open orders"
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 #: ../../trade/2_individual/6_active_orders.rst:9
 msgid "パラメータ"
-msgstr ""
+msgstr "Parameters"
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "必須"
-msgstr ""
+msgstr "Required"
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "詳細"
-msgstr ""
+msgstr "Details"
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "型"
-msgstr ""
+msgstr "Type"
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "デフォルト"
-msgstr ""
+msgstr "Default"
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "currency_pair"
@@ -57,15 +57,15 @@ msgstr ""
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "取得する通貨ペア。公開情報APIのcurrency_pairsで取得できるものが指定できます。指定なしで全ての通貨ペアの情報を取得します。"
-msgstr ""
+msgstr "Currency pairs to get. Pairs got by 'currency_pairs' of PublicAPI can be specify. If unspecified, get about all pairs."
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "str(例 btc_jpy)"
-msgstr ""
+msgstr "str(e.g. btc_jpy)"
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "全てのペア"
-msgstr ""
+msgstr "all pairs"
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "is_token"
@@ -73,7 +73,7 @@ msgstr ""
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "【非推奨、削除予定】true：カウンターパーティトークンの情報を取得 false：カウンターパーティトークン以外の情報を取得"
-msgstr ""
+msgstr "[deprecated] true: get counter party tokens false: exclude counter party token and get"
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "bool"
@@ -92,18 +92,19 @@ msgid ""
 "【非推奨、削除予定】true：全てのアクティブなオーダー情報を取得 "
 "false：currency_pairやis_tokenに従ったオーダー情報を取得"
 msgstr ""
+"[deprecated] true: all open orders false: respond depending on 'currency_pair' or 'is_token'"
 
 #: ../../trade/2_individual/6_active_orders.rst:19
 msgid "戻り値"
-msgstr ""
+msgstr "Return value"
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "キー"
-msgstr ""
+msgstr "key"
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "通貨ペア"
-msgstr ""
+msgstr "currency_pair"
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "str"
@@ -115,7 +116,7 @@ msgstr ""
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "bid(買い) or ask(売り)"
-msgstr ""
+msgstr "bid or ask"
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "amount"
@@ -123,7 +124,7 @@ msgstr ""
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "数量"
-msgstr ""
+msgstr "amount"
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "int"
@@ -135,7 +136,7 @@ msgstr ""
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "価格"
-msgstr ""
+msgstr "price"
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "timestamp"
@@ -143,7 +144,7 @@ msgstr ""
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "発注日時"
-msgstr ""
+msgstr "order timestamp"
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "UNIX_TIMESTAMP"
@@ -155,5 +156,5 @@ msgstr ""
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "注文のコメント"
-msgstr ""
+msgstr "comment"
 

@@ -28,7 +28,7 @@ msgstr "List of libraries for easily using Zaif Public/Trading API from various 
 
 #: ../../library/1_common.rst:8
 msgid "Java"
-msgstr ""
+msgstr "Java"
 
 #: ../../library/1_common.rst:9
 msgid ""
@@ -40,61 +40,67 @@ msgstr ""
 
 #: ../../library/1_common.rst:12
 msgid "JavaScript"
-msgstr ""
+msgstr "JavaScript"
 
 #: ../../library/1_common.rst:13
 msgid ""
 "node.js zaif.jp module : https://www.npmjs.com/package/zaif.jp / "
 "https://github.com/you21979/node-zaif"
 msgstr ""
+"node.js zaif.jp module : https://www.npmjs.com/package/zaif.jp / "
+"https://github.com/you21979/node-zaif"
 
 #: ../../library/1_common.rst:15
 msgid ""
 "Qiita : Node.js – zaif（取引所）でAPIを使って取引する : "
 "http://qiita.com/you21979@github/items/32da1d0e1782e9e31938"
 msgstr ""
+"Qiita : Node.js – zaif（取引所）でAPIを使って取引する : "
+"http://qiita.com/you21979@github/items/32da1d0e1782e9e31938"
 
 #: ../../library/1_common.rst:18
 msgid "Ruby"
-msgstr ""
+msgstr "Ruby"
 
 #: ../../library/1_common.rst:19
 msgid "RubyGems – zaif : https://rubygems.org/gems/zaif"
-msgstr ""
+msgstr "RubyGems – zaif : https://rubygems.org/gems/zaif"
 
 #: ../../library/1_common.rst:22
 msgid "PHP"
-msgstr ""
+msgstr "PHP"
 
 #: ../../library/1_common.rst:23
 msgid "Zaif4PHP : https://github.com/tk1024/Zaif4PHP/"
-msgstr ""
+msgstr "Zaif4PHP : https://github.com/tk1024/Zaif4PHP/"
 
 #: ../../library/1_common.rst:26
 msgid "Golang"
-msgstr ""
+msgstr "Golang"
 
 #: ../../library/1_common.rst:27
 msgid "http://qiita.com/yanakend/items/e516f250800c4b876e65"
-msgstr ""
+msgstr "http://qiita.com/yanakend/items/e516f250800c4b876e65"
 
 #: ../../library/1_common.rst:29
 msgid "Zaif取引所(Bitcoin/Monacoin)のAPIをGolangから使う"
-msgstr ""
+msgstr "Zaif取引所(Bitcoin/Monacoin)のAPIをGolangから使う"
 
 #: ../../library/1_common.rst:32
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
 #: ../../library/1_common.rst:33
 msgid "zaifapi : https://github.com/techbureau/zaifapi zaifのAPIを簡単にコール出来るようにしました。"
-msgstr ""
+msgstr "zaifapi : https://github.com/techbureau/zaifapi zaifのAPIを簡単にコール出来るようにしました。"
 
 #: ../../library/1_common.rst:36
 msgid ""
 "[Zaif]Pythonで簡単に仮想通貨の取引が出来るようにしてみた : http://qiita.com/Akira-"
 "Taniguchi/items/e52930c881adc6ecfe07"
-msgstr ""
+msgstr  ""
+"[Zaif]Pythonで簡単に仮想通貨の取引が出来るようにしてみた : http://qiita.com/Akira-"
+"Taniguchi/items/e52930c881adc6ecfe07"
 
 #: ../../library/1_common.rst:40
 msgid "ここで紹介させていただいているライブラリは、Zaifおよびテックビューロ株式会社と直接関係のない一般の方々が作成して公開しておられるもの、いわゆる「非公式ライブラリ」となります。"

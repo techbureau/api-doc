@@ -20,5 +20,5 @@ msgstr ""
 
 #: ../../trade/index.rst:3
 msgid "現物取引API"
-msgstr ""
+msgstr "TradeAPI"
 

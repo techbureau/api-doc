@@ -20,5 +20,5 @@ msgstr ""
 
 #: ../../public/3_how_to_implement/3_swift.rst:3
 msgid "Swift"
-msgstr ""
+msgstr "Swift"
 

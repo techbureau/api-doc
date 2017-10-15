@@ -24,31 +24,31 @@ msgstr ""
 
 #: ../../trade/2_individual/1_get_info.rst:6
 msgid "現在の残高（余力および残高・トークン）、APIキーの権限、過去のトレード数、アクティブな注文数、サーバーのタイムスタンプを取得します。"
-msgstr ""
+msgstr "Get balance info, api authority ,the number of past trades,the number of open orders, timestamp."
 
 #: ../../trade/2_individual/1_get_info.rst:9
 msgid "パラメータ"
-msgstr ""
+msgstr "Parameters"
 
 #: ../../trade/2_individual/1_get_info.rst:10
 msgid "なし"
-msgstr ""
+msgstr "None"
 
 #: ../../trade/2_individual/1_get_info.rst:13
 msgid "戻り値"
-msgstr ""
+msgstr "Return value"
 
 #: ../../trade/2_individual/1_get_info.rst:1
 msgid "キー"
-msgstr ""
+msgstr "Key"
 
 #: ../../trade/2_individual/1_get_info.rst:1
 msgid "詳細"
-msgstr ""
+msgstr "Details"
 
 #: ../../trade/2_individual/1_get_info.rst:1
 msgid "型"
-msgstr ""
+msgstr "Type"
 
 #: ../../trade/2_individual/1_get_info.rst:1
 msgid "funds"
@@ -56,7 +56,7 @@ msgstr ""
 
 #: ../../trade/2_individual/1_get_info.rst:1
 msgid "資産の残高"
-msgstr ""
+msgstr "asset balance"
 
 #: ../../trade/2_individual/1_get_info.rst:1
 msgid "dict"
@@ -68,7 +68,7 @@ msgstr ""
 
 #: ../../trade/2_individual/1_get_info.rst:1
 msgid "資産の残高に注文情報を加味したもの"
-msgstr ""
+msgstr "asset balance taking into account order information"
 
 #: ../../trade/2_individual/1_get_info.rst:1
 msgid "rights"
@@ -76,7 +76,7 @@ msgstr ""
 
 #: ../../trade/2_individual/1_get_info.rst:1
 msgid "キーが保持している権限"
-msgstr ""
+msgstr "authority the key has"
 
 #: ../../trade/2_individual/1_get_info.rst:1
 msgid "trade_count"
@@ -84,7 +84,7 @@ msgstr ""
 
 #: ../../trade/2_individual/1_get_info.rst:1
 msgid "実行したトレード数"
-msgstr ""
+msgstr "count of the trades you have executed"
 
 #: ../../trade/2_individual/1_get_info.rst:1
 msgid "int"
@@ -96,7 +96,7 @@ msgstr ""
 
 #: ../../trade/2_individual/1_get_info.rst:1
 msgid "アクティブな注文数"
-msgstr ""
+msgstr "count of active orders"
 
 #: ../../trade/2_individual/1_get_info.rst:1
 msgid "server_time"
@@ -104,29 +104,30 @@ msgstr ""
 
 #: ../../trade/2_individual/1_get_info.rst:1
 msgid "UNIX時間で換算された日本時間"
-msgstr ""
+msgstr "UNIX timestamp"
 
 #: ../../trade/2_individual/1_get_info.rst:58
 msgid "deposit計算式"
-msgstr ""
+msgstr "How 'deposit' is calculated"
 
 #: ../../trade/2_individual/1_get_info.rst:59
 msgid "depositは現在の資産の残高に注文情報を加味したものになります。"
-msgstr ""
+msgstr "'deposit' is sum of current asset balance and order information."
 
 #: ../../trade/2_individual/1_get_info.rst:60
 msgid "買い注文が存在する場合、その注文の値段と量をかけ合わせたもので、"
-msgstr ""
+msgstr "If you have an buy order, add the product of the price and amount,"
 
 #: ../../trade/2_individual/1_get_info.rst:61
 msgid "売り注文が存在する場合は、その注文の量のみが加味されます。"
-msgstr ""
+msgstr "and if you have an sell order, add only the amount."
+
 
 #: ../../trade/2_individual/1_get_info.rst:65
 msgid "補足"
-msgstr ""
+msgstr "Supplement"
 
 #: ../../trade/2_individual/1_get_info.rst:66
 msgid "取得できる情報は、APIを実行した時点のものになります。"
-msgstr ""
+msgstr "Response acquired is the one at the time API is executed."
 

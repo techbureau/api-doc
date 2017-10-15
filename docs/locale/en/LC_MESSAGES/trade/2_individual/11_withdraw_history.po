@@ -24,28 +24,28 @@ msgstr ""
 
 #: ../../trade/2_individual/11_withdraw_history.rst:6
 msgid "出金履歴を取得します。"
-msgstr ""
+msgstr "get withdrawal history"
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 #: ../../trade/2_individual/11_withdraw_history.rst:10
 msgid "パラメータ"
-msgstr ""
+msgstr "Parameters"
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "必須"
-msgstr ""
+msgstr "Required"
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "詳細"
-msgstr ""
+msgstr "Details"
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "型"
-msgstr ""
+msgstr "Type"
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "デフォルト"
-msgstr ""
+msgstr "Default"
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "currency"
@@ -57,11 +57,11 @@ msgstr ""
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "通貨。公開情報APIのcurrenciesで取得できるものが指定できます。"
-msgstr ""
+msgstr "currency. you can specifies what you can get with 'currencies' method."
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "例)jpy 等"
-msgstr ""
+msgstr "e.g. jpy"
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "from"
@@ -73,7 +73,7 @@ msgstr ""
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "この順番のレコードから取得"
-msgstr ""
+msgstr "get records in this order"
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "numerical str"
@@ -89,7 +89,7 @@ msgstr ""
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "取得するレコード数"
-msgstr ""
+msgstr "the number of records"
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "numerical"
@@ -105,7 +105,7 @@ msgstr ""
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "この出金IDのレコードから取得"
-msgstr ""
+msgstr "get records from specified withdrawal ID"
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "end_id"
@@ -113,7 +113,7 @@ msgstr ""
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "この出金IDのレコードまで取得"
-msgstr ""
+msgstr "get records up to specified withdrawal ID"
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "infinty"
@@ -125,11 +125,11 @@ msgstr ""
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "ソート順"
-msgstr ""
+msgstr "order"
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "ASC (昇順)もしくは DESC (降順)"
-msgstr ""
+msgstr "'ASC' or 'DESC'"
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "DESC"
@@ -141,7 +141,7 @@ msgstr ""
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "開始タイムスタンプ"
-msgstr ""
+msgstr "started timestamp"
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "UNIX time"
@@ -153,19 +153,19 @@ msgstr ""
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "終了タイムスタンプ"
-msgstr ""
+msgstr "ended timestamp"
 
 #: ../../trade/2_individual/11_withdraw_history.rst:25
 msgid "注意: “since”もしくは”end”をセットした場合、”order”は強制的に”ASC”となります。"
-msgstr ""
+msgstr "Note: if 'since' or 'end' is set, order will automatically be 'ASC'"
 
 #: ../../trade/2_individual/11_withdraw_history.rst:28
 msgid "戻り値"
-msgstr ""
+msgstr "Return value"
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "キー"
-msgstr ""
+msgstr "Key"
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "timestamp"
@@ -173,7 +173,7 @@ msgstr ""
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "出金日時"
-msgstr ""
+msgstr "withdrawal datetime"
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "UNIX_TIMESTAMP"
@@ -185,7 +185,7 @@ msgstr ""
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "出金先アドレス"
-msgstr ""
+msgstr "address"
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "str"
@@ -197,7 +197,7 @@ msgstr ""
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "取引量"
-msgstr ""
+msgstr "amount"
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "float"
@@ -209,5 +209,5 @@ msgstr ""
 
 #: ../../trade/2_individual/11_withdraw_history.rst:1
 msgid "トランザクションid"
-msgstr ""
+msgstr "transaction id"
 

@@ -20,9 +20,9 @@ msgstr ""
 
 #: ../../public/index.rst:3
 msgid "現物公開API"
-msgstr ""
+msgstr "PublicAPI"
 
 #: ../../public/index.rst:5
 msgid "公開されている情報を取得するAPIです。"
-msgstr ""
+msgstr "API for getting public information"
 

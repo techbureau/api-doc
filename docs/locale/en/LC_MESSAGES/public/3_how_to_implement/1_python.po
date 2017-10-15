@@ -20,9 +20,9 @@ msgstr ""
 
 #: ../../public/3_how_to_implement/1_python.rst:3
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
 #: ../../public/3_how_to_implement/1_python.rst:19
 msgid "requestsは外部ライブラリとなります。利用するためには任意の環境にpipなどを使ってインストールする必要があります。"
-msgstr ""
+msgstr "'requests' is a third party library. if you use it, you need to install it by package manager such as 'pip'"
 

@@ -24,31 +24,31 @@ msgstr ""
 
 #: ../../trade/2_individual/2_get_info2.rst:6
 msgid "get_infoの軽量版で、過去のトレード数を除く項目を返します。"
-msgstr ""
+msgstr "Lightweight version of 'get_info', which returns except count of past trades"
 
 #: ../../trade/2_individual/2_get_info2.rst:9
 msgid "パラメータ"
-msgstr ""
+msgstr "Parameters"
 
 #: ../../trade/2_individual/2_get_info2.rst:10
 msgid "なし"
-msgstr ""
+msgstr "None"
 
 #: ../../trade/2_individual/2_get_info2.rst:13
 msgid "戻り値"
-msgstr ""
+msgstr "Return value"
 
 #: ../../trade/2_individual/2_get_info2.rst:1
 msgid "キー"
-msgstr ""
+msgstr "key"
 
 #: ../../trade/2_individual/2_get_info2.rst:1
 msgid "詳細"
-msgstr ""
+msgstr "Details"
 
 #: ../../trade/2_individual/2_get_info2.rst:1
 msgid "型"
-msgstr ""
+msgstr "Type"
 
 #: ../../trade/2_individual/2_get_info2.rst:1
 msgid "funds"
@@ -56,7 +56,7 @@ msgstr ""
 
 #: ../../trade/2_individual/2_get_info2.rst:1
 msgid "資産の残高"
-msgstr ""
+msgstr "asset balance"
 
 #: ../../trade/2_individual/2_get_info2.rst:1
 msgid "dict"
@@ -68,7 +68,7 @@ msgstr ""
 
 #: ../../trade/2_individual/2_get_info2.rst:1
 msgid "資産の残高に注文情報を加味したもの"
-msgstr ""
+msgstr "asset balance taking into account order information"
 
 #: ../../trade/2_individual/2_get_info2.rst:1
 msgid "rights"
@@ -76,7 +76,7 @@ msgstr ""
 
 #: ../../trade/2_individual/2_get_info2.rst:1
 msgid "キーが保持している権限"
-msgstr ""
+msgstr "authority the key has"
 
 #: ../../trade/2_individual/2_get_info2.rst:1
 msgid "open_orders"
@@ -84,7 +84,7 @@ msgstr ""
 
 #: ../../trade/2_individual/2_get_info2.rst:1
 msgid "アクティブな注文数"
-msgstr ""
+msgstr "count of active orders"
 
 #: ../../trade/2_individual/2_get_info2.rst:1
 msgid "int"
@@ -96,29 +96,29 @@ msgstr ""
 
 #: ../../trade/2_individual/2_get_info2.rst:1
 msgid "UNIX時間で換算された日本時間"
-msgstr ""
+msgstr "UNIX timestamp"
 
 #: ../../trade/2_individual/2_get_info2.rst:55
 msgid "deposit計算式"
-msgstr ""
+msgstr "How 'deposit' is calculated"
 
 #: ../../trade/2_individual/2_get_info2.rst:56
 msgid "depositは現在の資産の残高に注文情報を加味したものになります。"
-msgstr ""
+msgstr "'deposit' is sum of current asset balance and order information."
 
 #: ../../trade/2_individual/2_get_info2.rst:57
 msgid "買い注文が存在する場合、その注文の値段と量をかけ合わせたもので、"
-msgstr ""
+msgstr "If you have an buy order, add the product of the price and amount,"
 
 #: ../../trade/2_individual/2_get_info2.rst:58
 msgid "売り注文が存在する場合は、その注文の量のみが加味されます。"
-msgstr ""
+msgstr "and if you have an sell order, add only the amount."
 
 #: ../../trade/2_individual/2_get_info2.rst:62
 msgid "補足"
-msgstr ""
+msgstr "Supplement"
 
 #: ../../trade/2_individual/2_get_info2.rst:63
 msgid "取得できる情報は、APIを実行した時点のものになります。"
-msgstr ""
+msgstr "Response acquired is the one at the time API is executed."
 
