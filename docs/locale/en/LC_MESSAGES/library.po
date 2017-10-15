@@ -20,11 +20,11 @@ msgstr ""
 
 #: ../../library/1_common.rst:3
 msgid "ライブラリへのリンク"
-msgstr ""
+msgstr "Library links"
 
 #: ../../library/1_common.rst:5
 msgid "Zaifの公開API/取引APIを各種プログラミング言語から簡単に使用するためのライブラリをご紹介させていただきます。"
-msgstr ""
+msgstr "List of libraries for easily using Zaif Public/Trading API from various programming languages. "
 
 #: ../../library/1_common.rst:8
 msgid "Java"
@@ -35,6 +35,8 @@ msgid ""
 "zaif.jp API for Java JavaからZaif.jpのAPIを使うためのライブラリです。: "
 "https://github.com/nyatla/JZaif"
 msgstr ""
+"Call ZaifAPI from Java: "
+"https://github.com/nyatla/JZaif"
 
 #: ../../library/1_common.rst:12
 msgid "JavaScript"
@@ -96,17 +98,17 @@ msgstr ""
 
 #: ../../library/1_common.rst:40
 msgid "ここで紹介させていただいているライブラリは、Zaifおよびテックビューロ株式会社と直接関係のない一般の方々が作成して公開しておられるもの、いわゆる「非公式ライブラリ」となります。"
-msgstr ""
+msgstr "Libraries above are created by users and not officially supported by zaif and Tech Bureau, Corp"
 
 #: ../../library/1_common.rst:42
 msgid "これ以外にもご存知の場合や作成して頂いた場合で、ここにリンクを希望されます方は、お手数ですがzaifdotjpのTwitterアカウントや関係者などにご一報いただければ幸いです。また、もしここへの掲載を希望されない場合も、お手数おかけしますがご連絡くださいませば対処いたしますので、よろしくおねがいします。"
-msgstr ""
+msgstr "If you know or created other nice tools and want to share on this page, please feel free to tell our twitter account (@zaifdotjp). Also the case you want us to remove the link, please let us know."
 
 #: ../../library/index.rst:5
 msgid "ライブラリのご紹介"
-msgstr ""
+msgstr "Libraries"
 
 #: ../../library/index.rst:7
 msgid "Zaif APIのための、各種ライブラリをこちらでご紹介しております。"
-msgstr ""
+msgstr "Libraries related to ZaifAPI"
 
