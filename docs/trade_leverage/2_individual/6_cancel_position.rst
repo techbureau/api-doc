@@ -25,10 +25,10 @@ cancel_position
         'success': 1,
         'return': {
             'leverage_id': 2072,
-            'refunded_jpy': 64511.96,
+            'refunded_jpy': 645.96,
             'funds': {
                 'btc': 0.496,
-                'jpy': 1564511.96,
+                'jpy': 1564.96,
                 'xem': 0.0,
                 'mona': 10.0
             },
