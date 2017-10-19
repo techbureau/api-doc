@@ -43,6 +43,7 @@ active_positions
 .. csv-table::
    :header: "キー", "詳細", "型"
 
+   "184(一例であり、レバレッジ注文idによって変わります)", "leverage_id(レバレッジ注文id)", "int"
    "group_id",  "グループID", "int"
    "currency_pair", "通貨ペア", "str"
    "action", "bid(買い) or ask(売り)", "str"
