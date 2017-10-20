@@ -20,9 +20,9 @@ msgstr ""
 
 #: ../../public_futures/3_how_to_implement/index.rst:3
 msgid "サンプルコード"
-msgstr ""
+msgstr "Sample code"
 
 #: ../../public_futures/3_how_to_implement/index.rst:5
 msgid "それぞれの言語でのサンプルです。"
-msgstr ""
+msgstr "Sample code of each language."
 

@@ -136,15 +136,15 @@ msgstr "the way of calculating vwap"
 
 #: ../../public/2_individual/4_ticker.rst:49
 msgid "個々の取引価格*個々の取引量　→　A"
-msgstr "individual price * individual volume"
+msgstr "individual price * individual volume →　A"
 
 #: ../../public/2_individual/4_ticker.rst:50
 msgid "Aの過去24時間分を合算　→　B"
-msgstr "total all of A for the last 24 hours"
+msgstr "total all of A for the last 24 hours →　B"
 
 #: ../../public/2_individual/4_ticker.rst:51
 msgid "過去24時間分の個々の取引量を合算　→　C"
-msgstr "sum of individual volumes for the last 24 hours"
+msgstr "sum of individual volumes for the last 24 hours →　C"
 
 #: ../../public/2_individual/4_ticker.rst:52
 msgid "B/C →　vwap"

@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../public_futures/2_individual/1_groups.rst:6
 msgid "先物取引の情報を取得します。"
-msgstr ""
+msgstr "get the information of futures trading"
 
 #: ../../public_futures/2_individual/1_groups.rst:9
 msgid "リクエスト"
-msgstr ""
+msgstr "Request"
 
 #: ../../public_futures/2_individual/1_groups.rst:10
 msgid "/groups/{group_id}"
@@ -36,47 +36,50 @@ msgstr ""
 
 #: ../../public_futures/2_individual/1_groups.rst:11
 msgid "例. https://api.zaif.jp/fapi/1/groups/1"
-msgstr ""
+msgstr "e.g. https://api.zaif.jp/fapi/1/groups/1"
 
 #: ../../public_futures/2_individual/1_groups.rst:13
 msgid ""
 "group_idにallを指定すると終了した物を含めて全ての情報が、activeを指定すると現在取引可能な先物情報が全て取得されます。 "
 "group_idに個別のIDを指定するとそのIDの先物情報の詳細が返ります。"
 msgstr ""
+"When 'all' is set to 'group_id', get all groups. Also when 'active' is set to 'group_id', get all tradable groups."
+""
 
 #: ../../public_futures/2_individual/1_groups.rst:18
 msgid "パラメータ"
-msgstr ""
+msgstr "Parameters"
 
 #: ../../public_futures/2_individual/1_groups.rst:19
 msgid "なし"
-msgstr ""
+msgstr "None"
 
 #: ../../public_futures/2_individual/1_groups.rst:22
 msgid "戻り値"
-msgstr ""
+msgstr "Return value"
 
 #: ../../public_futures/2_individual/1_groups.rst:23
 msgid ""
 "group_idにallを指定した場合、終了した分を含め全てのAirFX・先物の情報を取得します。 "
 "activeを指定した場合、現在取引可能なAirFX,先物の情報のみを取得します。"
 msgstr ""
+"When 'all' is set to 'group_id', get all groups. Also when 'active' is set to 'group_id', get all tradable groups."
 
 #: ../../public_futures/2_individual/1_groups.rst:45
 msgid "group_idに1等、有効なグループIDを指定した場合、その情報のみを取得します。"
-msgstr ""
+msgstr "When valid group id (e.g. 1, 2) is specified, only get the information of the group."
 
 #: ../../public_futures/2_individual/1_groups.rst:1
 msgid "キー"
-msgstr ""
+msgstr "Key"
 
 #: ../../public_futures/2_individual/1_groups.rst:1
 msgid "詳細"
-msgstr ""
+msgstr "Details"
 
 #: ../../public_futures/2_individual/1_groups.rst:1
 msgid "型"
-msgstr ""
+msgstr "Type"
 
 #: ../../public_futures/2_individual/1_groups.rst:1
 msgid "id"
@@ -84,7 +87,7 @@ msgstr ""
 
 #: ../../public_futures/2_individual/1_groups.rst:1
 msgid "グループID"
-msgstr ""
+msgstr "group id"
 
 #: ../../public_futures/2_individual/1_groups.rst:1
 msgid "int"
@@ -96,7 +99,7 @@ msgstr ""
 
 #: ../../public_futures/2_individual/1_groups.rst:1
 msgid "通貨ペア"
-msgstr ""
+msgstr "currency pair"
 
 #: ../../public_futures/2_individual/1_groups.rst:1
 msgid "str"
@@ -108,7 +111,7 @@ msgstr ""
 
 #: ../../public_futures/2_individual/1_groups.rst:1
 msgid "開始日時"
-msgstr ""
+msgstr "started timestamp"
 
 #: ../../public_futures/2_individual/1_groups.rst:1
 msgid "end_timestamp"
@@ -116,7 +119,7 @@ msgstr ""
 
 #: ../../public_futures/2_individual/1_groups.rst:1
 msgid "終了日時"
-msgstr ""
+msgstr "ended timestamp"
 
 #: ../../public_futures/2_individual/1_groups.rst:1
 msgid "use_swap"
@@ -124,7 +127,7 @@ msgstr ""
 
 #: ../../public_futures/2_individual/1_groups.rst:1
 msgid "スワップの有無"
-msgstr ""
+msgstr "swap is used or not"
 
 #: ../../public_futures/2_individual/1_groups.rst:1
 msgid "boolean"

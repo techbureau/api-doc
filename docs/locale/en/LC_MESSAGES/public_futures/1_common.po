@@ -20,33 +20,33 @@ msgstr ""
 
 #: ../../public_futures/1_common.rst:3
 msgid "共通情報"
-msgstr ""
+msgstr "Common information"
 
 #: ../../public_futures/1_common.rst:5
 msgid "先物用公開APIに共通する情報です。"
-msgstr ""
+msgstr "information that is in common with FuturesPublicAPI"
 
 #: ../../public_futures/1_common.rst:7
 msgid "個別の情報はそれぞれのページを参照してください。"
-msgstr ""
+msgstr "to get individual information, please refer to each page."
 
 #: ../../public_futures/1_common.rst:11
 msgid "リクエスト方法"
-msgstr ""
+msgstr "How to request"
 
 #: ../../public_futures/1_common.rst:12
 msgid "エンドポイント：https://api.zaif.jp/fapi/1"
-msgstr ""
+msgstr "end point: https://api.zaif.jp/fapi/1"
 
 #: ../../public_futures/1_common.rst:14
 msgid "メソッド：GET"
-msgstr ""
+msgstr "method: GET"
 
 #: ../../public_futures/1_common.rst:17
 msgid "戻り値"
-msgstr ""
+msgstr "Return value"
 
 #: ../../public_futures/1_common.rst:18
 msgid "全てjson形式となっています。フォーマットはAPIによって変わります。"
-msgstr ""
+msgstr "return value is in json format. the structure is different depending on api"
 
