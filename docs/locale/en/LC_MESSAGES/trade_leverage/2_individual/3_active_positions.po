@@ -24,28 +24,28 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:6
 msgid "レバレッジ取引の現在有効な注文一覧を取得します（未約定注文一覧）。"
-msgstr ""
+msgstr "Get active orders of leverage trading.(uncommitted orders)"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 #: ../../trade_leverage/2_individual/3_active_positions.rst:9
 msgid "パラメータ"
-msgstr ""
+msgstr "Parameters"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "必須"
-msgstr ""
+msgstr "Required"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "詳細"
-msgstr ""
+msgstr "Details"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "型"
-msgstr ""
+msgstr "Type"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "デフォルト"
-msgstr ""
+msgstr "Default"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "type"
@@ -57,7 +57,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "marginまたはfutures"
-msgstr ""
+msgstr "'margin' or 'futures'"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "str"
@@ -73,7 +73,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "type=futuresの場合は必須"
-msgstr ""
+msgstr "Required if type=futures"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "int"
@@ -89,31 +89,31 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "通貨ペア。指定なしで全ての通貨ペア"
-msgstr ""
+msgstr "currency pair. empty means all pairs"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "(例) btc_jpy"
-msgstr ""
+msgstr "e.g. btc_jpy"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "全ペア"
-msgstr ""
+msgstr "all pairs"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:20
 msgid "戻り値"
-msgstr ""
+msgstr "Return value"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "キー"
-msgstr ""
+msgstr "Key"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "グループID"
-msgstr ""
+msgstr "group id"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "通貨ペア"
-msgstr ""
+msgstr "currency pair"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "action"
@@ -121,7 +121,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "bid(買い) or ask(売り)"
-msgstr ""
+msgstr "bid or ask"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "amount"
@@ -129,7 +129,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "数量"
-msgstr ""
+msgstr "amount"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "float"
@@ -141,7 +141,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "価格"
-msgstr ""
+msgstr "price"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "limit"
@@ -149,7 +149,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "リミット価格"
-msgstr ""
+msgstr "take profit price"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "stop"
@@ -157,7 +157,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "ストップ格"
-msgstr ""
+msgstr "stop loss price"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "timestamp"
@@ -165,7 +165,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "発注日時"
-msgstr ""
+msgstr "ordered timestamp"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "UNIX_TIMESTAMP"
@@ -177,7 +177,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "注文の有効期限"
-msgstr ""
+msgstr "order expiration date"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "leverage"
@@ -185,7 +185,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "レバレッジ"
-msgstr ""
+msgstr "leverage"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "fee_spent"
@@ -193,7 +193,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "支払い手数料"
-msgstr ""
+msgstr "fee"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "price_avg"
@@ -201,7 +201,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "建玉平均価格"
-msgstr ""
+msgstr "position average price"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "amount_done"
@@ -209,7 +209,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "建玉数"
-msgstr ""
+msgstr "position amount"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "close_avg"
@@ -217,7 +217,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "決済平均価格"
-msgstr ""
+msgstr "settlement average price"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "close_done"
@@ -225,7 +225,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "決済数"
-msgstr ""
+msgstr "settlement amount"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "deposit_xxx"
@@ -233,7 +233,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "実際にデポジットした額(xxxは通貨コード）"
-msgstr ""
+msgstr "actually deposit amount(currency_code enters xxx)"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "deposit_price_xxx"
@@ -241,7 +241,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "デポジット時計算レート(xxxは通貨コード）"
-msgstr ""
+msgstr "price at the time of deposit(currency_code enters xxx)"
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "swap"
@@ -249,5 +249,5 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "受け取ったスワップの額(AirFXのみ）"
-msgstr ""
+msgstr "received swap (only AirFX)"
 

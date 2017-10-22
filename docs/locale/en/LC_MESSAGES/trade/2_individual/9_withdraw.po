@@ -34,7 +34,7 @@ msgstr ""
 
 #: ../../trade/2_individual/9_withdraw.rst:10
 msgid "不正送金の対策として、アカウントに対する最初の日本円入金から７日間は、APIによる仮想通貨の出金を制限しております。"
-msgstr "To prevent unauthorized transfer, for the 7days from the first JPY deposit, we restrict the withdrawal of cryptocurrency by API."
+msgstr "To prevent unauthorized transfer, for 7days from the first JPY deposit, we restrict the withdrawal of cryptocurrency by API."
 
 #: ../../trade/2_individual/9_withdraw.rst:14
 msgid "パラメータ"

@@ -20,5 +20,5 @@ msgstr ""
 
 #: ../../trade_leverage/index.rst:3
 msgid "レバレッジ取引API"
-msgstr ""
+msgstr "LeverageTradeAPI"
 

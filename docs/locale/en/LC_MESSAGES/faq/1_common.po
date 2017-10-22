@@ -20,45 +20,48 @@ msgstr ""
 
 #: ../../faq/1_common.rst:3
 msgid "よくあるお問い合わせ"
-msgstr ""
+msgstr "Frequently asked Questions"
 
 #: ../../faq/1_common.rst:5
 msgid "よくあるお問い合わせ一覧です。"
-msgstr ""
+msgstr "List of frequently asked Questions"
 
 #: ../../faq/1_common.rst:8
 msgid "取引履歴の確認でorder_idを使って取引結果を照合できない"
-msgstr ""
+msgstr "Couldn't use 'order_id' to collate trade history."
 
 #: ../../faq/1_common.rst
 msgid "order_idは取引注文のidで、trade_history APIのidは取引結果のidですので、別物になります。"
-msgstr ""
+msgstr "'order_id' means `trade order id`, the id 'trade_history' returns means `trade result id`. They are different things."
 
 #: ../../faq/1_common.rst
 msgid "したがって、trade_history APIでは、order_idを使ってデータを参照することはできません。"
-msgstr ""
+msgstr "Therefore, with 'trade_history', you cannot refer to data by using 'order_id'"
 
 #: ../../faq/1_common.rst:14
 msgid "withdrawで出金ができない"
-msgstr ""
+msgstr "Unable to withdraw money with 'withdraw' method"
 
 #: ../../faq/1_common.rst:15
 msgid "Zaifでは不正送金の対策として、アカウントに対する最初の日本円入金から７日間は、APIによる仮想通貨の出金を制限しております。"
-msgstr ""
+msgstr "To prevent unauthorized transfer, for 7days from the first JPY deposit, we restrict the withdrawal of cryptocurrency by API."
+
 
 #: ../../faq/1_common.rst:19
 msgid "active_orders の注文IDが部分約定したのに変わらない"
-msgstr ""
+msgstr "Order_id which got with 'active_orders' doesn't change after the order are partially executed."
 
 #: ../../faq/1_common.rst
 msgid "active_ordersの注文IDは現在板にある注文のIDになります。"
-msgstr ""
+msgstr "Order_id of 'active_orders' is the ID of order currently on order book."
 
 #: ../../faq/1_common.rst
 msgid "その注文が、全約定しない限り同じIDで残り続けます。また、約定した数量はamountから引かれるため、"
 msgstr ""
+"The order_id keeps remaining unless the order is executed completely."
+"Also, since the executed amount is subtracted from the original amount,"
 
 #: ../../faq/1_common.rst
 msgid "その注文の残量などを確認したい場合はもう一度active_ordersを実効し、ご確認ください。"
-msgstr ""
+msgstr "you can use 'active_orders' again to see how much is the order remaining."
 

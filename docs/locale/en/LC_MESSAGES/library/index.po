@@ -20,9 +20,9 @@ msgstr ""
 
 #: ../../library/index.rst:5
 msgid "ライブラリのご紹介"
-msgstr ""
+msgstr "libraries"
 
 #: ../../library/index.rst:7
 msgid "Zaif APIのための、各種ライブラリをこちらでご紹介しております。"
-msgstr ""
+msgstr "Libraries related to ZaifAPI"
 

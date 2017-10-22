@@ -51,6 +51,8 @@ msgid ""
 "currency_pairに指定できる値は :ref:`public-currency-pairs` "
 "で取得できる通貨ペア情報の内、is_tokenがfalseになっているものです。"
 msgstr ""
+"Possible values for currency_pair satisfy following."
+"currency pair got by :ref:`public-currency-pairs`, and its is_token=false"
 
 #: ../../public/3_streaming.rst:17
 msgid "戻り値"

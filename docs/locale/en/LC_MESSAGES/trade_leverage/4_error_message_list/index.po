@@ -20,9 +20,9 @@ msgstr ""
 
 #: ../../trade_leverage/4_error_message_list/index.rst:4
 msgid "エラーメッセージ一覧"
-msgstr ""
+msgstr "Error messages"
 
 #: ../../trade_leverage/4_error_message_list/index.rst:6
 msgid "エラーメッセージの意味を記載しています。"
-msgstr ""
+msgstr "Describing what each error message means."
 

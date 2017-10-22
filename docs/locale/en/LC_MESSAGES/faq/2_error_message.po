@@ -20,11 +20,11 @@ msgstr ""
 
 #: ../../faq/2_error_message.rst:3
 msgid "エラーメッセージ一覧"
-msgstr ""
+msgstr "Error messages"
 
 #: ../../faq/2_error_message.rst:9
 msgid "認証"
-msgstr ""
+msgstr "Authentication"
 
 #: ../../faq/2_error_message.rst:12
 msgid "no data found for the key"
@@ -35,6 +35,7 @@ msgid ""
 "APIキーが無効です。`開発者向けAPI画面 <https://zaif.jp/api_keys>`_ "
 "にて正しいAPIのキーが指定されているか確認してください。"
 msgstr ""
+"API key is invalid. Please check your API is correct on `API for developers <https://zaif.jp/api_keys>`_"
 
 #: ../../faq/2_error_message.rst:16
 msgid "signature mismatch"
@@ -46,10 +47,12 @@ msgid ""
 "document.readthedocs.io/ja/latest/trade/1_common.html#id7>`_ "
 "にて署名方法を確認してください。"
 msgstr ""
+"Fail to sign. Please check how to make signature on `API common information <https://techbureau-api-"
+"document.readthedocs.io/ja/latest/trade/1_common.html#id7>`_ "
 
 #: ../../faq/2_error_message.rst:20
 msgid "認証(OAuth)"
-msgstr ""
+msgstr "Authentication(OAuth)"
 
 #: ../../faq/2_error_message.rst:23
 msgid "invalid access token"
@@ -57,7 +60,7 @@ msgstr ""
 
 #: ../../faq/2_error_message.rst
 msgid "無効なトークンが指定されています。"
-msgstr ""
+msgstr "The token is invalid."
 
 #: ../../faq/2_error_message.rst:27
 msgid "expired access token"
@@ -69,10 +72,13 @@ msgid ""
 "document.readthedocs.io/ja/latest/oauth/1_common.html#id3>`_ "
 "を参考にし、トークンの再発行をしてください。"
 msgstr ""
+"The token has expired. Please reissue a token with referring to"
+" `token reissue API <https://techbureau-api-"
+"document.readthedocs.io/ja/latest/oauth/1_common.html#id3>`_ "
 
 #: ../../faq/2_error_message.rst:32
 msgid "実行前チェック"
-msgstr ""
+msgstr "Validation before execution"
 
 #: ../../faq/2_error_message.rst:35
 msgid "method not found"
@@ -80,7 +86,7 @@ msgstr ""
 
 #: ../../faq/2_error_message.rst
 msgid "指定されたメソッドが存在しません。"
-msgstr ""
+msgstr "Specified method doesn't exist"
 
 #: ../../faq/2_error_message.rst:39
 msgid "invalid {} parameter"
@@ -88,7 +94,7 @@ msgstr ""
 
 #: ../../faq/2_error_message.rst
 msgid "指定されているパラメータが無効です。各APIのドキュメントを参考にして、正常なパラメータを指定してください。"
-msgstr ""
+msgstr "Specified parameter is invalid. Please specify valid parameter with referring to each API document."
 
 #: ../../faq/2_error_message.rst:43
 msgid "nonce not incremented"
@@ -96,11 +102,12 @@ msgstr ""
 
 #: ../../faq/2_error_message.rst
 msgid "前回API実行時よりnonce値が加算されていません。nonce値はAPI実行ごとに加算してください。"
-msgstr ""
+msgstr "Nonce is not incremented. Increase nonce value for each API execution."
 
 #: ../../faq/2_error_message.rst
 msgid "複数プロセス・スレッドからAPIコールを使用している場合、終了を待ったり、APIキーを使い分けるなどの工夫をしてください。"
-msgstr ""
+msgstr "When calling the API on multiple processes or threads, it is necessary not to execute multiple API calls at the same time"
+"(e.g. use multiple api key, add synchronization mechanism)"
 
 #: ../../faq/2_error_message.rst:48
 msgid "nonce out of range"
@@ -108,7 +115,7 @@ msgstr ""
 
 #: ../../faq/2_error_message.rst
 msgid "nonce値が最大値を超えています。新しいAPIキーを発行してください。"
-msgstr ""
+msgstr "nonce exceeds maximum value. Please issue new API key."
 
 #: ../../faq/2_error_message.rst:52
 msgid "time wait restriction, please try later."
@@ -116,19 +123,20 @@ msgstr ""
 
 #: ../../faq/2_error_message.rst
 msgid "短時間に多くの取引APIが同じメソッドで呼び出しされたときに発生します。"
-msgstr ""
+msgstr "This occurs when you call too many times the same method of Trading API in a short time"
 
 #: ../../faq/2_error_message.rst
 msgid "取引履歴・入出金履歴については最大60秒、その他のメソッドは1〜10秒程度の制限がかかりますので、数秒のWAITとリトライを行うなどして対応をお願いします。"
-msgstr ""
+msgstr "It takes maximum 60 secs limit about trade_history and withdraw_history, 1~10 secs limit about other methods."
+"please wait a few seconds and retry."
 
 #: ../../faq/2_error_message.rst
 msgid "制限される秒数や回数については、注文状況などにより予告なく変更することがあります。"
-msgstr ""
+msgstr "Regarding the number of seconds and times to be limited, it will be changed without prior notice depending on order status."
 
 #: ../../faq/2_error_message.rst:58
 msgid "取引系"
-msgstr ""
+msgstr "About trading"
 
 #: ../../faq/2_error_message.rst:61
 msgid "insufficient funds"
@@ -136,7 +144,7 @@ msgstr ""
 
 #: ../../faq/2_error_message.rst
 msgid "取引に必要な残高が存在しません。"
-msgstr ""
+msgstr "Enough balance doesn't exist on your account."
 
 #: ../../faq/2_error_message.rst:65
 msgid "limit must be greater than the price"
@@ -144,7 +152,7 @@ msgstr ""
 
 #: ../../faq/2_error_message.rst
 msgid "売り注文時、limitはpriceより高い値段を設定する必要があります。"
-msgstr ""
+msgstr "'limit' must be bigger than 'price' when issuing sell order."
 
 #: ../../faq/2_error_message.rst:69
 msgid "limit must be a smaller value than the price"
@@ -152,7 +160,7 @@ msgstr ""
 
 #: ../../faq/2_error_message.rst
 msgid "買い注文時、limitはpriceより低い値段を設定する必要があります。"
-msgstr ""
+msgstr "'limit' must be smaller than 'price' when issuing buy order."
 
 #: ../../faq/2_error_message.rst:73
 msgid "trade temporarily unavailable."
@@ -160,7 +168,7 @@ msgstr ""
 
 #: ../../faq/2_error_message.rst
 msgid "取引が一時的に停止されています。"
-msgstr ""
+msgstr "Trading is temporarily suspended."
 
 #: ../../faq/2_error_message.rst:77
 msgid "your account is restricted now, KYC required."
@@ -168,7 +176,7 @@ msgstr ""
 
 #: ../../faq/2_error_message.rst
 msgid "本人確認が完了していないため、取引ができません。本人確認を完了させてください。"
-msgstr ""
+msgstr "Because identity verification is not completed, you cannot trade. Please complete the identity verification"
 
 #: ../../faq/2_error_message.rst:81
 msgid "illegal comment"
@@ -176,7 +184,7 @@ msgstr ""
 
 #: ../../faq/2_error_message.rst
 msgid "コメントに無効な文字が設定されています。"
-msgstr ""
+msgstr "The comment includes invalid characters"
 
 #: ../../faq/2_error_message.rst:85
 msgid "merchant account dont have trade permission"
@@ -184,5 +192,5 @@ msgstr ""
 
 #: ../../faq/2_error_message.rst
 msgid "業者用のアカウントは取引を許可されていません。"
-msgstr ""
+msgstr "merchant account is not allowed to trade."
 

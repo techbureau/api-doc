@@ -24,24 +24,24 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:6
 msgid "レバレッジ取引の注文の変更を行います。"
-msgstr ""
+msgstr "change the order of leverage trading"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 #: ../../trade_leverage/2_individual/5_change_position.rst:9
 msgid "パラメータ"
-msgstr ""
+msgstr "Parameters"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "必須"
-msgstr ""
+msgstr "Required"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "詳細"
-msgstr ""
+msgstr "Details"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "型"
-msgstr ""
+msgstr "Type"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "type"
@@ -53,7 +53,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "marginまたはfutures"
-msgstr ""
+msgstr "'margin' or 'futures'"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "str"
@@ -69,7 +69,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "type=futuresの場合は必須"
-msgstr ""
+msgstr "Required if type=futures"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "int"
@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "レバレッジ注文ID（get_positionsまたはactive_positionsで取得できます）"
-msgstr ""
+msgstr "leverage_id (available with 'get_positions' or 'active_positions')"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "price"
@@ -89,7 +89,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "指値注文価格"
-msgstr ""
+msgstr "limit order price"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "numerical"
@@ -105,7 +105,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "リミット注文価格"
-msgstr ""
+msgstr "take profit price"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "stop"
@@ -113,89 +113,91 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "ストップ注文価格"
-msgstr ""
+msgstr "stop loss price"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:23
 msgid "**パラメータ limitについて**"
-msgstr ""
+msgstr "**About 'limit'**"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:24
 msgid "limitを指定しなかった場合設定済みのリミット注文は取り消されます。継続してリミット注文を出し続けたい場合は毎回セットしてください。"
-msgstr ""
+msgstr "When 'limit' is not specified, existing 'limit' value is removed. If you want to keep 'limit' value, please set 'limit' parameter every time."
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:25
 msgid "設定済みのリミット注文を削除したい場合はlimitパラメータをセットせずAPIを実行してください。"
-msgstr ""
+msgstr "If you want to remove existing 'limit' value, please execute the API without 'limit' parameter"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:26
 msgid "リミット値（利確のための反対売買の指値）を指定することができます"
-msgstr ""
+msgstr "You can specify 'limit' for securing profit."
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:27
 msgid "リミット値を指定した場合、注文が成立した分だけの数量について、自動的にリミット注文が発行されます"
-msgstr ""
+msgstr "If 'limit' is set, take profit order will automatically issue as much as the amount of executed order."
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:29
 msgid "**パラメータ stopについて**"
-msgstr ""
+msgstr "**About stop**"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:30
 msgid "stopを指定しなかった場合設定済みのストップ注文は取り消されます。継続してストップ注文を出し続けたい場合は毎回必ずセットしてください。"
-msgstr ""
+msgstr "When 'stop' is not specified, existing 'stop' value is removed. If you want to keep 'stop' value, please set 'stop' parameter every time."
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:31
 msgid "設定済みのストップ値を削除したい場合はstopパラメータをセットせずAPIを実行してください。"
-msgstr ""
+msgstr "If you want to remove existing 'stop' value, please execute the API without 'stop' parameter"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:32
 msgid "ストップ値（利確のための反対売買の指値）を指定することができます"
-msgstr ""
+msgstr "You can specify 'stop' for loss cut."
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:33
 msgid "ストップ値を指定した場合、設定価格まで下落（あるいは上昇）した場合に成行にて決済を試みます。"
-msgstr ""
+msgstr "If 'stop' price is specified, try to settle on the market price when the price is met."
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:34
 msgid "成行注文のため必ずしも設定価格で決済されることを保証する物ではございません。"
-msgstr ""
+msgstr "Because of it is a market order, there is no guarantee that is will be settled at the set price."
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:36
 msgid "**価格および数量の数値について**"
-msgstr ""
+msgstr "**About figures of price and amount**"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:37
 msgid ""
 "下記の単位以外で注文しようとした場合、invalid price parameterまたはinvalid amount "
 "parameterというエラーが返されます"
 msgstr ""
+"When you try to send an order with units other than followings,"
+"'invalid price parameter' or 'invalid amount' is returned."
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:39
 msgid "・価格（priceおよびlimit）"
-msgstr ""
+msgstr "・'price' and 'limit'"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst
 msgid "btc_jpy : 5円単位"
-msgstr ""
+msgstr  "btc_jpy : 5JPY increments"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:45
 msgid "・数量（amount）"
-msgstr ""
+msgstr "・amount"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst
 msgid "btc_jpy : 0.0001BTC単位"
-msgstr ""
+msgstr "btc_jpy : 0.0001BTC increments"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:48
 msgid "戻り値"
-msgstr ""
+msgstr "Return value"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "キー"
-msgstr ""
+msgstr "Key"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "レバレッジID。"
-msgstr ""
+msgstr "leverage id"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "timestamp_closed"
@@ -203,7 +205,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "クローズ日時"
-msgstr ""
+msgstr "closed timestamp"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "UNIX_TIMESTAMP"
@@ -215,7 +217,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "建玉平均価格"
-msgstr ""
+msgstr "position average price"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "float"
@@ -227,7 +229,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "建玉数"
-msgstr ""
+msgstr "position amount"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "close_avg"
@@ -235,7 +237,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "決済平均価格"
-msgstr ""
+msgstr "average closed price"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "close_done"
@@ -243,7 +245,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "決済数"
-msgstr ""
+msgstr "closed amount"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "refunded_xxx"
@@ -251,7 +253,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "実際に返却した額(xxxは通貨コード）"
-msgstr ""
+msgstr "actually refunded amount(currency_code enters xxx)"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "refunded_price_xxx"
@@ -263,7 +265,7 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "受け取ったスワップの額(AirFXのみ）"
-msgstr ""
+msgstr "received swap (only AirFX)"
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "guard_fee"
@@ -271,5 +273,5 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/5_change_position.rst:1
 msgid "追証ガード手数料(信用取引のみ)"
-msgstr ""
+msgstr "fee of additional margin guard(only margin trading)"
 

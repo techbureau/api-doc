@@ -24,7 +24,7 @@ msgstr "Common Information"
 
 #: ../../trade/1_common.rst:5
 msgid "トレードAPIに共通する情報です。 パラメータなど、API個別の情報はそれぞれのページを参照してください。"
-msgstr "Things that is in common with TradeAPI. Refer to each page to get individual information."
+msgstr "Information that is in common with TradeAPI. Refer to each page to get individual information."
 
 #: ../../trade/1_common.rst:9
 msgid "事前準備"
