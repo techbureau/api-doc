@@ -67,7 +67,7 @@ get_positions
    "amount", "数量", "float"
    "price", "価格", "float"
    "limit", "リミット価格", "float"
-   "stop",  "ストップ格", "float"
+   "stop",  "ストップ価格", "float"
    "timestamp", "発注日時", "UNIX_TIMESTAMP"
    "term_end", "注文の有効期限", "UNIX_TIMESTAMP"
    "leverage",  "レバレッジ","float"
