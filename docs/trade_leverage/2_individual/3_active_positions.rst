@@ -43,13 +43,14 @@ active_positions
 .. csv-table::
    :header: "キー", "詳細", "型"
 
+   "184(一例であり、レバレッジ注文idによって変わります)", "leverage_id(レバレッジ注文id)", "int"
    "group_id",  "グループID", "int"
    "currency_pair", "通貨ペア", "str"
    "action", "bid(買い) or ask(売り)", "str"
    "amount", "数量", "float"
    "price", "価格", "float"
    "limit", "リミット価格", "float"
-   "stop",  "ストップ格", "float"
+   "stop",  "ストップ価格", "float"
    "timestamp", "発注日時", "UNIX_TIMESTAMP"
    "term_end", "注文の有効期限", "UNIX_TIMESTAMP"
    "leverage",  "レバレッジ","float"

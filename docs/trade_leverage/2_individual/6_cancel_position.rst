@@ -22,14 +22,19 @@ cancel_position
 .. code-block:: python
 
     {
-        "success": 1,
-        "return": {
-            "order_id": 184,
-            "funds": {
-                "jpy": 15320,
-                "btc": 1.392,
-                "mona": 2600,
-            }
+        'success': 1,
+        'return': {
+            'leverage_id': 2072,
+            'refunded_jpy': 645.96,
+            'funds': {
+                'btc': 0.496,
+                'jpy': 1564.96,
+                'xem': 0.0,
+                'mona': 10.0
+            },
+            'fee_spent': 0.0,
+            'timestamp_closed': '1508384951',
+            'swap': 0.0
         }
     }
 

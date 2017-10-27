@@ -52,6 +52,7 @@ trade_history
 .. csv-table::
    :header: "キー", "詳細", "型"
 
+   "182(一例であり、注文idによって変わります)", "order_id(注文id)", "int"
    "currency_pair", "通貨ペア", "str"
    "action", "bid(買い) or ask(売り)", "str"
    "amount", "数量", "float"
