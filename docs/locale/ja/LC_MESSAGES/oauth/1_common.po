@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zaif api document v1.1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"POT-Creation-Date: 2017-10-27 14:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,7 +79,7 @@ msgid "https://auto.bot.co.jp/zaif_oauth"
 msgstr ""
 
 #: ../../oauth/1_common.rst:1
-msgid "認可クリア後、必要なパラメータを受け取るためのリダイレクトURL設定してください。"
+msgid "認可クリア後、必要なパラメータを受け取るためのリダイレクトURL設定してください。**設定することを強く推奨しています。**"
 msgstr ""
 
 #: ../../oauth/1_common.rst:1
@@ -457,4 +457,7 @@ msgstr ""
 #: ../../oauth/1_common.rst:147
 msgid "ユーザが認証したアプリケーションの情報を削除したい場合は、『アカウント』→『連携アプリケーション一覧』を選択し、削除したいアプリケーション情報の削除ボタンを押下してください。"
 msgstr ""
+
+#~ msgid "認可クリア後、必要なパラメータを受け取るためのリダイレクトURL設定してください。"
+#~ msgstr ""
 

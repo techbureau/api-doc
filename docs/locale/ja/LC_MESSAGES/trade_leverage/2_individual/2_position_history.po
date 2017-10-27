@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zaif api document v1.1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"POT-Creation-Date: 2017-10-27 14:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,6 +101,14 @@ msgstr ""
 
 #: ../../trade_leverage/2_individual/2_position_history.rst:1
 msgid "キー"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/2_position_history.rst:1
+msgid "182,183(一例であり、レバレッジ注文idによって変わります)"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/2_position_history.rst:1
+msgid "leverage_id(レバレッジ注文id)"
 msgstr ""
 
 #: ../../trade_leverage/2_individual/2_position_history.rst:1

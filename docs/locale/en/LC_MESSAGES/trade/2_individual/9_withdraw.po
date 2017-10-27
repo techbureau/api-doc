@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zaif api document v1.1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"POT-Creation-Date: 2017-10-27 14:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,20 +23,28 @@ msgid "withdraw"
 msgstr ""
 
 #: ../../trade/2_individual/9_withdraw.rst:6
-msgid ""
-"資金の引き出しリクエストを送信します。 "
-"2015年12月15日より、リクエスト時には一旦トランザクションIDは空で帰るようになりました。通常１〜２分でトランザクションが発生しますので、後ほどwithdraw_historyメソッドを利用して確認してください"
-" xemの出金時には、手数料は自動計算され、opt_feeに値をセットして送信しますとエラーを返しますのでご注意ください。"
+msgid "資金の引き出しリクエストを送信します。"
 msgstr ""
-"Send an request of withdrawal."
-"Since 2015/12/15, transaction id comes back empty when the request is received."
-"the transaction usually start in 1~2minutes. You can see transaction id with 'withdraw_history' later."
 
-#: ../../trade/2_individual/9_withdraw.rst:10
+#: ../../trade/2_individual/9_withdraw.rst:7
+msgid "2015年12月15日より、Zaif内の振替を除くリクエストには一旦トランザクションIDは空で返されるようになりました。"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:8
+msgid "通常１〜２分でトランザクションが発生しますので、後ほどwithdraw_historyメソッドを利用して確認してください"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:9
+msgid "xemの出金時には、手数料は自動計算され、opt_feeに値をセットして送信しますとエラーが返されますのでご注意ください。"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:11
 msgid "不正送金の対策として、アカウントに対する最初の日本円入金から７日間は、APIによる仮想通貨の出金を制限しております。"
-msgstr "To prevent unauthorized transfer, for 7days from the first JPY deposit, we restrict the withdrawal of cryptocurrency by API."
+msgstr ""
+"To prevent unauthorized transfer, for 7days from the first JPY deposit, "
+"we restrict the withdrawal of cryptocurrency by API."
 
-#: ../../trade/2_individual/9_withdraw.rst:14
+#: ../../trade/2_individual/9_withdraw.rst:15
 msgid "パラメータ"
 msgstr "Parameters"
 
@@ -70,7 +78,9 @@ msgstr ""
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "引き出す通貨。公開情報APIのcurrenciesで取得できるものが指定できます。ただしjpyは指定できません。"
-msgstr "The currency to withdraw. You can specify what you can get with 'currencies'(except jpy)"
+msgstr ""
+"The currency to withdraw. You can specify what you can get with "
+"'currencies'(except jpy)"
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "例)btc 等"
@@ -122,9 +132,11 @@ msgstr ""
 
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "採掘者への手数料(例: 0.003) ただしcurrencyがbtc、mona以外の時に指定するとエラーとなります。"
-msgstr "Fee for miners(e.g. 0.003). However, an error occurs if currency_pair is except btc or mona"
+msgstr ""
+"Fee for miners(e.g. 0.003). However, an error occurs if currency_pair is "
+"except btc or mona"
 
-#: ../../trade/2_individual/9_withdraw.rst:28
+#: ../../trade/2_individual/9_withdraw.rst:29
 msgid "戻り値"
 msgstr "Return value"
 
@@ -167,4 +179,16 @@ msgstr "asset balance"
 #: ../../trade/2_individual/9_withdraw.rst:1
 msgid "dict"
 msgstr ""
+
+#~ msgid ""
+#~ "資金の引き出しリクエストを送信します。 "
+#~ "2015年12月15日より、リクエスト時には一旦トランザクションIDは空で帰るようになりました。通常１〜２分でトランザクションが発生しますので、後ほどwithdraw_historyメソッドを利用して確認してください"
+#~ " xemの出金時には、手数料は自動計算され、opt_feeに値をセットして送信しますとエラーを返しますのでご注意ください。"
+#~ msgstr ""
+#~ "Send an request of withdrawal.Since "
+#~ "2015/12/15, transaction id comes back "
+#~ "empty when the request is received.the"
+#~ " transaction usually start in 1~2minutes."
+#~ " You can see transaction id with "
+#~ "'withdraw_history' later."
 

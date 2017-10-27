@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zaif api document v1.1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"POT-Creation-Date: 2017-10-27 14:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,6 +102,18 @@ msgid "キー"
 msgstr ""
 
 #: ../../trade/2_individual/6_active_orders.rst:1
+msgid "184(一例であり、注文idによって変わります)"
+msgstr ""
+
+#: ../../trade/2_individual/6_active_orders.rst:1
+msgid "order_id(注文id)"
+msgstr ""
+
+#: ../../trade/2_individual/6_active_orders.rst:1
+msgid "int"
+msgstr ""
+
+#: ../../trade/2_individual/6_active_orders.rst:1
 msgid "通貨ペア"
 msgstr ""
 
@@ -123,10 +135,6 @@ msgstr ""
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "数量"
-msgstr ""
-
-#: ../../trade/2_individual/6_active_orders.rst:1
-msgid "int"
 msgstr ""
 
 #: ../../trade/2_individual/6_active_orders.rst:1

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zaif api document v1.1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"POT-Creation-Date: 2017-10-27 14:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,9 @@ msgstr ""
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "取得する通貨ペア。公開情報APIのcurrency_pairsで取得できるものが指定できます。指定なしで全ての通貨ペアの情報を取得します。"
-msgstr "Currency pairs to get. Pairs got by 'currency_pairs' of PublicAPI can be specify. If unspecified, get about all pairs."
+msgstr ""
+"Currency pairs to get. Pairs got by 'currency_pairs' of PublicAPI can be "
+"specify. If unspecified, get about all pairs."
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "str(例 btc_jpy)"
@@ -73,7 +75,9 @@ msgstr ""
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "【非推奨、削除予定】true：カウンターパーティトークンの情報を取得 false：カウンターパーティトークン以外の情報を取得"
-msgstr "[deprecated] true: get counter party tokens false: exclude counter party token and get"
+msgstr ""
+"[deprecated] true: get counter party tokens false: exclude counter party "
+"token and get"
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "bool"
@@ -92,7 +96,8 @@ msgid ""
 "【非推奨、削除予定】true：全てのアクティブなオーダー情報を取得 "
 "false：currency_pairやis_tokenに従ったオーダー情報を取得"
 msgstr ""
-"[deprecated] true: all open orders false: respond depending on 'currency_pair' or 'is_token'"
+"[deprecated] true: all open orders false: respond depending on "
+"'currency_pair' or 'is_token'"
 
 #: ../../trade/2_individual/6_active_orders.rst:19
 msgid "戻り値"
@@ -101,6 +106,18 @@ msgstr "Return value"
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "キー"
 msgstr "key"
+
+#: ../../trade/2_individual/6_active_orders.rst:1
+msgid "184(一例であり、注文idによって変わります)"
+msgstr ""
+
+#: ../../trade/2_individual/6_active_orders.rst:1
+msgid "order_id(注文id)"
+msgstr ""
+
+#: ../../trade/2_individual/6_active_orders.rst:1
+msgid "int"
+msgstr ""
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "通貨ペア"
@@ -125,10 +142,6 @@ msgstr ""
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "数量"
 msgstr "amount"
-
-#: ../../trade/2_individual/6_active_orders.rst:1
-msgid "int"
-msgstr ""
 
 #: ../../trade/2_individual/6_active_orders.rst:1
 msgid "price"

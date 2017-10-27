@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zaif api document v1.1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"POT-Creation-Date: 2017-10-27 14:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -142,8 +142,9 @@ msgstr ""
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "通貨ペア。指定なしでbtc_jpy/mona_jpy/mona_btc/xem_jpy/xem_btc。eth_jpyやbch_jpyなどは指定の必要あり"
 msgstr ""
-"currency pairs. If not specified, btc_jpy/mona_jpy/mona_btc/xem_jpy/xem_btc are included."
-"Other pairs like eth_jpy, bch_jpy require individual specification."
+"currency pairs. If not specified, "
+"btc_jpy/mona_jpy/mona_btc/xem_jpy/xem_btc are included.Other pairs like "
+"eth_jpy, bch_jpy require individual specification."
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "(例) btc_jpy"
@@ -159,7 +160,9 @@ msgstr ""
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "【非推奨、削除予定】true：カウンターパーティトークンの情報を取得 false：カウンターパーティトークン以外の情報を取得"
-msgstr "[deprecated] true: get counter party tokens false: exclude counter party token and get"
+msgstr ""
+"[deprecated] true: get counter party tokens false: exclude counter party "
+"token and get"
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "bool"
@@ -183,7 +186,9 @@ msgstr "・If “from_id” or ”end_id” is set、”order” will automatica
 
 #: ../../trade/2_individual/5_trade_history.rst
 msgid "・“currency_pair”と”is_token”の両方を指定した場合は”currency_pair”が優先されます。両方指定しない場合はカウンターパーティトークン以外の情報を取得します。"
-msgstr "・If both “currency_pair” and ”is_token” are set ”currency_pair” will be given priority. If neither, counter party tokens will not be taken"
+msgstr ""
+"・If both “currency_pair” and ”is_token” are set ”currency_pair” will be "
+"given priority. If neither, counter party tokens will not be taken"
 
 #: ../../trade/2_individual/5_trade_history.rst:32
 msgid "戻り値"
@@ -192,6 +197,14 @@ msgstr "Return value"
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "キー"
 msgstr "Key"
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "182(一例であり、注文idによって変わります)"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "order_id(注文id)"
+msgstr ""
 
 #: ../../trade/2_individual/5_trade_history.rst:1
 msgid "通貨ペア"

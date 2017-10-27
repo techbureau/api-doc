@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zaif api document v1.1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"POT-Creation-Date: 2017-10-27 14:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -108,6 +108,14 @@ msgid "キー"
 msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
+msgid "184(一例であり、レバレッジ注文idによって変わります)"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/3_active_positions.rst:1
+msgid "leverage_id(レバレッジ注文id)"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "グループID"
 msgstr ""
 
@@ -156,7 +164,7 @@ msgid "stop"
 msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
-msgid "ストップ格"
+msgid "ストップ価格"
 msgstr ""
 
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
@@ -250,4 +258,7 @@ msgstr ""
 #: ../../trade_leverage/2_individual/3_active_positions.rst:1
 msgid "受け取ったスワップの額(AirFXのみ）"
 msgstr ""
+
+#~ msgid "ストップ格"
+#~ msgstr ""
 
