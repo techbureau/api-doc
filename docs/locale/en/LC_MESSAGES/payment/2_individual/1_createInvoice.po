@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:5
 msgid "インボイスの作成"
-msgstr ""
+msgstr "create invoice"
 
 #: ../../payment/2_individual/1_createInvoice.rst:7
 msgid ""
@@ -33,27 +33,30 @@ msgid ""
 "インボイスを作成すると、決済用のBitcoinまたはMonacoinアドレスが発行され、暗号通貨建ての請求が行なわれます。 "
 "インボイスには有効期限（現在３０分としていますが、これは変更になる可能性があります）があり、有効期限内に顧客が決済用のアドレスへ支払を行うことにより、決済が完了します。"
 msgstr ""
+"Create an invoice by sending settlement amount, product name, currency, and so on, then start cryptocurrency settlement."
+"When you create an invoice, a Bitcoin or Monacoin address for settlement is issued, then cryptocurrency-denominated charges will be made."
+"Invoices have expiration time(30 minutes for now, but it may be change), and the settlement is completed by the customer paying to the address within the expiration time."
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 #: ../../payment/2_individual/1_createInvoice.rst:12
 msgid "パラメータ"
-msgstr ""
+msgstr "Parameters"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "必須"
-msgstr ""
+msgstr "Required"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "詳細"
-msgstr ""
+msgstr "Details"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "型"
-msgstr ""
+msgstr "Type"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "値または例"
-msgstr ""
+msgstr "value or example"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "method"
@@ -65,7 +68,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "メソッド名"
-msgstr ""
+msgstr "name of method"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "str"
@@ -77,7 +80,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "APIキー"
-msgstr ""
+msgstr "API key"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "md5secret"
@@ -89,7 +92,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "APIシークレットのmd5。(1)md5またはsha1のどちらかをセット"
-msgstr ""
+msgstr "API secret hashed by md5. (1)set only md5 or sha1."
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "sha1secret"
@@ -97,7 +100,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "APIシークレットのsha1。(1)md5またはsha1のどちらかをセット"
-msgstr ""
+msgstr "API secret hashed by sha1. (1)set only md5 or sha1."
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "nonce"
@@ -105,7 +108,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "1以上の数を実行都度増分して送信します。増分量は少数点以下の値にも対応しております。"
-msgstr ""
+msgstr "an number greater than or equal to 1. please increment by every call."
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "int"
@@ -124,6 +127,7 @@ msgid ""
 "決済完了とみなすスピード。デフォルトはmedium high:0 cofirmation/medium:1 confirmation/low:6 "
 "confirmations"
 msgstr ""
+"the speed which determine completion of settlement. default is 'medium'. high: 0 confirmation/medium: 1 confirmation/ low: 6 confirmation"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "high medium low"
@@ -135,7 +139,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "決済完了したタイミングでの通知先URI 事業者様のECサイトシステムに通知を行うためのものになります"
-msgstr ""
+msgstr "notification URI at settlement completion for notifying the EC site system"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "notificationMethod"
@@ -143,11 +147,11 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "決済完了したタイミングでの通知先URIへ通知する際に使用されるHTTPメソッド。デフォルトはPOSTになります"
-msgstr ""
+msgstr "HTTP method used when notifying to the URI above at settlement completion. Default: POST"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "GET または POST"
-msgstr ""
+msgstr "GET or POST"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "redirectUri"
@@ -155,7 +159,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "決済フォームで着金後、ECサイトへ戻るためのリダイレクト先のURI。設定されなかった場合はリダイレクトせず着金後のステータスが表示されます"
-msgstr ""
+msgstr "redirect URI to return to the EC site after paying on payment form. If not specified, status after payment is displayed, instead of redirect"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "currency"
@@ -163,11 +167,11 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "決済に使用する暗号通貨"
-msgstr ""
+msgstr "cryptocurrency for settlement"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "btc または mona"
-msgstr ""
+msgstr "btc or mona"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "amount"
@@ -175,7 +179,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "決済金額（日本円）。実際の請求対象金額。1円単位、カンマ無し"
-msgstr ""
+msgstr "settlement amount(JPY) 1JPY unit. no comma."
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "subTotal"
@@ -183,7 +187,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "小計（日本円）"
-msgstr ""
+msgstr "subtotal(JPY)"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "tax"
@@ -191,7 +195,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "消費税（日本円）"
-msgstr ""
+msgstr "tax(JPY)"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "regularPrice"
@@ -199,7 +203,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "定価（日本円）。割引前の金額"
-msgstr ""
+msgstr "regular price (JPY) price before discount"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "discount"
@@ -207,7 +211,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "割引（日本円）。値引き額"
-msgstr ""
+msgstr "discount(JPY) discount amount"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "merchantName"
@@ -215,7 +219,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "店舗名"
-msgstr ""
+msgstr "merchant name"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "orderNumber"
@@ -223,7 +227,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "注文番号。店舗側での識別用に任意の番号やコードを利用することができます"
-msgstr ""
+msgstr "order number. arbitrary numbers and codes are available for identification on the store side"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "referenceNumber"
@@ -231,7 +235,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "リファレンス番号。店舗側での識別用に任意の番号やコードを利用することができます"
-msgstr ""
+msgstr "reference number arbitrary numbers and codes are available for identification on the store side"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "itemName"
@@ -239,7 +243,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "商品名"
-msgstr ""
+msgstr "product name"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "buyerId"
@@ -247,7 +251,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "利用者ID"
-msgstr ""
+msgstr "buyer ID"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "buyerName"
@@ -255,7 +259,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "利用者名"
-msgstr ""
+msgstr "buyer name"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "buyerKana"
@@ -263,7 +267,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "利用者ふりがな"
-msgstr ""
+msgstr "buyer kana"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "buyerZip"
@@ -271,7 +275,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "利用者郵便番号"
-msgstr ""
+msgstr "buyer Zip"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "buyerAddr1"
@@ -279,7 +283,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "利用者住所１"
-msgstr ""
+msgstr "buyer address 1"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "buyerAddr2"
@@ -287,7 +291,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "利用者住所２"
-msgstr ""
+msgstr "buyer address 2"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "buyerAddr3"
@@ -295,7 +299,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "利用者住所３"
-msgstr ""
+msgstr "buyer address 3"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "buyerPhone"
@@ -303,7 +307,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "利用者電話番号"
-msgstr ""
+msgstr "buyer phone number"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "buyerCellphone"
@@ -311,7 +315,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "利用者携帯番号"
-msgstr ""
+msgstr "buyer cell phone number"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "buyerEmail"
@@ -319,11 +323,11 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "利用者メールアドレス"
-msgstr ""
+msgstr "buyer email address"
 
 #: ../../payment/2_individual/1_createInvoice.rst:52
 msgid "*speed（決済スピード）について*"
-msgstr ""
+msgstr "*About speed*"
 
 #: ../../payment/2_individual/1_createInvoice.rst:49
 msgid ""
@@ -334,10 +338,14 @@ msgid ""
 " "
 "highとすると顧客側の送金が完了したタイミングとほぼ同時に着金し、決済完了とみなされますが、万一このトランザクションがネットワーク上で認証されなかった場合、決済が後から取り消しされる場合があります。"
 msgstr ""
+"If speed is high, arrival of money is regarded as completion of settlement, even if the transaction has not been confirmed yet on the cryptocurrency network."
+"If speed is medium, more than or equal to 1 confirmations is regarded as completion. This takes about 10 minutes on average for bitcoin and about 2 minutes on average for monacoin."
+"If spqed is low, more than or equal to 1 confirmations is regarded as completion. This takes about 1 hour on average for bitcoin and about 12 minutes on average for monacoin."
+"When speed is high, there is a possibility that the settlement is canceled later if this transaction is not confirmed on the network."
 
 #: ../../payment/2_individual/1_createInvoice.rst:56
 msgid "*利用者の氏名・住所などについて*"
-msgstr ""
+msgstr "*About buyer name and address*"
 
 #: ../../payment/2_individual/1_createInvoice.rst:55
 msgid ""
@@ -345,26 +353,28 @@ msgid ""
 " "
 "決済フォームはインボイスIDがもれない限りアクセスすることができませんが、インターネット上ではアクセス制限なしに公開される状態になりますので、個人情報保護の観点から、必要でない場合（注文番号などから顧客が関連付けできる場合）は顧客の情報を送信されないことをお勧めします。"
 msgstr ""
+"The name, address, phone number of buyers, and so on, are displayed on the payment form if they are sent, however buyer ID is not."
+"Payment form cannot be accessed without invoice ID. Since it is open to the internet, however, from the viewpoint of protection of personal information, we recommend not sending customer's information if it is not necessary."
 
 #: ../../payment/2_individual/1_createInvoice.rst:59
 msgid "戻り値"
-msgstr ""
+msgstr "Return value"
 
 #: ../../payment/2_individual/1_createInvoice.rst:60
 msgid "成功時のJSON、10800円をBTC決済でリクエストした例"
-msgstr ""
+msgstr "JSON on success, example of request 10800 YEN by BTC settlement"
 
 #: ../../payment/2_individual/1_createInvoice.rst:84
 msgid "成功時のJSON、10000円をMONA決済でリクエストした例"
-msgstr ""
+msgstr "JSON on success, example of request 10000 YEN by MONA settlement"
 
 #: ../../payment/2_individual/1_createInvoice.rst:108
 msgid "returnパラメータ"
-msgstr ""
+msgstr "return parameter"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "キー"
-msgstr ""
+msgstr "Key"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "invoiceId"
@@ -372,7 +382,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "作成したインボイスを識別するためのID"
-msgstr ""
+msgstr "ID for distinguishing invoices"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "04e42516-1652-11e5-9eb4-4437e6999eec"
@@ -384,7 +394,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "作成したインボイスに対する支払フォームのURI"
-msgstr ""
+msgstr "payment form URI for the invoice created"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "invoiceIframeUri"
@@ -392,7 +402,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "作成したインボイスに対するiframe版支払フォームのURI"
-msgstr ""
+msgstr "payment form(iframe version) URI for the invoice created"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "created"
@@ -400,7 +410,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "インボイス作成日時。unixtime"
-msgstr ""
+msgstr "invoice creation datetime.unixtime"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "expired"
@@ -408,15 +418,15 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "インボイスの有効期限。unixtime"
-msgstr ""
+msgstr "invoice expiration datetime. unixtime"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "決済対象金額（送信された金額）"
-msgstr ""
+msgstr "settlement amount(amount sent)"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "決済対象の暗号通貨"
-msgstr ""
+msgstr "cryptocurrency for settlement"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "rate"
@@ -424,7 +434,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "決済時の換算レート"
-msgstr ""
+msgstr "exchange rate at settlement"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "btc"
@@ -432,7 +442,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "Bitcoinによる請求額（bitcoinによる決済時のみ）"
-msgstr ""
+msgstr "amount billed in Bitcoin(only when settling by bitcoin)"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "mona"
@@ -440,7 +450,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "Monacoinによる請求額（monacoinによる決済時のみ）"
-msgstr ""
+msgstr "amount billed in Monacoin(only when settling by monacoin)"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "address"
@@ -448,7 +458,7 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "BitcoinまたMonacoinの決済用支払先アドレス"
-msgstr ""
+msgstr "Bitcoin or Monacoin address"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "BIP21"
@@ -456,35 +466,35 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "bitcoinまたはmonacoinの支払いURI"
-msgstr ""
+msgstr "Bitcoin or Monacoin payment URI"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "決済スピード（送信されたものまたはデフォルトで適用されたもの"
-msgstr ""
+msgstr "settlement speed"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "送信された注文番号（送信された場合のみ）"
-msgstr ""
+msgstr "order number(only if sent)"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "送信されたリファレンス番号（送信された場合のみ）"
-msgstr ""
+msgstr "reference number(only if sent)"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "送信された利用者ID（送信された場合のみ）"
-msgstr ""
+msgstr "buyer ID (only if sent)"
 
 #: ../../payment/2_individual/1_createInvoice.rst:133
 msgid "決済完了通知(notificationUri)について"
-msgstr ""
+msgstr "About notificationUri"
 
 #: ../../payment/2_individual/1_createInvoice.rst:135
 msgid "notificationUriを設定した場合、speedで設定した状態となったタイミングで、決済完了の通知がHTTP(S)で送信されます。"
-msgstr ""
+msgstr "if notificationUri is set, the notification of completion of settlement will be sent in HTTP(s) at the timing specified by speed"
 
 #: ../../payment/2_individual/1_createInvoice.rst:137
 msgid "送信されるパラメータ"
-msgstr ""
+msgstr "parameters which will send"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "settled"
@@ -492,41 +502,43 @@ msgstr ""
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "決済完了日時。unixtime"
-msgstr ""
+msgstr "settled datetime unixtime"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "設定された注文番号（送信された場合のみ）"
-msgstr ""
+msgstr "order number (only if sent)"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "設定されたリファレンス番号（送信された場合のみ）"
-msgstr ""
+msgstr "reference number (only if sent)"
 
 #: ../../payment/2_individual/1_createInvoice.rst:1
 msgid "設定された利用者ID（送信された場合のみ）"
-msgstr ""
+msgstr "buyer ID (only if sent)"
 
 #: ../../payment/2_individual/1_createInvoice.rst:155
 msgid "notificationMethodにGETを設定した場合は、パラメータは送信されません"
-msgstr ""
+msgstr "If notificationMethod is set to GET, parameters will not be sent."
 
 #: ../../payment/2_individual/1_createInvoice.rst:155
 msgid ""
 "notificationMethodにGETを設定した場合は、パラメータは一切送信されません。 "
 "notificationMethodにGETを設定する場合、notificationUriに注文を識別できるような工夫をして設定してください"
 msgstr ""
+"If notificationMethod is set to GET, parameters will never be sent."
+"Therefore, when using GET, please make sure to identify orders with notificationUri."
 
 #: ../../payment/2_individual/1_createInvoice.rst:159
 msgid "通知のエラー時の対応について"
-msgstr ""
+msgstr "About support when notification error occurs"
 
 #: ../../payment/2_individual/1_createInvoice.rst:158
 msgid "エラー時の再送については準備中です。"
-msgstr ""
+msgstr "now preparing about retransmission on error."
 
 #: ../../payment/2_individual/1_createInvoice.rst:162
 msgid "決済完了時のリダイレクト(redirectUri)について"
-msgstr ""
+msgstr "About redirectUri"
 
 #: ../../payment/2_individual/1_createInvoice.rst:164
 msgid ""
@@ -534,10 +546,12 @@ msgid ""
 " "
 "redirectUriを設定してない場合はリダイレクトされず、こちらのフォームが表示されたままになります。その際、入金ステータスは自動的に更新されます。"
 msgstr ""
+"When payment is made while the form displayed, It will be automatically redirected at the timing of confirming the deposit on the cryptocurrency network."
+"If redirectUri is not specified, the form is stay displayed. At that time, payment status is updated automatically."
 
 #: ../../payment/2_individual/1_createInvoice.rst:169
 msgid "Bitcoin建てまたはMonacoin建ての決済"
-msgstr ""
+msgstr "Bitcoin denominated or Monacoin denominated settlement"
 
 #: ../../payment/2_individual/1_createInvoice.rst:171
 msgid ""
@@ -546,4 +560,9 @@ msgid ""
 " 返り値からrateは削除されることに注意してください。 "
 "BTCまたはMONAがそのまま決済事業者様のアカウントに精算されますので、決済手数料は完全にゼロ％になりますが、円換算を行う際の相場の変動リスクはそのまま決済事業者様が担うことになりますことにご注意ください。"
 msgstr ""
+"You can do settlement in Bitcoin or Monacoin rather than Yen denominated."
+"Specify \"btc\" or \"mona\" in billingCurrency parameter(not in the list). At that time, the currency parameter must also specify the same currency."
+"Please note that 'rate' will be removed from the return value."
+"Since BTC or MONA will be settled directly to the EC site account, the settlement fee will be completely zero%."
+"However, you have to take exchange rate fluctuation risk when conversion to YEN."
 

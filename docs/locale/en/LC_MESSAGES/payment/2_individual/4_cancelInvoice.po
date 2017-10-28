@@ -24,34 +24,35 @@ msgstr ""
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:5
 msgid "インボイスのキャンセル"
-msgstr ""
+msgstr "cancel invoice"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:7
 msgid ""
 "作成したインボイスを取消します。 支払が完了していたり既に有効期限が切れている場合はエラーとなります。 "
 "部分的に入金されていた場合は、過払いとして処理されます。"
-msgstr ""
+msgstr "Cancel the invoice created. An error occurs when the payment is completed, expired, and so on."
+"If partial payment was made, it will be treated as overpayment."
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 #: ../../payment/2_individual/4_cancelInvoice.rst:13
 msgid "パラメータ"
-msgstr ""
+msgstr "Parameters"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "必須"
-msgstr ""
+msgstr "Required"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "詳細"
-msgstr ""
+msgstr "Details"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "型"
-msgstr ""
+msgstr "Type"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "値または例"
-msgstr ""
+msgstr "value or example"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "method"
@@ -63,7 +64,7 @@ msgstr ""
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "メソッド名"
-msgstr ""
+msgstr "name of method"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "str"
@@ -79,7 +80,7 @@ msgstr ""
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "APIキー"
-msgstr ""
+msgstr "API key"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "md5secret"
@@ -91,7 +92,7 @@ msgstr ""
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "APIシークレットのmd5。(1)md5またはsha1のどちらかをセット"
-msgstr ""
+msgstr "API secret hashed by md5. (1)set only md5 or sha1."
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "sha1secret"
@@ -99,7 +100,7 @@ msgstr ""
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "APIシークレットのsha1。(1)md5またはsha1のどちらかをセット"
-msgstr ""
+msgstr "API secret hashed by sha1. (1)set only md5 or sha1."
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "nonce"
@@ -107,7 +108,7 @@ msgstr ""
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "1以上の数、呼び出し毎に増分して送信してください"
-msgstr ""
+msgstr "an number greater than or equal to 1. please increment by every call."
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "int"
@@ -119,23 +120,23 @@ msgstr ""
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "キャンセルしたいinvoiceId"
-msgstr ""
+msgstr "invoiceId you want to cancel"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:27
 msgid "戻り値"
-msgstr ""
+msgstr "Return value"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:28
 msgid "returnパラメータ"
-msgstr ""
+msgstr "return parameters"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "キー"
-msgstr ""
+msgstr "Key"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "作成したインボイスを識別するためのID"
-msgstr ""
+msgstr "ID for distinguishing invoices"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "04e42516-1652-11e5-9eb4-4437e6999eec"
@@ -147,7 +148,7 @@ msgstr ""
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "インボイス作成日時。unixtime"
-msgstr ""
+msgstr "invoice creation datetime.unixtime"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "expired"
@@ -155,7 +156,7 @@ msgstr ""
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "インボイスの有効期限。unixtime"
-msgstr ""
+msgstr "invoice expiration datetime. unixtime"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "status"
@@ -163,7 +164,7 @@ msgstr ""
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "インボイスの状態"
-msgstr ""
+msgstr "invoice status"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "canceled"
@@ -175,7 +176,7 @@ msgstr ""
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "決済完了日時。unixtime"
-msgstr ""
+msgstr "c"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "amount"
@@ -183,7 +184,7 @@ msgstr ""
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "決済対象金額（送信された金額）"
-msgstr ""
+msgstr "settlement amount(amount sent)"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "currency"
@@ -191,11 +192,11 @@ msgstr ""
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "決済対象の暗号通貨"
-msgstr ""
+msgstr "cryptocurrency for settlement"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "btc または mona"
-msgstr ""
+msgstr "btc or mona"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "rate"
@@ -203,7 +204,7 @@ msgstr ""
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "決済時の換算レート"
-msgstr ""
+msgstr "exchange rate at settlement"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "btc"
@@ -211,7 +212,7 @@ msgstr ""
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "Bitcoinによる請求額（bitcoinによる決済時のみ）"
-msgstr ""
+msgstr "amount billed in Bitcoin(only when settling by bitcoin)"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "mona"
@@ -219,7 +220,7 @@ msgstr ""
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "Monacoinによる請求額（monacoinによる決済時のみ）"
-msgstr ""
+msgstr "amount billed in Monacoin(only when settling by monacoin)"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "address"
@@ -227,7 +228,7 @@ msgstr ""
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "BitcoinまたMonacoinの決済用支払先アドレス"
-msgstr ""
+msgstr "Bitcoin or Monacoin address"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "BIP21"
@@ -235,7 +236,7 @@ msgstr ""
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "bitcoinまたはmonacoinの支払いURI"
-msgstr ""
+msgstr "Bitcoin or Monacoin payment URI"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "speed"
@@ -243,7 +244,7 @@ msgstr ""
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "決済スピード（送信されたものまたはデフォルトで適用されたもの"
-msgstr ""
+msgstr "settlement speed"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "orderNumber"
@@ -251,9 +252,9 @@ msgstr ""
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:1
 msgid "送信された注文番号"
-msgstr ""
+msgstr "order number"
 
 #: ../../payment/2_individual/4_cancelInvoice.rst:49
 msgid "キャンセル失敗時はエラーが帰るため、成功時のstatusは常に'canceled'となります"
-msgstr ""
+msgstr "An error returns when the cancellation fails, then the status at the time of success is always 'canceled'"
 

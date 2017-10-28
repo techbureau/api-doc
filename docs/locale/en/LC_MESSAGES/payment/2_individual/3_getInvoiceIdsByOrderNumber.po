@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:5
 msgid "インボイスの検索"
-msgstr ""
+msgstr "search invoice"
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:7
 msgid ""
@@ -33,27 +33,30 @@ msgid ""
 "document.readthedocs.io/ja/latest/payment/2_individual/2_getInvoice.html>`_"
 " を使用してください。"
 msgstr ""
+"Search invoice with order number, then return invoiceID. In order to get details of the invoice, please use `getInvoice <http"
+"://techbureau-api-document.readthedocs.io/ja/latest/payment/2_individual/2_getInvoice.html>`_ "
+
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:11
 msgid "パラメータ"
-msgstr ""
+msgstr "Parameters"
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
 msgid "必須"
-msgstr ""
+msgstr "Required"
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
 msgid "詳細"
-msgstr ""
+msgstr "Details"
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
 msgid "型"
-msgstr ""
+msgstr "Type"
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
 msgid "値または例"
-msgstr ""
+msgstr "value or example"
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
 msgid "method"
@@ -65,7 +68,7 @@ msgstr ""
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
 msgid "メソッド名"
-msgstr ""
+msgstr "name of method"
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
 msgid "str"
@@ -81,7 +84,7 @@ msgstr ""
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
 msgid "APIキー"
-msgstr ""
+msgstr "API key"
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
 msgid "md5secret"
@@ -93,7 +96,7 @@ msgstr ""
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
 msgid "APIシークレットのmd5。(1)md5またはsha1のどちらかをセット"
-msgstr ""
+msgstr "API secret hashed by md5. (1)set only md5 or sha1."
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
 msgid "sha1secret"
@@ -101,7 +104,7 @@ msgstr ""
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
 msgid "APIシークレットのsha1。(1)md5またはsha1のどちらかをセット"
-msgstr ""
+msgstr "API secret hashed by sha1. (1)set only md5 or sha1."
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
 msgid "nonce"
@@ -109,7 +112,7 @@ msgstr ""
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
 msgid "1以上の数、呼び出し毎に増分して送信してください"
-msgstr ""
+msgstr "an number greater than or equal to 1. "
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
 msgid "int"
@@ -121,27 +124,27 @@ msgstr ""
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
 msgid "注文番号"
-msgstr ""
+msgstr "order number"
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:25
 msgid "戻り値"
-msgstr ""
+msgstr "Return value"
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:26
 msgid "成功例"
-msgstr ""
+msgstr "Success example"
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:42
 msgid "成功例（検索結果なし）"
-msgstr ""
+msgstr "Success example(no search result)"
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:55
 msgid "returnパラメータ"
-msgstr ""
+msgstr "return parameters"
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
 msgid "キー"
-msgstr ""
+msgstr "Key"
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
 msgid "invoiceIdｓ"
@@ -149,7 +152,7 @@ msgstr ""
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
 msgid "検索結果"
-msgstr ""
+msgstr "search results"
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
 msgid "dict"
@@ -161,5 +164,5 @@ msgstr ""
 
 #: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
 msgid "検索結果の件数"
-msgstr ""
+msgstr "count of results"
 

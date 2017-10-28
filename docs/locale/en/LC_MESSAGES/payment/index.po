@@ -20,9 +20,9 @@ msgstr ""
 
 #: ../../payment/index.rst:4
 msgid "決済API"
-msgstr ""
+msgstr "PaymentAPI"
 
 #: ../../payment/index.rst:5
 msgid "決済を行うためのAPIの情報です。"
-msgstr ""
+msgstr "Information of PaymentAPI"
 

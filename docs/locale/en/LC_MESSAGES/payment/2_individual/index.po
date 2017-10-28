@@ -20,9 +20,9 @@ msgstr ""
 
 #: ../../payment/2_individual/index.rst:3
 msgid "個別情報"
-msgstr ""
+msgstr "Individual information"
 
 #: ../../payment/2_individual/index.rst:5
 msgid "それぞれのトレードAPIの情報です。"
-msgstr ""
+msgstr "Information of each PaymentAPI"
 
