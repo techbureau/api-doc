@@ -1,0 +1,1165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:42+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../trade/1_common.rst:3
+msgid "共通情報"
+msgstr ""
+
+#: ../../trade/1_common.rst:5
+msgid "トレードAPIに共通する情報です。 パラメータなど、API個別の情報はそれぞれのページを参照してください。"
+msgstr ""
+
+#: ../../trade/1_common.rst:9
+msgid "事前準備"
+msgstr ""
+
+#: ../../trade/1_common.rst:10
+msgid ""
+"取引APIを利用するには、`アカウント情報のページ <https://zaif.jp/api_keys>`_ のページからAPI "
+"Keyの発行をおこなってください。"
+msgstr ""
+
+#: ../../trade/1_common.rst:14
+msgid "リクエスト方法"
+msgstr ""
+
+#: ../../trade/1_common.rst:17
+msgid "エンドポイント"
+msgstr ""
+
+#: ../../trade/1_common.rst:19
+msgid "https://api.zaif.jp/tapi"
+msgstr ""
+
+#: ../../trade/1_common.rst:22
+msgid "リクエスト種別"
+msgstr ""
+
+#: ../../trade/1_common.rst:24
+msgid "POST"
+msgstr ""
+
+#: ../../trade/1_common.rst:27
+msgid "認証"
+msgstr ""
+
+#: ../../trade/1_common.rst:28
+msgid "取得したAPI Keysを利用して、下記のようにHTTPヘッダを設定し、認証情報を送信します。"
+msgstr ""
+
+#: ../../trade/1_common.rst:1 ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/1_get_info.rst:1
+#: ../../trade/2_individual/2_get_info2.rst:1
+#: ../../trade/2_individual/3_get_personal_info.rst:1
+#: ../../trade/2_individual/4_get_id_info.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+#: ../../trade/2_individual/7_trade.rst:1
+#: ../../trade/2_individual/8_cancel_order.rst:1
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "キー"
+msgstr ""
+
+#: ../../trade/1_common.rst:1 ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/1_get_info.rst:1
+#: ../../trade/2_individual/2_get_info2.rst:1
+#: ../../trade/2_individual/3_get_personal_info.rst:1
+#: ../../trade/2_individual/4_get_id_info.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+#: ../../trade/2_individual/7_trade.rst:1
+#: ../../trade/2_individual/8_cancel_order.rst:1
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "詳細"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "具体例"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "key"
+msgstr ""
+
+#: ../../trade/1_common.rst:1 ../../trade/2_individual/4_get_id_info.rst:1
+msgid "APIキー"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "490f983a-5fab-49b2-b789-9d1f130874d3"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "sign"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "署名"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "詳細は下記"
+msgstr ""
+
+#: ../../trade/1_common.rst:38
+msgid ""
+"signはPOSTする全てのパラメータ（nonceとmethodおよびメソッド毎のパラメータ）を "
+"URLエンコードしたクエリ形式(param1=val1&param2=val2)のメッセージとして、Secret Keyを用いてHMAC-"
+"SHA512で署名します。"
+msgstr ""
+
+#: ../../trade/1_common.rst:42
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/10_deposit_history.rst:10
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:10
+#: ../../trade/2_individual/1_get_info.rst:9
+#: ../../trade/2_individual/2_get_info2.rst:9
+#: ../../trade/2_individual/3_get_personal_info.rst:9
+#: ../../trade/2_individual/4_get_id_info.rst:9
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:9
+#: ../../trade/2_individual/6_active_orders.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:9
+#: ../../trade/2_individual/7_trade.rst:1
+#: ../../trade/2_individual/7_trade.rst:9
+#: ../../trade/2_individual/8_cancel_order.rst:1
+#: ../../trade/2_individual/8_cancel_order.rst:9
+#: ../../trade/2_individual/9_withdraw.rst:14
+msgid "パラメータ"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "nonce"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "1以上の数を実行都度増分して送信します"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "23123"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "method"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "APIメソッド名"
+msgstr ""
+
+#: ../../trade/1_common.rst:1 ../../trade/2_individual/1_get_info.rst:3
+msgid "get_info"
+msgstr ""
+
+#: ../../trade/1_common.rst:50
+msgid "**注意**"
+msgstr ""
+
+#: ../../trade/1_common.rst:51
+msgid "その他のメソッド毎の固有のパラメータも全てPOSTパラメータにて送信してください。"
+msgstr ""
+
+#: ../../trade/1_common.rst:52
+msgid "nonceパラメータの値は実効毎に増分されていないとエラーが発生します。また増分量は少数点以下の値にも対応しております。"
+msgstr ""
+
+#: ../../trade/1_common.rst:55 ../../trade/1_common.rst:76
+#: ../../trade/2_individual/10_deposit_history.rst:28
+#: ../../trade/2_individual/11_withdraw_history.rst:28
+#: ../../trade/2_individual/1_get_info.rst:13
+#: ../../trade/2_individual/2_get_info2.rst:13
+#: ../../trade/2_individual/3_get_personal_info.rst:13
+#: ../../trade/2_individual/4_get_id_info.rst:13
+#: ../../trade/2_individual/5_trade_history.rst:32
+#: ../../trade/2_individual/6_active_orders.rst:19
+#: ../../trade/2_individual/7_trade.rst:46
+#: ../../trade/2_individual/8_cancel_order.rst:24
+#: ../../trade/2_individual/9_withdraw.rst:28
+msgid "戻り値"
+msgstr ""
+
+#: ../../trade/1_common.rst:1 ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/1_get_info.rst:1
+#: ../../trade/2_individual/2_get_info2.rst:1
+#: ../../trade/2_individual/3_get_personal_info.rst:1
+#: ../../trade/2_individual/4_get_id_info.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+#: ../../trade/2_individual/7_trade.rst:1
+#: ../../trade/2_individual/8_cancel_order.rst:1
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "型"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "success"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "成功フラグ"
+msgstr ""
+
+#: ../../trade/1_common.rst:1 ../../trade/2_individual/1_get_info.rst:1
+#: ../../trade/2_individual/2_get_info2.rst:1
+#: ../../trade/2_individual/4_get_id_info.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+#: ../../trade/2_individual/7_trade.rst:1
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "int"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "return"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "実行結果"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "dict or string"
+msgstr ""
+
+#: ../../trade/1_common.rst:72 ../../trade/2_individual/1_get_info.rst:65
+#: ../../trade/2_individual/2_get_info2.rst:62
+msgid "補足"
+msgstr ""
+
+#: ../../trade/1_common.rst:78
+msgid "処理に成功した場合、successには1が、returnには実行結果が設定されます。"
+msgstr ""
+
+#: ../../trade/1_common.rst:79
+msgid "処理に失敗した場合、successには0が、returnにはエラーメッセージが設定されます。"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:3
+msgid "deposit_history"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:6
+msgid "入金履歴を取得します。"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+#: ../../trade/2_individual/7_trade.rst:1
+#: ../../trade/2_individual/8_cancel_order.rst:1
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "必須"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+#: ../../trade/2_individual/8_cancel_order.rst:1
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "デフォルト"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "currency"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/7_trade.rst:1
+#: ../../trade/2_individual/8_cancel_order.rst:1
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "Yes"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+msgid "通貨。公開情報APIのcurrenciesで取得できるものが指定できます。"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+msgid "例)jpy 等"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "from"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+#: ../../trade/2_individual/7_trade.rst:1
+#: ../../trade/2_individual/8_cancel_order.rst:1
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "No"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "この順番のレコードから取得"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+msgid "numerical str"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "0"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "count"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "取得するレコード数"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/7_trade.rst:1
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "numerical"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "1000"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "from_id"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+msgid "この出金IDのレコードから取得"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "end_id"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+msgid "この出金IDのレコードまで取得"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+msgid "infinty"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "order"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "ソート順"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "ASC (昇順)もしくは DESC (降順)"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "DESC"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "since"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "開始タイムスタンプ"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+msgid "UNIX_TIMESTAMP"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "end"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "終了タイムスタンプ"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:25
+#: ../../trade/2_individual/11_withdraw_history.rst:25
+msgid "注意: “since”もしくは”end”をセットした場合、”order”は強制的に”ASC”となります。"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+msgid "timestamp"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+msgid "出金日時"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "address"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+msgid "出金先アドレス"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/3_get_personal_info.rst:1
+#: ../../trade/2_individual/4_get_id_info.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+#: ../../trade/2_individual/7_trade.rst:1
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "str"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+#: ../../trade/2_individual/7_trade.rst:1
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "amount"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+msgid "取引量"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/7_trade.rst:1
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "float"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "txid"
+msgstr ""
+
+#: ../../trade/2_individual/10_deposit_history.rst:1
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+msgid "トランザクションid"
+msgstr ""
+
+#: ../../trade/2_individual/11_withdraw_history.rst:3
+msgid "withdraw_history"
+msgstr ""
+
+#: ../../trade/2_individual/11_withdraw_history.rst:6
+msgid "出金履歴を取得します。"
+msgstr ""
+
+#: ../../trade/2_individual/11_withdraw_history.rst:1
+msgid "UNIX time"
+msgstr ""
+
+#: ../../trade/2_individual/1_get_info.rst:6
+msgid "現在の残高（余力および残高・トークン）、APIキーの権限、過去のトレード数、アクティブな注文数、サーバーのタイムスタンプを取得します。"
+msgstr ""
+
+#: ../../trade/2_individual/1_get_info.rst:10
+#: ../../trade/2_individual/2_get_info2.rst:10
+#: ../../trade/2_individual/3_get_personal_info.rst:10
+#: ../../trade/2_individual/4_get_id_info.rst:10
+msgid "なし"
+msgstr ""
+
+#: ../../trade/2_individual/1_get_info.rst:1
+#: ../../trade/2_individual/2_get_info2.rst:1
+#: ../../trade/2_individual/7_trade.rst:1
+#: ../../trade/2_individual/8_cancel_order.rst:1
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "funds"
+msgstr ""
+
+#: ../../trade/2_individual/1_get_info.rst:1
+#: ../../trade/2_individual/2_get_info2.rst:1
+msgid "資産の残高"
+msgstr ""
+
+#: ../../trade/2_individual/1_get_info.rst:1
+#: ../../trade/2_individual/2_get_info2.rst:1
+#: ../../trade/2_individual/7_trade.rst:1
+#: ../../trade/2_individual/8_cancel_order.rst:1
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "dict"
+msgstr ""
+
+#: ../../trade/2_individual/1_get_info.rst:1
+#: ../../trade/2_individual/2_get_info2.rst:1
+msgid "deposit"
+msgstr ""
+
+#: ../../trade/2_individual/1_get_info.rst:1
+#: ../../trade/2_individual/2_get_info2.rst:1
+msgid "資産の残高に注文情報を加味したもの"
+msgstr ""
+
+#: ../../trade/2_individual/1_get_info.rst:1
+#: ../../trade/2_individual/2_get_info2.rst:1
+msgid "rights"
+msgstr ""
+
+#: ../../trade/2_individual/1_get_info.rst:1
+#: ../../trade/2_individual/2_get_info2.rst:1
+msgid "キーが保持している権限"
+msgstr ""
+
+#: ../../trade/2_individual/1_get_info.rst:1
+msgid "trade_count"
+msgstr ""
+
+#: ../../trade/2_individual/1_get_info.rst:1
+msgid "実行したトレード数"
+msgstr ""
+
+#: ../../trade/2_individual/1_get_info.rst:1
+#: ../../trade/2_individual/2_get_info2.rst:1
+msgid "open_orders"
+msgstr ""
+
+#: ../../trade/2_individual/1_get_info.rst:1
+#: ../../trade/2_individual/2_get_info2.rst:1
+msgid "アクティブな注文数"
+msgstr ""
+
+#: ../../trade/2_individual/1_get_info.rst:1
+#: ../../trade/2_individual/2_get_info2.rst:1
+msgid "server_time"
+msgstr ""
+
+#: ../../trade/2_individual/1_get_info.rst:1
+#: ../../trade/2_individual/2_get_info2.rst:1
+msgid "UNIX時間で換算された日本時間"
+msgstr ""
+
+#: ../../trade/2_individual/1_get_info.rst:58
+#: ../../trade/2_individual/2_get_info2.rst:55
+msgid "deposit計算式"
+msgstr ""
+
+#: ../../trade/2_individual/1_get_info.rst:59
+#: ../../trade/2_individual/2_get_info2.rst:56
+msgid "depositは現在の資産の残高に注文情報を加味したものになります。"
+msgstr ""
+
+#: ../../trade/2_individual/1_get_info.rst:60
+#: ../../trade/2_individual/2_get_info2.rst:57
+msgid "買い注文が存在する場合、その注文の値段と量をかけ合わせたもので、"
+msgstr ""
+
+#: ../../trade/2_individual/1_get_info.rst:61
+#: ../../trade/2_individual/2_get_info2.rst:58
+msgid "売り注文が存在する場合は、その注文の量のみが加味されます。"
+msgstr ""
+
+#: ../../trade/2_individual/1_get_info.rst:66
+#: ../../trade/2_individual/2_get_info2.rst:63
+msgid "取得できる情報は、APIを実行した時点のものになります。"
+msgstr ""
+
+#: ../../trade/2_individual/2_get_info2.rst:3
+msgid "get_info2"
+msgstr ""
+
+#: ../../trade/2_individual/2_get_info2.rst:6
+msgid "get_infoの軽量版で、過去のトレード数を除く項目を返します。"
+msgstr ""
+
+#: ../../trade/2_individual/3_get_personal_info.rst:3
+msgid "get_personal_info"
+msgstr ""
+
+#: ../../trade/2_individual/3_get_personal_info.rst:6
+msgid "チャットに使用されるニックネームと画像のパスを返します。"
+msgstr ""
+
+#: ../../trade/2_individual/3_get_personal_info.rst:1
+msgid "ranking_nickname"
+msgstr ""
+
+#: ../../trade/2_individual/3_get_personal_info.rst:1
+msgid "ニックネーム"
+msgstr ""
+
+#: ../../trade/2_individual/3_get_personal_info.rst:1
+msgid "icon_path"
+msgstr ""
+
+#: ../../trade/2_individual/3_get_personal_info.rst:1
+msgid "画像のパス"
+msgstr ""
+
+#: ../../trade/2_individual/4_get_id_info.rst:3
+msgid "get_id_info"
+msgstr ""
+
+#: ../../trade/2_individual/4_get_id_info.rst:6
+msgid "ユーザーIDやメールアドレスといった個人情報を取得します"
+msgstr ""
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "id"
+msgstr ""
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "ユーザーid"
+msgstr ""
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "email"
+msgstr ""
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "メールアドレス"
+msgstr ""
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "name"
+msgstr ""
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "kana"
+msgstr ""
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "総トレード数"
+msgstr ""
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "certified"
+msgstr ""
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "認証済み"
+msgstr ""
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "bool"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:3
+msgid "trade_history"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:6
+msgid "ユーザー自身の取引履歴を取得します。"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "このトランザクションIDのレコードから取得"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "このトランザクションIDのレコードまで取得"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "infinity"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+#: ../../trade/2_individual/7_trade.rst:1
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "currency_pair"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "通貨ペア。指定なしでbtc_jpy/mona_jpy/mona_btc/xem_jpy/xem_btc。eth_jpyやbch_jpyなどは指定の必要あり"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/7_trade.rst:1
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "(例) btc_jpy"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "指定なし"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "is_token"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+msgid "【非推奨、削除予定】true：カウンターパーティトークンの情報を取得 false：カウンターパーティトークン以外の情報を取得"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "false"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:29
+#: ../../trade/2_individual/8_cancel_order.rst:21
+msgid "注意:"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst
+msgid "・“since”もしくは”end”をセットした場合、”order”は強制的に”ASC”となります。"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst
+msgid "・“from_id”もしくは”end_id”をセットした場合、”order”は強制的に”ASC”となります。"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst
+msgid "・“currency_pair”と”is_token”の両方を指定した場合は”currency_pair”が優先されます。両方指定しない場合はカウンターパーティトークン以外の情報を取得します。"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+msgid "通貨ペア"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "action"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+msgid "bid(買い) or ask(売り)"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+msgid "数量"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "price"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+msgid "価格"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "fee"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "手数料"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "your_action"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "bidまたはask、自己取引の場合はbothとなります"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "bonus"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "マイナス手数料分"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+msgid "取引日時"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "comment"
+msgstr ""
+
+#: ../../trade/2_individual/5_trade_history.rst:1
+#: ../../trade/2_individual/6_active_orders.rst:1
+msgid "注文のコメント"
+msgstr ""
+
+#: ../../trade/2_individual/6_active_orders.rst:3
+msgid "active_orders"
+msgstr ""
+
+#: ../../trade/2_individual/6_active_orders.rst:6
+msgid "現在有効な注文一覧を取得します（未約定注文一覧）。"
+msgstr ""
+
+#: ../../trade/2_individual/6_active_orders.rst:1
+msgid "取得する通貨ペア。公開情報APIのcurrency_pairsで取得できるものが指定できます。指定なしで全ての通貨ペアの情報を取得します。"
+msgstr ""
+
+#: ../../trade/2_individual/6_active_orders.rst:1
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "str(例 btc_jpy)"
+msgstr ""
+
+#: ../../trade/2_individual/6_active_orders.rst:1
+msgid "全てのペア"
+msgstr ""
+
+#: ../../trade/2_individual/6_active_orders.rst:1
+msgid "is_token_both"
+msgstr ""
+
+#: ../../trade/2_individual/6_active_orders.rst:1
+msgid ""
+"【非推奨、削除予定】true：全てのアクティブなオーダー情報を取得 "
+"false：currency_pairやis_tokenに従ったオーダー情報を取得"
+msgstr ""
+
+#: ../../trade/2_individual/6_active_orders.rst:1
+msgid "発注日時"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:3
+msgid "trade"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:6
+msgid "取引注文を行います。"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "注文の種類"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "bid もしくは ask"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "指値注文価格"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "数量(例: 0.3)"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "limit"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "リミット注文価格"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "コメントの追加"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:22
+msgid "**パラメータ limitについて**"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:23
+msgid "リミット値（利確のための反対売買の指値）を指定することができます"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:24
+msgid "リミット値を指定した場合、注文が成立した分だけの数量について、自動的にリミット注文が発行されます"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:26
+msgid "**パラメータ commentについて**"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:27
+msgid "コメントは255字以内で半角英数字記号のみに対応しています"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:28
+msgid "また、スラッシュは使えませんでご注意ください"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:30
+msgid "**価格および数量の数値について**"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:31
+msgid ""
+"下記の単位以外で注文しようとした場合、invalid price parameterまたはinvalid amount "
+"parameterというエラーが返されます"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:35
+msgid "・価格（priceおよびlimit）"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst
+msgid "btc_jpy : 5円単位"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst
+msgid "mona_jpy : 0.1円単位"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst
+msgid "mona_btc : 0.00000001BTC単位"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:40
+msgid "・数量（amount）"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst
+msgid "btc_jpy : 0.0001BTC単位"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst
+msgid "mona_jpy : 1MONA単位"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst
+msgid "mona_btc : 1MONA単位"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:42
+msgid "指定できる単位等、詳細な情報は公開API情報APIのcurrency_pairsで取得できます"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "received"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "今回の注文で約定した取引量"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "remains"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "今回の注文で約定せず、板に残った取引量"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "order_id"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "今回の注文がすべて成立した場合は0、一部、もしくはすべて約定しなかった場合は板に残った注文のID。"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+#: ../../trade/2_individual/8_cancel_order.rst:1
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "残高"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:3
+msgid "cancel_order"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:6
+msgid "注文の取消しを行います。"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "注文ID（tradeまたはactive_ordersで取得できます）"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "通貨ペア。"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid ""
+"【非推奨、削除予定】true：カウンターパーティトークンのオーダーを取り消したい時　"
+"false：カウンターパーティトークン以外のオーダーを取り消したい時"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst
+msgid "・“currency_pair”と”is_token”の両方を指定した場合は”currency_pair”が優先されます。両方指定しない場合はカウンターパーティトークン以外の情報を操作します。"
+msgstr ""
+
+#: ../../trade/2_individual/8_cancel_order.rst:1
+msgid "注文id"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:3
+msgid "withdraw"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:6
+msgid ""
+"資金の引き出しリクエストを送信します。 "
+"2015年12月15日より、リクエスト時には一旦トランザクションIDは空で帰るようになりました。通常１〜２分でトランザクションが発生しますので、後ほどwithdraw_historyメソッドを利用して確認してください"
+" xemの出金時には、手数料は自動計算され、opt_feeに値をセットして送信しますとエラーを返しますのでご注意ください。"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:10
+msgid "不正送金の対策として、アカウントに対する最初の日本円入金から７日間は、APIによる仮想通貨の出金を制限しております。"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "パラメーター"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "引き出す通貨。公開情報APIのcurrenciesで取得できるものが指定できます。ただしjpyは指定できません。"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "例)btc 等"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "送信先のアドレス"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "address str"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "message"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "送信メッセージ(XEMのみ)"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "ASCII str"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "引き出す金額(例: 0.3)"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "opt_fee"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "採掘者への手数料(例: 0.003) ただしcurrencyがbtc、mona以外の時に指定するとエラーとなります。"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "振替えID"
+msgstr ""
+
+#: ../../trade/2_individual/9_withdraw.rst:1
+msgid "今回の引き出しにかかった手数料"
+msgstr ""
+
+#: ../../trade/2_individual/index.rst:3
+msgid "個別情報"
+msgstr ""
+
+#: ../../trade/2_individual/index.rst:5
+msgid "それぞれのトレードAPIの情報です。"
+msgstr ""
+
+#: ../../trade/3_how_to_implement/1_python.rst:3
+msgid "Python"
+msgstr ""
+
+#: ../../trade/3_how_to_implement/1_python.rst:48
+msgid "requestsは外部ライブラリとなります。利用するためには任意の環境にpipなどを使ってインストールする必要があります。"
+msgstr ""
+
+#: ../../trade/3_how_to_implement/index.rst:4
+msgid "サンプルコード"
+msgstr ""
+
+#: ../../trade/3_how_to_implement/index.rst:6
+msgid "それぞれの言語でのサンプルです。"
+msgstr ""
+
+#: ../../trade/index.rst:3
+msgid "現物取引API"
+msgstr ""
+

@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-23 21:48+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../library/1_common.rst:3
+msgid "ライブラリへのリンク"
+msgstr "Library links"
+
+#: ../../library/1_common.rst:5
+msgid "Zaifの公開API/取引APIを各種プログラミング言語から簡単に使用するためのライブラリをご紹介させていただきます。"
+msgstr ""
+"List of libraries for easily using Zaif Public/Trading API from various "
+"programming languages. "
+
+#: ../../library/1_common.rst:8
+msgid "Java"
+msgstr "Java"
+
+#: ../../library/1_common.rst:9
+msgid ""
+"zaif.jp API for Java JavaからZaif.jpのAPIを使うためのライブラリです。: "
+"https://github.com/nyatla/JZaif"
+msgstr "Call ZaifAPI from Java: https://github.com/nyatla/JZaif"
+
+#: ../../library/1_common.rst:12
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: ../../library/1_common.rst:13
+msgid ""
+"node.js zaif.jp module : https://www.npmjs.com/package/zaif.jp / "
+"https://github.com/you21979/node-zaif"
+msgstr ""
+"node.js zaif.jp module : https://www.npmjs.com/package/zaif.jp / "
+"https://github.com/you21979/node-zaif"
+
+#: ../../library/1_common.rst:15
+msgid ""
+"Qiita : Node.js – zaif（取引所）でAPIを使って取引する : "
+"http://qiita.com/you21979@github/items/32da1d0e1782e9e31938"
+msgstr ""
+"Qiita : Node.js – zaif（取引所）でAPIを使って取引する : "
+"http://qiita.com/you21979@github/items/32da1d0e1782e9e31938"
+
+#: ../../library/1_common.rst:18
+msgid "Ruby"
+msgstr "Ruby"
+
+#: ../../library/1_common.rst:19
+msgid "RubyGems – zaif : https://rubygems.org/gems/zaif"
+msgstr "RubyGems – zaif : https://rubygems.org/gems/zaif"
+
+#: ../../library/1_common.rst:22
+msgid "PHP"
+msgstr "PHP"
+
+#: ../../library/1_common.rst:23
+msgid "Zaif4PHP : https://github.com/tk1024/Zaif4PHP/"
+msgstr "Zaif4PHP : https://github.com/tk1024/Zaif4PHP/"
+
+#: ../../library/1_common.rst:26
+msgid "Golang"
+msgstr "Golang"
+
+#: ../../library/1_common.rst:27
+msgid "http://qiita.com/yanakend/items/e516f250800c4b876e65"
+msgstr "http://qiita.com/yanakend/items/e516f250800c4b876e65"
+
+#: ../../library/1_common.rst:29
+msgid "Zaif取引所(Bitcoin/Monacoin)のAPIをGolangから使う"
+msgstr "Zaif取引所(Bitcoin/Monacoin)のAPIをGolangから使う"
+
+#: ../../library/1_common.rst:32
+msgid "Python"
+msgstr "Python"
+
+#: ../../library/1_common.rst:33
+msgid "zaifapi : https://github.com/techbureau/zaifapi zaifのAPIを簡単にコール出来るようにしました。"
+msgstr "zaifapi : https://github.com/techbureau/zaifapi zaifのAPIを簡単にコール出来るようにしました。"
+
+#: ../../library/1_common.rst:36
+msgid ""
+"[Zaif]Pythonで簡単に仮想通貨の取引が出来るようにしてみた : http://qiita.com/Akira-"
+"Taniguchi/items/e52930c881adc6ecfe07"
+msgstr ""
+"[Zaif]Pythonで簡単に仮想通貨の取引が出来るようにしてみた : http://qiita.com/Akira-"
+"Taniguchi/items/e52930c881adc6ecfe07"
+
+#: ../../library/1_common.rst:40
+msgid "ここで紹介させていただいているライブラリは、Zaifおよびテックビューロ株式会社と直接関係のない一般の方々が作成して公開しておられるもの、いわゆる「非公式ライブラリ」となります。"
+msgstr ""
+"Libraries above are created by users and not officially supported by zaif"
+" and Tech Bureau, Corp"
+
+#: ../../library/1_common.rst:42
+msgid "これ以外にもご存知の場合や作成して頂いた場合で、ここにリンクを希望されます方は、お手数ですがzaifdotjpのTwitterアカウントや関係者などにご一報いただければ幸いです。また、もしここへの掲載を希望されない場合も、お手数おかけしますがご連絡くださいませば対処いたしますので、よろしくおねがいします。"
+msgstr ""
+"If you know or created other nice tools and want to share on this page, "
+"please feel free to tell our twitter account (@zaifdotjp). Also the case "
+"you want us to remove the link, please let us know."

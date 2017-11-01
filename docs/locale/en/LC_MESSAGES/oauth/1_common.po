@@ -1,0 +1,463 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-27 14:11+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../oauth/1_common.rst:3
+msgid "OAuth認証機能の利用手順"
+msgstr "Procedure for using the OAuth authentication"
+
+#: ../../oauth/1_common.rst:6
+msgid "OAuth認証機能を利用するには"
+msgstr "How to use OAuth authentication"
+
+#: ../../oauth/1_common.rst:7
+msgid "Zaifのアカウント情報を利用したサービス(以下クライアントサービス)を展開する業者(以下クライアント)がOAuth認証機能を利用できるようにするための手順を記述します。"
+msgstr "The following is a procedure to make developers(hereinafter called 'client') who develops third party application using Zaif's account information(hereinafter called 'client service') to use OAuth authentication."
+
+#: ../../oauth/1_common.rst:14
+msgid "*サービス基本情報を登録します*"
+msgstr "*Register basic information*"
+
+#: ../../oauth/1_common.rst:14
+msgid "Zaifにログインし、『アカウント』→『連携アプリケーション基本設定』から「連携アプリケーションの情報を新しく作成する」ボタンを押下し、サービスの詳細な情報を設定してください。"
+msgstr "Sign in to Zaif, and click『create collaboration application information』from『Account』→『Application』→『Linked app settings』, then set the details on the service."
+
+#: ../../oauth/1_common.rst:1
+msgid "項目名"
+msgstr "Items"
+
+#: ../../oauth/1_common.rst:1
+msgid "value例"
+msgstr "Example"
+
+#: ../../oauth/1_common.rst:1 ../../oauth/1_common.rst:146
+msgid "補足"
+msgstr "Supplement"
+
+#: ../../oauth/1_common.rst:1
+msgid "必須"
+msgstr "Required"
+
+#: ../../oauth/1_common.rst:1
+msgid "名称"
+msgstr "name"
+
+#: ../../oauth/1_common.rst:1
+msgid "自動取引BOT設定"
+msgstr "auto_trading_bot setting"
+
+#: ../../oauth/1_common.rst:1
+msgid "クライアントが各設定を見分けるための名称です。"
+msgstr "Name for client to identify settings"
+
+#: ../../oauth/1_common.rst:1
+msgid "Yes"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "リダイレクトURI"
+msgstr "Redirect URI"
+
+#: ../../oauth/1_common.rst:1
+msgid "https://auto.bot.co.jp/zaif_oauth"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "認可クリア後、必要なパラメータを受け取るためのリダイレクトURL設定してください。**設定することを強く推奨しています。**"
+msgstr "Set redirect URL to receive parameters after success of authorization. **strongly recommended**"
+
+#: ../../oauth/1_common.rst:1
+msgid "No 未設定の場合、後述する認可画面リダイレクトパラメータに指定されるredirect_uriが利用されます。"
+msgstr "No. if not specified, redirect_url specified for parameters for redirecting to Zaif's account authorization page will be used."
+
+#: ../../oauth/1_common.rst:1
+msgid "サービス名称"
+msgstr "service name"
+
+#: ../../oauth/1_common.rst:1
+msgid "自動取引BOT"
+msgstr "Auto trading bot"
+
+#: ../../oauth/1_common.rst:1
+msgid "サービスの名称を設定してください。"
+msgstr "Specify service name"
+
+#: ../../oauth/1_common.rst:1
+msgid "サービスイメージURL"
+msgstr "service image URL"
+
+#: ../../oauth/1_common.rst:1
+msgid "https://auto.bot.co.jp/service_image.png"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "サービスのイメージ画像のURLを設定してください。"
+msgstr "Specify the URL for service image."
+
+#: ../../oauth/1_common.rst:1
+msgid "No"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "サービスURL"
+msgstr "service URL"
+
+#: ../../oauth/1_common.rst:1
+msgid "https://auto.bot.co.jp/"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "サービスのURLを設定してください。"
+msgstr "Specify URL for of the service."
+
+#: ../../oauth/1_common.rst:1
+msgid "サービス利用規約URL"
+msgstr "URL for terms of service"
+
+#: ../../oauth/1_common.rst:1
+msgid "https://auto.bot.co.jp/terms"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "サービスの利用規約のURLを設定してください。"
+msgstr "Specify URL for terms of service"
+
+#: ../../oauth/1_common.rst:1
+msgid "サービスプライバシーポリシーURL"
+msgstr "service privacy policy URL"
+
+#: ../../oauth/1_common.rst:1
+msgid "https://auto.bot.co.jp/policy"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "サービスのプライバシープリシーのURLを設定してください。"
+msgstr "Specify URL for privacy policy of the service."
+
+#: ../../oauth/1_common.rst:31
+msgid "*Zaifアカウント認可画面へのリダイレクトを行えるようにします*"
+msgstr "*Redirect to Zaif's authorization screen*"
+
+#: ../../oauth/1_common.rst:30
+msgid "クライアントサービスのログイン画面等に、Zaifアカウント認可画面(https://zaif.jp/oauth)へ必要なパラメータを追加してリダイレクトを行えるようにしてください。"
+msgstr "On the sign in page of client service, add parameters for Zaif's account authorization page(https://zaif.jp/oauth)"
+
+#: ../../oauth/1_common.rst:1
+msgid "キー"
+msgstr "Key"
+
+#: ../../oauth/1_common.rst:1
+msgid "client_id"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "a3823d2a30f24e39980ebe7943b55737"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "連携アプリケーション基本情報登録時に発行されるIDを指定してください。"
+msgstr "Specify the client ID issued when registering a basic information of collaborative application."
+
+#: ../../oauth/1_common.rst:1
+msgid "response_type"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "code"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "固定です。"
+msgstr "Fixed."
+
+#: ../../oauth/1_common.rst:1
+msgid "scope"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "info%20trade"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "認可したい機能を半角空白(エンコード時は%20)で区切って指定してください、詳細は下記scope詳細をご確認ください。"
+msgstr "Specify functions you want authorization with separating by a space(%20 when encoding). Please check the following for scope details."
+
+#: ../../oauth/1_common.rst:1
+msgid "state"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "2a99cc45cef04c358dbc26db880f9d03"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "リダイレクトするたびに一意の文字列を指定してください。"
+msgstr "Set an unique string every time to redirect."
+
+#: ../../oauth/1_common.rst:1
+msgid "redirect_uri"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "http://your_domain/zaif_redirect"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "発行されたcode(後述)を取得するためのリダイレクト先を指定してください。"
+msgstr "Specify redirect destination to receive issued code(described later)"
+
+#: ../../oauth/1_common.rst:1
+msgid "No 未指定の場合はサービス基本情報登録時に指定したリダイレクトURLが使用されます"
+msgstr "No. If not specified, the redirect URL specified when registering a basic information of collaborative application will be used."
+
+#: ../../oauth/1_common.rst:1
+msgid "lang"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "en"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "表示言語を明示的に指定したい場合に指定してください"
+msgstr "Specify only if specifying language explicitly."
+
+#: ../../oauth/1_common.rst:1
+msgid "No 未指定の場合ブラウザの言語設定を参照して自動で言語情報を切り替えます。"
+msgstr "No. If not specified, switch language automatically by referring to the language setting of browser."
+
+#: ../../oauth/1_common.rst:45
+msgid "scope詳細"
+msgstr "Details of scope"
+
+#: ../../oauth/1_common.rst:1
+msgid "詳細"
+msgstr "Details"
+
+#: ../../oauth/1_common.rst:1
+msgid "info"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "データ参照"
+msgstr "Refer to data"
+
+#: ../../oauth/1_common.rst:1
+msgid "trade"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "通貨のトレード"
+msgstr "trading"
+
+#: ../../oauth/1_common.rst:1
+msgid "withdraw"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "口座への引き出し"
+msgstr "withdraw"
+
+#: ../../oauth/1_common.rst:1
+msgid "すべてのクライアントが指定できるわけではありません。詳しくはサポートまでご連絡ください。"
+msgstr "Not all clients specify this scope. Please contact support for details."
+
+#: ../../oauth/1_common.rst:56
+msgid "リダイレクトに成功すると、下記のような認証画面が表示されます。"
+msgstr "When the redirect succeeded, the authorization page like following is displayed."
+
+#: ../../oauth/1_common.rst:62
+msgid "*リダイレクトされた情報を解析します*"
+msgstr "*Analyze the redirected information*"
+
+#: ../../oauth/1_common.rst:62
+msgid "サービス利用ユーザ(以下ユーザ)が認証に成功すると、指定したリダイレクトURLにリクエストが発行されるので、パラメータを解析し、認可処理を行ってください。"
+msgstr "When the user who use the client service(hereinafter called 'user') succeeds in authentication, a request is issued to the specified redirect URL, then you can analyze parameters and perform authorization."
+
+#: ../../oauth/1_common.rst:1
+msgid "cb533e906a984b0e8ba4efae3af0c7cb"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "Zaifが発行した一意の文字列です。後述のトークン発行時に利用します。"
+msgstr "An unique string issued by Zaif. This is used for issuing a token later."
+
+#: ../../oauth/1_common.rst:1
+msgid "リダイレクト時に付与したstateパラメータと同値です。成りすまし対策として、必ず同値であるかチェックしてください。"
+msgstr "The same value with given 'state' parameter. Please be sure to check if the same value to prevent for spoofing."
+
+#: ../../oauth/1_common.rst:78
+msgid "*tokenをリクエストします*"
+msgstr "*Request a token*"
+
+#: ../../oauth/1_common.rst:73
+msgid "前述のcodeパラメータを使って、tokenが取得できるWeb APIを実行し、tokenを取得します。なお、戻り値はJSONになります。"
+msgstr "Execute token issuing API by using 'code' parameter above, then get a token. Additionally, return value is in JSON format."
+
+#: ../../oauth/1_common.rst:75
+msgid "エンドポイント:https://oauth.zaif.jp/v1/token"
+msgstr "End point: https://oauth.zaif.jp/v1/token"
+
+#: ../../oauth/1_common.rst:77 ../../oauth/1_common.rst:117
+msgid "メソッド:POST"
+msgstr "Method: POST"
+
+#: ../../oauth/1_common.rst:81
+msgid "トークン発行APIパラメータ"
+msgstr "Parameters of token issuing API"
+
+#: ../../oauth/1_common.rst:1
+msgid "grant_type"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "authorization_code"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "リダイレクトされたcode値を指定してください。"
+msgstr "specify the redirected code."
+
+#: ../../oauth/1_common.rst:1
+msgid "9r88i445cef04c358dbc26db880f9d03"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "アプリケーション基本情報登録時に発行されたクライアントIDを指定してください。"
+msgstr "Specify the client_id issued when registering basic application information."
+
+#: ../../oauth/1_common.rst:1
+msgid "client_secret"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "アプリケーション基本情報登録時に発行されたクライアントシークレットを指定してください。"
+msgstr "Specify the client_secret issued when registering basic application information."
+
+#: ../../oauth/1_common.rst:1
+msgid "リダイレクトしたいURLを指定してください"
+msgstr "Specify a URL to redirect."
+
+#: ../../oauth/1_common.rst:1
+msgid "No 認可画面リダイレクト時に指定している場合必ず同値を指定してください。"
+msgstr "No. If already specified when redirecting to authorization page, make sure to set the same value."
+
+#: ../../oauth/1_common.rst:94
+msgid "トークン発行API戻値"
+msgstr "Return value of token issuing API"
+
+#: ../../oauth/1_common.rst:1
+msgid "token_type"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "bearer"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "リダイレクト時に付与したstateパラメータと同値です。"
+msgstr "The same value with the given 'state' parameter"
+
+#: ../../oauth/1_common.rst:1
+msgid "access_token"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "bb12f3de5df2472290ff15331824a9cf"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "APIを利用する時に指定するトークンです。"
+msgstr "A token for using API"
+
+#: ../../oauth/1_common.rst:1
+msgid "refresh_token"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "ef972ad13e484e17abffbfd5dba51750"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "利用期限が切れたaccess tokenを再発行するために使用します。"
+msgstr "A token for reissue access token which is expired."
+
+#: ../../oauth/1_common.rst:1
+msgid "expires_in"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "3600"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "access tokenの期限です。単位は秒です。"
+msgstr "Time limit of access token. Unit: second"
+
+#: ../../oauth/1_common.rst:110
+msgid "*APIを実行します*"
+msgstr "*Execute API*"
+
+#: ../../oauth/1_common.rst:108
+msgid "今までHTTPヘッダにkey、signパラメータを付与して実行していた取引APIですが、取得したtokenを利用すればそれらは必要なくなります。"
+msgstr "With access token, you will no longer need to add 'key' and 'sign' in HTTP header to execute API."
+
+#: ../../oauth/1_common.rst:110
+msgid "発行されたaccess tokenをtokenパラメータとしてリクエスト発行時にHTTPヘッダに付与し、APIを実行して下さい。"
+msgstr "Please Execute API with adding acquired access token to HTTP header as 'token' parameter."
+
+#: ../../oauth/1_common.rst:117
+msgid "*access tokenの期限が切れた場合*"
+msgstr "*About expired access token*"
+
+#: ../../oauth/1_common.rst:113
+msgid "期限が切れたaccess tokenは利用できなくなります。下記tokenの再発行Web APIを利用して、token を再発行して下さい。"
+msgstr "An expired access token cannot be used. Please reissue a token with token reissuing API below."
+
+#: ../../oauth/1_common.rst:115
+msgid "エンドポイント:https://oauth.zaif.jp/v1/refresh_token"
+msgstr "End point: https://oauth.zaif.jp/v1/refresh_token"
+
+#: ../../oauth/1_common.rst:120
+msgid "トークン再発行APIパラメータ"
+msgstr "Parameters of token reissuing API"
+
+#: ../../oauth/1_common.rst:1
+msgid "トークン発行API実行時に取得したrefresh tokenを指定してください。"
+msgstr "Please specify refresh token acquired when executing token issuing API."
+
+#: ../../oauth/1_common.rst:133
+msgid "トークン再発行API戻値"
+msgstr "Return value of token reissuing API"
+
+#: ../../oauth/1_common.rst:1
+msgid "5a9b1fcfd3e241a6a83f411ade015c18"
+msgstr ""
+
+#: ../../oauth/1_common.rst:1
+msgid "0899f2b6c8614bce88934e6561cb47fb"
+msgstr ""
+
+#: ../../oauth/1_common.rst:147
+msgid "ユーザが認証したアプリケーションの情報を削除したい場合は、『アカウント』→『連携アプリケーション一覧』を選択し、削除したいアプリケーション情報の削除ボタンを押下してください。"
+msgstr "When releasing cooperation with an authenticated application, please click delete button of the app from 『Account』→『Application』."
+
+#~ msgid "認可クリア後、必要なパラメータを受け取るためのリダイレクトURL設定してください。"
+#~ msgstr ""
+

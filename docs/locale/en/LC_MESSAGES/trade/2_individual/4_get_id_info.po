@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../trade/2_individual/4_get_id_info.rst:3
+msgid "get_id_info"
+msgstr ""
+
+#: ../../trade/2_individual/4_get_id_info.rst:6
+msgid "ユーザーIDやメールアドレスといった個人情報を取得します"
+msgstr ""
+
+#: ../../trade/2_individual/4_get_id_info.rst:9
+msgid "パラメータ"
+msgstr "Parameters"
+
+#: ../../trade/2_individual/4_get_id_info.rst:10
+msgid "なし"
+msgstr "None"
+
+#: ../../trade/2_individual/4_get_id_info.rst:13
+msgid "戻り値"
+msgstr "Return value"
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "キー"
+msgstr "Key"
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "詳細"
+msgstr "Details"
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "型"
+msgstr "Type"
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "id"
+msgstr ""
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "ユーザーid"
+msgstr "user id"
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "str"
+msgstr ""
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "email"
+msgstr ""
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "メールアドレス"
+msgstr "email address"
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "name"
+msgstr ""
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "APIキー"
+msgstr "APIKey"
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "int"
+msgstr ""
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "kana"
+msgstr "kana"
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "総トレード数"
+msgstr "total trade number"
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "certified"
+msgstr ""
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "認証済み"
+msgstr "whether certified or not"
+
+#: ../../trade/2_individual/4_get_id_info.rst:1
+msgid "bool"
+msgstr ""
+

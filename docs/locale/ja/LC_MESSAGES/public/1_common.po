@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../public/1_common.rst:3
+msgid "共通情報"
+msgstr ""
+
+#: ../../public/1_common.rst:5
+msgid "公開APIに共通する情報です。"
+msgstr ""
+
+#: ../../public/1_common.rst:7
+msgid "個別の情報はそれぞれのページを参照してください。"
+msgstr ""
+
+#: ../../public/1_common.rst:11
+msgid "リクエスト方法"
+msgstr ""
+
+#: ../../public/1_common.rst:12
+msgid "エンドポイント：https://api.zaif.jp/api/1"
+msgstr ""
+
+#: ../../public/1_common.rst:14
+msgid "メソッド：GET"
+msgstr ""
+
+#: ../../public/1_common.rst:17
+msgid "戻り値"
+msgstr ""
+
+#: ../../public/1_common.rst:18
+msgid "全てjson形式となっています。フォーマットはAPIによって変わります。"
+msgstr ""
+

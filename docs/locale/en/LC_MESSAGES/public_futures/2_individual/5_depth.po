@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../public_futures/2_individual/5_depth.rst:3
+msgid "depth"
+msgstr ""
+
+#: ../../public_futures/2_individual/5_depth.rst:4
+msgid "板情報を取得します。"
+msgstr "get information of an order book"
+
+#: ../../public_futures/2_individual/5_depth.rst:7
+msgid "リクエスト"
+msgstr "Request"
+
+#: ../../public_futures/2_individual/5_depth.rst:8
+msgid "/depth/{group_id}/{currency_pair}"
+msgstr "/depth/{group_id}/{currency_pair}"
+
+#: ../../public_futures/2_individual/5_depth.rst:9
+msgid "例. https://api.zaif.jp/fapi/1/depth/1/btc_jpy"
+msgstr "e.g. https://api.zaif.jp/fapi/1/depth/1/btc_jpy"
+
+#: ../../public_futures/2_individual/5_depth.rst:11
+msgid "group_id,currency_pairに指定できる値は :ref:`public_futures-groups` を参照してください。"
+msgstr "refer to :ref:`public_futures-groups` to get possible values for currency_pair and group_id"
+
+#: ../../public_futures/2_individual/5_depth.rst:15
+msgid "パラメータ"
+msgstr "Parameters"
+
+#: ../../public_futures/2_individual/5_depth.rst:16
+msgid "なし"
+msgstr "None"
+
+#: ../../public_futures/2_individual/5_depth.rst:19
+msgid "戻り値"
+msgstr "Return value"
+
+#: ../../public_futures/2_individual/5_depth.rst:1
+msgid "キー"
+msgstr "Key"
+
+#: ../../public_futures/2_individual/5_depth.rst:1
+msgid "詳細"
+msgstr "Detail"
+
+#: ../../public_futures/2_individual/5_depth.rst:1
+msgid "型"
+msgstr ""
+
+#: ../../public_futures/2_individual/5_depth.rst:1
+msgid "asks"
+msgstr ""
+
+#: ../../public_futures/2_individual/5_depth.rst:1
+msgid "売り板情報"
+msgstr "ask order book"
+
+#: ../../public_futures/2_individual/5_depth.rst:1
+msgid "list"
+msgstr ""
+
+#: ../../public_futures/2_individual/5_depth.rst:1
+msgid "bids"
+msgstr ""
+
+#: ../../public_futures/2_individual/5_depth.rst:1
+msgid "買い板情報"
+msgstr "bid order book"
+
+#: ../../public_futures/2_individual/5_depth.rst:55
+msgid "補足"
+msgstr "Supplement"
+
+#: ../../public_futures/2_individual/5_depth.rst:58
+msgid "取引種別"
+msgstr "trade type"
+
+#: ../../public_futures/2_individual/5_depth.rst:60
+msgid "配列の最初が価格、最後が量"
+msgstr "at the begging of array is price, the other is amount"
+

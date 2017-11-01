@@ -1,0 +1,232 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../trade_leverage/1_common.rst:3
+msgid "共通情報"
+msgstr "common information"
+
+#: ../../trade_leverage/1_common.rst:5
+msgid "トレードAPIに共通する情報です。 パラメータなど、API個別の情報はそれぞれのページを参照してください。"
+msgstr "Information that is in common with TradeAPI. Refer to each page to get individual information."
+
+#: ../../trade_leverage/1_common.rst:9
+msgid "事前準備"
+msgstr "Preparation"
+
+#: ../../trade_leverage/1_common.rst:10
+msgid ""
+"取引APIを利用するには、`アカウント情報のページ <https://zaif.jp/api_keys>`_ のページからAPI "
+"Keyの発行をおこなってください。"
+msgstr ""
+"In order to use TradeAPI, please issue your APIkey on `your account page <https://zaif.jp/api_keys>`_"
+
+#: ../../trade_leverage/1_common.rst:14
+msgid "リクエスト方法"
+msgstr "How to request"
+
+#: ../../trade_leverage/1_common.rst:17
+msgid "エンドポイント"
+msgstr "End point"
+
+#: ../../trade_leverage/1_common.rst:19
+msgid "https://api.zaif.jp/tlapi"
+msgstr ""
+
+#: ../../trade_leverage/1_common.rst:22
+msgid "リクエスト種別"
+msgstr "Method"
+
+#: ../../trade_leverage/1_common.rst:24
+msgid "POST"
+msgstr ""
+
+#: ../../trade_leverage/1_common.rst:27
+msgid "認証"
+msgstr "Authentication"
+
+#: ../../trade_leverage/1_common.rst:28
+msgid "取得したAPI Keysを利用して、下記のようにHTTPヘッダを設定し、認証情報を送信します。"
+msgstr "Set an HTTP header using your APIkey as below."
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "キー"
+msgstr "Key"
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "詳細"
+msgstr "Details"
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "具体例"
+msgstr "Example"
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "key"
+msgstr ""
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "APIキー"
+msgstr "APIキー"
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "490f983a-5fab-49b2-b789-9d1f130874d3"
+msgstr ""
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "sign"
+msgstr ""
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "署名"
+msgstr "signature"
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "詳細は下記"
+msgstr "Followings are details"
+
+#: ../../trade_leverage/1_common.rst:38
+msgid ""
+"signはPOSTする全てのパラメータ（nonceとmethodおよびメソッド毎のパラメータ）を "
+"URLエンコードしたクエリ形式(param1=val1&param2=val2)のメッセージとして、Secret Keyを用いてHMAC-"
+"SHA512で署名します。"
+msgstr ""
+"'sign' is the resulting HMAC-SHA512 signature done with your SecretKey"
+"using ulrencoded parameters(including 'nonce', 'method', and all other parameters for each method)"
+
+#: ../../trade_leverage/1_common.rst:42
+msgid "パラメータ"
+msgstr "Parameters"
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "nonce"
+msgstr ""
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "1以上の数を実行都度増分して送信します"
+msgstr "increment the number of 1 or more for every execution"
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "23123"
+msgstr ""
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "method"
+msgstr ""
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "APIメソッド名"
+msgstr "name of method"
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "get_positions"
+msgstr ""
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "type"
+msgstr ""
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "取引タイプ(margin or futures)"
+msgstr "trade type('margin' or 'futures')"
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "margin"
+msgstr ""
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "group_id"
+msgstr ""
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "グループID（AirFX・先物のみ）"
+msgstr "group_id(needed only AirFX, Futures)"
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "1"
+msgstr ""
+
+#: ../../trade_leverage/1_common.rst:52
+msgid "**注意**"
+msgstr "**note**"
+
+#: ../../trade_leverage/1_common.rst:53
+msgid "信用取引を行う場合はtype='margin'を　AirFX,先物取引を行う場合はtype='futures'を指定してください。"
+msgstr "If you want to do margin trading, set type='margin', and if you want to do AirFX or Futures, set type='futures'"
+
+#: ../../trade_leverage/1_common.rst:54
+msgid "type='futures'を指定した場合は必ずgroup_idも指定してください。"
+msgstr "If you specify type='futures', you have to specify group_id too."
+
+#: ../../trade_leverage/1_common.rst:55
+msgid "その他のメソッド毎の固有のパラメータも全てPOSTパラメータにて送信してください。"
+msgstr "include all method specifics parameters to 'POST' parameter."
+
+#: ../../trade_leverage/1_common.rst:56
+msgid "nonceパラメータの値は実効毎に増分されていないとエラーが発生します。また増分量は少数点以下の値にも対応しております。"
+msgstr "An error occurs when 'nonce' is not incremented. In addition, incremental can be after the decimal point"
+
+#: ../../trade_leverage/1_common.rst:59 ../../trade_leverage/1_common.rst:80
+msgid "戻り値"
+msgstr "Return value"
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "型"
+msgstr "Type"
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "success"
+msgstr ""
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "成功フラグ"
+msgstr "success flag"
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "int"
+msgstr ""
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "return"
+msgstr ""
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "実行結果"
+msgstr "result"
+
+#: ../../trade_leverage/1_common.rst:1
+msgid "dict or string"
+msgstr ""
+
+#: ../../trade_leverage/1_common.rst:76
+msgid "補足"
+msgstr "Supplement"
+
+#: ../../trade_leverage/1_common.rst:82
+msgid "処理に成功した場合、successには1が、returnには実行結果が設定されます。"
+msgstr "If succeed, 'success' returns 1, and 'return' includes the execution results."
+
+#: ../../trade_leverage/1_common.rst:83
+msgid "処理に失敗した場合、successには0が、returnにはエラーメッセージが設定されます。"
+msgstr "If fail, 'success' returns 0, and 'return' includes the error message."
+
+#: ../../trade_leverage/1_common.rst:84
+msgid "戻り値の各項目は値が入っている場合のみ出力されます。"
+msgstr "Each item of return value is output only when the value is included."
+

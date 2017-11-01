@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:42+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../index.rst:7
+msgid "ZaifAPI ドキュメント"
+msgstr "ZaifAPI Documentation"
+
+#: ../../index.rst:8
+msgid "Zaifの取引に関わるAPIです。APIを使用して自動売買や資産状況の確認などを行いたい場合に使用します。"
+msgstr "API for trading, which helps traders to make orders, check assets, and so on."
+
+#: ../../index.rst:21
+msgid "OAuthAPI ドキュメント"
+msgstr "OAuthAPI Documentation"
+
+#: ../../index.rst:22
+msgid "OAuth認証のAPIです。Zaifアカウント情報を利用するサービスを開発する場合に使用します。"
+msgstr "API for Oauth, which helps developers to create services using Zaif accounts information."
+
+#: ../../index.rst:30
+msgid "決済API ドキュメント"
+msgstr "PaymentAPI Documentation"
+
+#: ../../index.rst:31
+msgid "Zaif Paymentを使用するEC事業者用のAPIです。bitcoinやmonacoinを使った決済サービスを導入するために使用します。"
+msgstr "API for settlement, which helps EC sites to introduce payment system based on cryptocurrency like bitcoin or monacoin"
+
+#: ../../index.rst:40
+msgid "Indices and tables"
+msgstr ""
+
+#: ../../index.rst:42
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../index.rst:43
+msgid ":ref:`search`"
+msgstr ""
+
