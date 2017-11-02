@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../public/2_individual/1_currencies.rst:3
+msgid "currencies"
+msgstr "currencies"
+
+#: ../../public/2_individual/1_currencies.rst:4
+msgid "通貨情報を取得します。"
+msgstr "get information of currencies."
+
+#: ../../public/2_individual/1_currencies.rst:7
+msgid "リクエスト"
+msgstr "Request"
+
+#: ../../public/2_individual/1_currencies.rst:8
+msgid "/currencies/{currency}"
+msgstr "/currencies/{currency}"
+
+#: ../../public/2_individual/1_currencies.rst:9
+msgid "例. https://api.zaif.jp/api/1/currencies/btc"
+msgstr "ex) https://api.zaif.jp/api/1/currencies/btc"
+
+#: ../../public/2_individual/1_currencies.rst:12
+msgid "パラメータ"
+msgstr "Parameters"
+
+#: ../../public/2_individual/1_currencies.rst:13
+msgid "なし"
+msgstr "None"
+
+#: ../../public/2_individual/1_currencies.rst:16
+msgid "戻り値"
+msgstr "Return value"
+
+#: ../../public/2_individual/1_currencies.rst:17
+msgid "currencyにallを指定した場合、有効な全ての通貨情報を取得します。"
+msgstr "If 'currency' is set to 'all', get all available currencies."
+
+#: ../../public/2_individual/1_currencies.rst:34
+msgid "currencyにbtc等、有効な通貨情報を指定した場合、その情報のみを取得します。"
+msgstr "If 'currency' is set to valid currency like 'btc', get info of that currency"
+
+#: ../../public/2_individual/1_currencies.rst:1
+msgid "キー"
+msgstr "key"
+
+#: ../../public/2_individual/1_currencies.rst:1
+msgid "詳細"
+msgstr "Detail"
+
+#: ../../public/2_individual/1_currencies.rst:1
+msgid "型"
+msgstr "Type"
+
+#: ../../public/2_individual/1_currencies.rst:1
+msgid "name"
+msgstr "Name"
+
+#: ../../public/2_individual/1_currencies.rst:1
+msgid "通貨の名前"
+msgstr "name of currency"
+
+#: ../../public/2_individual/1_currencies.rst:1
+msgid "string"
+msgstr "string"
+
+#: ../../public/2_individual/1_currencies.rst:1
+msgid "is_token"
+msgstr "is_token"
+
+#: ../../public/2_individual/1_currencies.rst:1
+#: ../../public/2_individual/1_currencies.rst:56
+msgid "token種別"
+msgstr "token type"
+
+#: ../../public/2_individual/1_currencies.rst:1
+msgid "boolean"
+msgstr "boolean"
+
+#: ../../public/2_individual/1_currencies.rst:53
+msgid "補足"
+msgstr "Supplement"
+
+#: ../../public/2_individual/1_currencies.rst:58
+msgid "tokenの場合、true"
+msgstr "return true if 'token'"
+

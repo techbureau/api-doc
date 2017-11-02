@@ -1,0 +1,241 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../trade/2_individual/7_trade.rst:3
+msgid "trade"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:6
+msgid "取引注文を行います。"
+msgstr "make an order"
+
+#: ../../trade/2_individual/7_trade.rst:1
+#: ../../trade/2_individual/7_trade.rst:9
+msgid "パラメータ"
+msgstr "Parameters"
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "必須"
+msgstr "Required"
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "詳細"
+msgstr "Details"
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "型"
+msgstr "Type"
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "currency_pair"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "Yes"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "(例) btc_jpy"
+msgstr "e.g. btc_jpy"
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "str(例 btc_jpy)"
+msgstr "str(e.g. btc_jpy)"
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "action"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "注文の種類"
+msgstr "order type"
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "bid もしくは ask"
+msgstr "bid or ask"
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "price"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "指値注文価格"
+msgstr "price of limit order"
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "numerical"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "amount"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "数量(例: 0.3)"
+msgstr "amount(e.g. 0.3)"
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "limit"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "No"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "リミット注文価格"
+msgstr "take profit price"
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "comment"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "コメントの追加"
+msgstr "comment"
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "str"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:22
+msgid "**パラメータ limitについて**"
+msgstr "**About 'limit'**"
+
+#: ../../trade/2_individual/7_trade.rst:23
+msgid "リミット値（利確のための反対売買の指値）を指定することができます"
+msgstr "You can set 'limit' parameter to secure profit"
+
+#: ../../trade/2_individual/7_trade.rst:24
+msgid "リミット値を指定した場合、注文が成立した分だけの数量について、自動的にリミット注文が発行されます"
+msgstr "If 'limit' is set, opposite order just as much as the order executed will be issued."
+
+#: ../../trade/2_individual/7_trade.rst:26
+msgid "**パラメータ commentについて**"
+msgstr "**About 'comment'**"
+
+#: ../../trade/2_individual/7_trade.rst:27
+msgid "コメントは255字以内で半角英数字記号のみに対応しています"
+msgstr "you can add a comment using half-width characters."
+
+#: ../../trade/2_individual/7_trade.rst:28
+msgid "また、スラッシュは使えませんでご注意ください"
+msgstr "Also, please be careful not to use slash"
+
+#: ../../trade/2_individual/7_trade.rst:30
+msgid "**価格および数量の数値について**"
+msgstr "**About price and amount figures **"
+
+#: ../../trade/2_individual/7_trade.rst:31
+msgid ""
+"下記の単位以外で注文しようとした場合、invalid price parameterまたはinvalid amount "
+"parameterというエラーが返されます"
+msgstr ""
+"When you try to send an order with units other than followings,"
+"'invalid price parameter' or 'invalid amount' is returned."
+
+#: ../../trade/2_individual/7_trade.rst:35
+msgid "・価格（priceおよびlimit）"
+msgstr "・'price' and 'limit'"
+
+#: ../../trade/2_individual/7_trade.rst
+msgid "btc_jpy : 5円単位"
+msgstr "btc_jpy : 5JPY increments"
+
+#: ../../trade/2_individual/7_trade.rst
+msgid "mona_jpy : 0.1円単位"
+msgstr "mona_jpy : 0.1JPY increments"
+
+#: ../../trade/2_individual/7_trade.rst
+msgid "mona_btc : 0.00000001BTC単位"
+msgstr "mona_btc : 0.00000001BTC increments"
+
+#: ../../trade/2_individual/7_trade.rst:40
+msgid "・数量（amount）"
+msgstr "・amount"
+
+#: ../../trade/2_individual/7_trade.rst
+msgid "btc_jpy : 0.0001BTC単位"
+msgstr "btc_jpy : 0.0001BTC increments"
+
+#: ../../trade/2_individual/7_trade.rst
+msgid "mona_jpy : 1MONA単位"
+msgstr "mona_jpy : 1MONA increments"
+
+#: ../../trade/2_individual/7_trade.rst
+msgid "mona_btc : 1MONA単位"
+msgstr "mona_btc : 1MONA increments"
+
+#: ../../trade/2_individual/7_trade.rst:42
+msgid "指定できる単位等、詳細な情報は公開API情報APIのcurrency_pairsで取得できます"
+msgstr "You can get more details such as units which can be specified by 'currency_pairs' method of PublicAPI."
+
+#: ../../trade/2_individual/7_trade.rst:46
+msgid "戻り値"
+msgstr "Return value"
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "キー"
+msgstr "Key"
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "received"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "今回の注文で約定した取引量"
+msgstr "the amount of trade executed with this order"
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "float"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "remains"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "今回の注文で約定せず、板に残った取引量"
+msgstr "the amount of trade which remains on the order book"
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "order_id"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "今回の注文がすべて成立した場合は0、一部、もしくはすべて約定しなかった場合は板に残った注文のID。"
+msgstr "If the whole order is executed, 0 is returned. If order_id which remains on an order book is returned."
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "int"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "funds"
+msgstr ""
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "残高"
+msgstr "asset balance"
+
+#: ../../trade/2_individual/7_trade.rst:1
+msgid "dict"
+msgstr ""
+

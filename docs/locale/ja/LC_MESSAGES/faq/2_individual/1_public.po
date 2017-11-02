@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../faq/2_individual/1_public.rst:3
+msgid "公開情報API"
+msgstr ""
+
+#: ../../faq/2_individual/1_public.rst:5
+msgid "公開情報APIに関する、よくあるお問い合わせ一覧です"
+msgstr ""
+
+#: ../../faq/2_individual/1_public.rst:9
+msgid "currencies"
+msgstr ""
+
+#: ../../faq/2_individual/1_public.rst:12
+msgid "currency_pairs"
+msgstr ""
+
+#: ../../faq/2_individual/1_public.rst:15
+msgid "last_price"
+msgstr ""
+
+#: ../../faq/2_individual/1_public.rst:18
+msgid "ticker"
+msgstr ""
+
+#: ../../faq/2_individual/1_public.rst:21
+msgid "trades"
+msgstr ""
+
+#: ../../faq/2_individual/1_public.rst:24
+msgid "depth"
+msgstr ""
+
+#: ../../faq/2_individual/1_public.rst:27
+msgid "streaming"
+msgstr ""
+

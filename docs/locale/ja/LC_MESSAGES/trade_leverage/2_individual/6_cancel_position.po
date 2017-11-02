@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:3
+msgid "cancel_position"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:6
+msgid "レバレッジ取引の注文の取消しを行います。"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:9
+msgid "パラメータ"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "必須"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "詳細"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "型"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "type"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "Yes"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "marginまたはfutures"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "str"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "group_id"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "Yes/No"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "type=futuresの場合は必須"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "int"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "leverage_id"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "レバレッジ注文ID（get_positionsまたはactive_positionsで取得できます）"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:21
+msgid "戻り値"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "キー"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "レバレッジID"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "fee_spent"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "支払い手数料"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "float"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "timestamp_closed"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "クローズ日時"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "UNIX_TIMESTAMP"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "price_avg"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "建玉平均価格"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "amount_done"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "建玉数"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "close_avg"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "決済平均価格"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "close_done"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "決済数"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "refunded_xxx"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "実際に返却した額(xxxは通貨コード）"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "refunded_price_xxx"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "swap"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "受け取ったスワップの額(AirFXのみ）"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "guard_fee"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "追証ガード手数料(信用取引のみ)"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "funds"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "残高"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/6_cancel_position.rst:1
+msgid "dict"
+msgstr ""
+

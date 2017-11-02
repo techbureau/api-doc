@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../public_futures/2_individual/4_trades.rst:3
+msgid "trades"
+msgstr ""
+
+#: ../../public_futures/2_individual/4_trades.rst:4
+msgid "全ての取引履歴を取得します。"
+msgstr "get all trades history"
+
+#: ../../public_futures/2_individual/4_trades.rst:7
+msgid "リクエスト"
+msgstr "Requesrt"
+
+#: ../../public_futures/2_individual/4_trades.rst:8
+msgid "/trades/{group_id}/{currency_pair}"
+msgstr ""
+
+#: ../../public_futures/2_individual/4_trades.rst:9
+msgid "例. https://api.zaif.jp/fapi/1/trades/1/btc_jpy"
+msgstr "e.g. https://api.zaif.jp/fapi/1/trades/1/btc_jpy"
+
+#: ../../public_futures/2_individual/4_trades.rst:11
+msgid "group_id,currency_pairに指定できる値は :ref:`public_futures-groups` を参照してください。"
+msgstr "refer to :ref:`public_futures-groups` to get possible values for group_id and currency_pair"
+
+#: ../../public_futures/2_individual/4_trades.rst:15
+msgid "パラメータ"
+msgstr "Parameters"
+
+#: ../../public_futures/2_individual/4_trades.rst:16
+msgid "なし"
+msgstr "None"
+
+#: ../../public_futures/2_individual/4_trades.rst:20
+msgid "戻り値"
+msgstr "Return value"
+
+#: ../../public_futures/2_individual/4_trades.rst:1
+msgid "キー"
+msgstr "Key"
+
+#: ../../public_futures/2_individual/4_trades.rst:1
+msgid "詳細"
+msgstr "Details"
+
+#: ../../public_futures/2_individual/4_trades.rst:1
+msgid "型"
+msgstr "Type"
+
+#: ../../public_futures/2_individual/4_trades.rst:1
+msgid "date"
+msgstr ""
+
+#: ../../public_futures/2_individual/4_trades.rst:1
+msgid "取引日時"
+msgstr "trade datetime"
+
+#: ../../public_futures/2_individual/4_trades.rst:1
+msgid "UNIX_TIMESTAMP"
+msgstr ""
+
+#: ../../public_futures/2_individual/4_trades.rst:1
+msgid "price"
+msgstr ""
+
+#: ../../public_futures/2_individual/4_trades.rst:1
+msgid "取引価格"
+msgstr "trade price"
+
+#: ../../public_futures/2_individual/4_trades.rst:1
+msgid "float"
+msgstr ""
+
+#: ../../public_futures/2_individual/4_trades.rst:1
+msgid "amount"
+msgstr ""
+
+#: ../../public_futures/2_individual/4_trades.rst:1
+msgid "取引量"
+msgstr "trade amount"
+
+#: ../../public_futures/2_individual/4_trades.rst:1
+msgid "tid"
+msgstr ""
+
+#: ../../public_futures/2_individual/4_trades.rst:1
+msgid "取引ID"
+msgstr "trade id"
+
+#: ../../public_futures/2_individual/4_trades.rst:1
+msgid "int"
+msgstr ""
+
+#: ../../public_futures/2_individual/4_trades.rst:1
+msgid "currency_pair"
+msgstr ""
+
+#: ../../public_futures/2_individual/4_trades.rst:1
+msgid "通貨ペア"
+msgstr "currency pair"
+
+#: ../../public_futures/2_individual/4_trades.rst:1
+msgid "str"
+msgstr ""
+
+#: ../../public_futures/2_individual/4_trades.rst:1
+msgid "trade_type"
+msgstr ""
+
+#: ../../public_futures/2_individual/4_trades.rst:1
+#: ../../public_futures/2_individual/4_trades.rst:58
+msgid "取引種別"
+msgstr "type of trade "
+
+#: ../../public_futures/2_individual/4_trades.rst:55
+msgid "補足"
+msgstr "Supplement"
+
+#: ../../public_futures/2_individual/4_trades.rst:60
+msgid "bid：買い　ask：売り"
+msgstr "bid: buy ask: sell"
+

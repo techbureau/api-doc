@@ -1,0 +1,380 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-27 14:11+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:3
+msgid "get_positions"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:6
+msgid "レバレッジ取引のユーザー自身の取引履歴を取得します。"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+#: ../../trade_leverage/2_individual/1_get_positions.rst:9
+msgid "パラメータ"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "必須"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "詳細"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "型"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "デフォルト"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "type"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "Yes"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "marginまたはfutures"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "str"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "group_id"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "Yes/No"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "type=futuresの場合は必須"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "int"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "from"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "No"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "この順番のレコードから取得"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "0"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "count"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "取得するレコード数"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "1000"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "from_id"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "このトランザクションIDのレコードから取得"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "end_id"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "このトランザクションIDのレコードまで取得"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "infinity"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "order"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "ソート順"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "ASC (昇順)もしくは DESC (降順)"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "DESC"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "since"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "開始タイムスタンプ"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "UNIX_TIMESTAMP"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "end"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "終了タイムスタンプ"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "currency_pair"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "通貨ペア。指定なしで全ての通貨ペア"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "(例) btc_jpy"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "全ペア"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:29
+msgid "注意:"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst
+msgid "・“since”もしくは”end”をセットした場合、”order”は強制的に”ASC”となります。"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst
+msgid "・“from_id”もしくは”end_id”をセットした場合、”order”は強制的に”ASC”となります。"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:32
+msgid "戻り値"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "キー"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "182(一例であり、レバレッジ注文idによって変わります)"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "leverage_id(レバレッジ注文id)"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "グループID"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "通貨ペア"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "action"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "bid(買い) or ask(売り)"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "amount"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "数量"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "float"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "price"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "価格"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "limit"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "リミット価格"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "stop"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "ストップ価格"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "timestamp"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "発注日時"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "term_end"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "注文の有効期限"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "leverage"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "レバレッジ"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "fee_spent"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "支払い手数料"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "timestamp_closed"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "クローズ日時"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "price_avg"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "建玉平均価格"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "amount_done"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "建玉数"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "close_avg"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "決済平均価格"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "close_done"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "決済数"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "deposit_xxx"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "実際にデポジットした額(xxxは通貨コード）"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "deposit_price_xxx"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "デポジット時計算レート(xxxは通貨コード）"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "refunded_xxx"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "実際に返却した額(xxxは通貨コード）"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "refunded_price_xxx"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "swap"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "受け取ったスワップの額(AirFXのみ）"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "guard_fee"
+msgstr ""
+
+#: ../../trade_leverage/2_individual/1_get_positions.rst:1
+msgid "追証ガード手数料(信用取引のみ)"
+msgstr ""
+
+#~ msgid "ストップ格"
+#~ msgstr ""
+

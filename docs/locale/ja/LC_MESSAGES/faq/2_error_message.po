@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../faq/2_error_message.rst:3
+msgid "エラーメッセージ一覧"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:9
+msgid "認証"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:12
+msgid "no data found for the key"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid ""
+"APIキーが無効です。`開発者向けAPI画面 <https://zaif.jp/api_keys>`_ "
+"にて正しいAPIのキーが指定されているか確認してください。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:16
+msgid "signature mismatch"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid ""
+"署名に失敗しています。`API共通方法 <https://techbureau-api-"
+"document.readthedocs.io/ja/latest/trade/1_common.html#id7>`_ "
+"にて署名方法を確認してください。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:20
+msgid "認証(OAuth)"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:23
+msgid "invalid access token"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "無効なトークンが指定されています。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:27
+msgid "expired access token"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid ""
+"トークンの有効期限が切れています。`トークン再発行API <https://techbureau-api-"
+"document.readthedocs.io/ja/latest/oauth/1_common.html#id3>`_ "
+"を参考にし、トークンの再発行をしてください。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:32
+msgid "実行前チェック"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:35
+msgid "method not found"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "指定されたメソッドが存在しません。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:39
+msgid "invalid {} parameter"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "指定されているパラメータが無効です。各APIのドキュメントを参考にして、正常なパラメータを指定してください。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:43
+msgid "nonce not incremented"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "前回API実行時よりnonce値が加算されていません。nonce値はAPI実行ごとに加算してください。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "複数プロセス・スレッドからAPIコールを使用している場合、終了を待ったり、APIキーを使い分けるなどの工夫をしてください。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:48
+msgid "nonce out of range"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "nonce値が最大値を超えています。新しいAPIキーを発行してください。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:52
+msgid "time wait restriction, please try later."
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "短時間に多くの取引APIが同じメソッドで呼び出しされたときに発生します。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "取引履歴・入出金履歴については最大60秒、その他のメソッドは1〜10秒程度の制限がかかりますので、数秒のWAITとリトライを行うなどして対応をお願いします。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "制限される秒数や回数については、注文状況などにより予告なく変更することがあります。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:58
+msgid "取引系"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:61
+msgid "insufficient funds"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "取引に必要な残高が存在しません。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:65
+msgid "limit must be greater than the price"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "売り注文時、limitはpriceより高い値段を設定する必要があります。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:69
+msgid "limit must be a smaller value than the price"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "買い注文時、limitはpriceより低い値段を設定する必要があります。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:73
+msgid "trade temporarily unavailable."
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "取引が一時的に停止されています。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:77
+msgid "your account is restricted now, KYC required."
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "本人確認が完了していないため、取引ができません。本人確認を完了させてください。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:81
+msgid "illegal comment"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "コメントに無効な文字が設定されています。"
+msgstr ""
+
+#: ../../faq/2_error_message.rst:85
+msgid "merchant account dont have trade permission"
+msgstr ""
+
+#: ../../faq/2_error_message.rst
+msgid "業者用のアカウントは取引を許可されていません。"
+msgstr ""
+

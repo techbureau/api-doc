@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:3
+msgid "getInvoiceIdsByOrderNumber"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:5
+msgid "インボイスの検索"
+msgstr "search invoice"
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:7
+msgid ""
+"注文番号でインボイスを検索し、インボイスIDを返します。 インボイスの詳細については `インボイス情報の取得メソッド <http"
+"://techbureau-api-"
+"document.readthedocs.io/ja/latest/payment/2_individual/2_getInvoice.html>`_"
+" を使用してください。"
+msgstr ""
+"Search invoice with order number, then return invoiceID. In order to get details of the invoice, please use `getInvoice <http"
+"://techbureau-api-document.readthedocs.io/ja/latest/payment/2_individual/2_getInvoice.html>`_ "
+
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:11
+msgid "パラメータ"
+msgstr "Parameters"
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "必須"
+msgstr "Required"
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "詳細"
+msgstr "Details"
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "型"
+msgstr "Type"
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "値または例"
+msgstr "value or example"
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "method"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "Yes"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "メソッド名"
+msgstr "name of method"
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "str"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "getInvoice"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "key"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "APIキー"
+msgstr "API key"
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "md5secret"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "Yes(1)"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "APIシークレットのmd5。(1)md5またはsha1のどちらかをセット"
+msgstr "API secret hashed by md5. (1)set only md5 or sha1."
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "sha1secret"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "APIシークレットのsha1。(1)md5またはsha1のどちらかをセット"
+msgstr "API secret hashed by sha1. (1)set only md5 or sha1."
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "nonce"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "1以上の数、呼び出し毎に増分して送信してください"
+msgstr "an number greater than or equal to 1. "
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "int"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "orderNumber"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "注文番号"
+msgstr "order number"
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:25
+msgid "戻り値"
+msgstr "Return value"
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:26
+msgid "成功例"
+msgstr "Success example"
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:42
+msgid "成功例（検索結果なし）"
+msgstr "Success example(no search result)"
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:55
+msgid "returnパラメータ"
+msgstr "return parameters"
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "キー"
+msgstr "Key"
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "invoiceIdｓ"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "検索結果"
+msgstr "search results"
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "dict"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "counts"
+msgstr ""
+
+#: ../../payment/2_individual/3_getInvoiceIdsByOrderNumber.rst:1
+msgid "検索結果の件数"
+msgstr "count of results"
+

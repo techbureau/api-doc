@@ -1,0 +1,296 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:3
+msgid "getInvoice"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:6
+msgid "インボイス情報の取得"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:8
+msgid "作成したインボイスの情報を得ることができます。"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+#: ../../payment/2_individual/2_getInvoice.rst:12
+msgid "パラメータ"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "必須"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "詳細"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "型"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "値または例"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "method"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "Yes"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "メソッド名"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "str"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "key"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "APIキー"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "md5secret"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "Yes(1)"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "APIシークレットのmd5。(1)md5またはsha1のどちらかをセット"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "sha1secret"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "APIシークレットのsha1。(1)md5またはsha1のどちらかをセット"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "nonce"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "1以上の数、呼び出し毎に増分して送信してください"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "int"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "invoiceId"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "発行されたinvoiceId"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:26
+msgid "戻り値"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:27
+msgid "returnパラメータ"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "キー"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "作成したインボイスを識別するためのID"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "04e42516-1652-11e5-9eb4-4437e6999eec"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "created"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "インボイス作成日時。unixtime"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "expired"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "インボイスの有効期限。unixtime"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "status"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "インボイスの状態"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "new/paid/confirmed/complete/expired/invalid"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "settled"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "決済完了日時。unixtime"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "amount"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "決済対象金額（送信された金額）"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "currency"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "決済対象の暗号通貨"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "btc または mona"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "rate"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "決済時の換算レート"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "btc"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "Bitcoinによる請求額（bitcoinによる決済時のみ）"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "mona"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "Monacoinによる請求額（monacoinによる決済時のみ）"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "address"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "BitcoinまたMonacoinの決済用支払先アドレス"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "BIP21"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "bitcoinまたはmonacoinの支払いURI"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "speed"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "決済スピード（送信されたものまたはデフォルトで適用されたもの"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "orderNumber"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:1
+msgid "送信された注文番号"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:50
+msgid "インボイスの状態(status)"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:59
+msgid "インボイスには下記のような「状態」があります。"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:52
+msgid "new : 作成され、請求が開始された状態"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:53
+msgid "paid : 支払先アドレスに対して入金が行なわれ、着金した状態（speed=highの場合の決済完了タイミング）"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:54
+msgid ""
+"confirmed : "
+"支払先アドレスに対する入金が暗号通貨ネットワーク上で1確認以上された状態（speed=mediumの場合の決済完了タイミング）"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:55
+msgid "complete : 支払先アドレスに対する入金が暗号通貨ネットワーク上で6確認以上された状態（speed=lowの場合の決済完了タイミング）"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:56
+msgid "expired : 支払先アドレスに対して入金が行なわれず、有効期限が切れた状態"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:57
+msgid "invalid : 支払先アドレスに対して入金が開始されたが、なんらかの理由で確認されなかった状態や、入金金額が不足した状態で有効期限が切れた状態"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:58
+msgid "canceled : 作成者によりキャンセルされた状態"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:61
+msgid "インボイスの状態と他に、決済完了とみなすかどうかについては、インボイス作成時に設定されたspeedに従って下記の項目が対応します。"
+msgstr ""
+
+#: ../../payment/2_individual/2_getInvoice.rst:62
+msgid "settled: 決済完了日時（unixtime）、speedに応じて決済を完了とみなしたタイミングでセットされます"
+msgstr ""
+

@@ -1,0 +1,196 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../payment/1_common.rst:3
+msgid "共通情報"
+msgstr "Common information"
+
+#: ../../payment/1_common.rst:6
+msgid "決済APIは、Zaif上で決済を行うためのAPIです。決済APIの利用には事業者用アカウントおよびAPI Keyが必要になります。"
+msgstr "PaymentAPI is API for doing settlement on Zaif platform. In order to use PaymentAPI, EC business account and API key are required."
+
+#: ../../payment/1_common.rst:10
+msgid "認証"
+msgstr "Authentication"
+
+#: ../../payment/1_common.rst:11
+msgid ""
+"決済APIを利用するには、アカウント情報のページからAPI Keyの発行をおこなってください。 取得したAPI "
+"Keyを利用して、下記のパラメータを認証情報として、POSTパラメータに付加して送信してください。"
+msgstr ""
+"In order to use PaymentAPI, please issue an API key on your account page."
+"Please use the acquired API key and add the following parameters as authentication information to the POST parameter and send."
+
+#: ../../payment/1_common.rst:14
+msgid "*md5を利用したパターン*"
+msgstr "*Using md5*"
+
+#: ../../payment/1_common.rst:14 ../../payment/1_common.rst:17
+msgid "key – APIキー。 例: 490f983a-5fab-49b2-b789-9d1f130874d3"
+msgstr "key - API key e.g. 490f983a-5fab-49b2-b789-9d1f130874d3"
+
+#: ../../payment/1_common.rst:15
+msgid "md5secret – Secret Keyをmd5ハッシュ化した文字列"
+msgstr "md5secret - hash value of Secret key with md5"
+
+#: ../../payment/1_common.rst:18
+msgid "*sha1を利用したパターン*"
+msgstr "Using sha1"
+
+#: ../../payment/1_common.rst:18
+msgid "sha1secret – Secret Keyをsha1ハッシュ化した文字列"
+msgstr "sha1secret - hash value of Secret key with sha1"
+
+#: ../../payment/1_common.rst:20
+msgid "認証方法についてはセキュリティ上の理由により、将来変更される可能性があります。"
+msgstr "For security reasons, the way of authentication may be changed in the future."
+
+#: ../../payment/1_common.rst:24
+msgid "使用方法"
+msgstr "How to use"
+
+#: ../../payment/1_common.rst:26
+msgid "https://api.zaif.jp/ecapi にPOSTします。"
+msgstr "POST to https://api.zaif.jp/ecapi"
+
+#: ../../payment/1_common.rst:27
+msgid "APIのメソッドを \"method\" というPOSTパラメータで送信します。"
+msgstr "Send API's method in POST parameter \"method\""
+
+#: ../../payment/1_common.rst:28
+msgid "全てのAPIメソッドにおいて\"nonce\"パラメータを1以上の整数にて都度増分して送信します。"
+msgstr "For all API methods, send the \ 'nonce \' parameter incremented by 1 or more each time."
+
+#: ../../payment/1_common.rst:29
+msgid "メソッド毎に必要なPOSTパラメータおよび上記の認証用のパラメータも合わせて送信します。"
+msgstr "Send the necessary POST parameters for each method and the above-mentioned authentication parameters"
+
+#: ../../payment/1_common.rst:30
+msgid "結果はjsonフォーマットにて返されます。"
+msgstr "The result is returned in json format."
+
+#: ../../payment/1_common.rst:31
+msgid "成功時の結果JSONフォーマットは以下のようになります。"
+msgstr "On success, JSON result is as follows."
+
+#: ../../payment/1_common.rst:37
+msgid "失敗時の結果JSONフォーマットは以下のようになります。"
+msgstr "On failure, JSON result is as follows."
+
+#: ../../payment/1_common.rst:45
+msgid "nonceパラメータについて"
+msgstr "About 'nonce' parameter"
+
+#: ../../payment/1_common.rst:46
+msgid ""
+"nonceパラメータはAPIコールの重複を防く効力を持ち、また、呼び出し側での濫用を抑制することに役立ちます。 "
+"APIキー毎のnonceの値については、呼び出し側で管理して下さいますようお願いします。 "
+"unixtimeをnonceに利用すると簡単に管理できますが、１秒に１度以上のAPIコールができなくなる可能性があることに注意してください。 "
+"2016年2月以降、小数点以下の値も受け付けるようになりましたので、マイクロ秒まで含むunixtimeを利用して管理することが可能になっています。"
+msgstr ""
+"The nonce parameter has the effect of preventing duplication of API calls and it helps to suppress abuses on the caller side."
+"For the value of nonce for each API key, please manage it on the caller side."
+"Using unixtime as a nonce makes it easy to manage, but please be aware that there is a possibility you can not make API calls more than once per second."
+"Since 2016/2, decimal point values are accepted. Therefore, it is now possible to manage it using unixtime using microseconds."
+
+#: ../../payment/1_common.rst:50
+msgid "メソッド"
+msgstr "Methods"
+
+#: ../../payment/1_common.rst:53
+msgid ""
+"`インボイスの作成 createInvoice <http://techbureau-api-"
+"document.readthedocs.io/ja/latest/payment/2_individual/1_createInvoice.html>`_"
+msgstr ""
+"`creating invoice: createInvoice <http://techbureau-api-"
+"document.readthedocs.io/ja/latest/payment/2_individual/1_createInvoice.html>`_"
+
+#: ../../payment/1_common.rst:53
+msgid ""
+"Bitcoin/Monacoinによる決済の開始時に、インボイスの作成を行います。 "
+"決済金額・商品名・通貨などの情報を送信してインボイスを作成し、暗号通貨による決済を開始します。"
+msgstr ""
+"Create invoice when Bitcoin/Monacoin settlement is started."
+"Send information such as settlement amount, commodity name, currency etc, create an invoice and start settlement with encryption currency."
+
+#: ../../payment/1_common.rst:57
+msgid ""
+"`インボイス情報の取得 getInvoice <http://techbureau-api-"
+"document.readthedocs.io/ja/latest/payment/2_individual/2_getInvoice.html>`_"
+msgstr ""
+"`get information of the invoice: getInvoice <http://techbureau-api-"
+"document.readthedocs.io/ja/latest/payment/2_individual/2_getInvoice.html>`_"
+
+#: ../../payment/1_common.rst:56
+msgid "作成したインボイスの状態を取得します。 このAPIを利用すると、支払が完了しているかどうかなどについて、ECサイト側から確認することができます。"
+msgstr "Get status of the invoice created. With this API, you can check from the EC site if payment is completed."
+
+#: ../../payment/1_common.rst:62
+msgid ""
+"`インボイスの検索 getInvoiceIdsByOrderNumber <http://techbureau-api-"
+"document.readthedocs.io/ja/latest/payment/2_individual/3_getInvoiceIdsByOrderNumber.html>`_"
+msgstr ""
+"`search invoice: getInvoiceIdsByOrderNumber <http://techbureau-api-"
+"document.readthedocs.io/ja/latest/payment/2_individual/3_getInvoiceIdsByOrderNumber.html>`_"
+
+#: ../../payment/1_common.rst:60
+msgid ""
+"注文番号を使用してインボイスを検索します。 "
+"暗号通貨決済用のインボイスには有効期限があるため、ひとつの注文から複数のインボイスを発行する必要がある可能性があります。 "
+"また、Bitcoinで決済を選択したが、やはりMonacoinで決済したい、などという場合もあるかと思います。 "
+"Zaif決済APIでは、インボイスの作成時に注文番号の重複チェックは行なわないようになっており、同じ注文番号から複数のインボイスを発行することが可能になっています。"
+msgstr ""
+"Search invoice with order number"
+"Because the invoice for encryption currency settlement has an expiration date, there is a possibility to issue multiple invoices from one order"
+"Also, there may be times when you want to change to Monacoin after choosing Bitcoin settlement."
+"In Zaif PaymentAPI,  duplication check of order number is not done when invoices are created, therefore, it is possible to issue multiple invoices from the same order number."
+
+#: ../../payment/1_common.rst:68
+msgid ""
+"`インボイスのキャンセル cancelInvoice <http://techbureau-api-"
+"document.readthedocs.io/ja/latest/payment/2_individual/4_cancelInvoice.html>`_"
+msgstr ""
+"`cancel invoice: cancelInvoice <http://techbureau-api-"
+"document.readthedocs.io/ja/latest/payment/2_individual/4_cancelInvoice.html>`_"
+
+#: ../../payment/1_common.rst:65
+msgid "作成したインボイスを取消します。 支払が完了していたり既に有効期限が切れている場合はエラーとなります。"
+msgstr "Cancel the invoice created. An error occurs when the payment is completed, expired, and so on."
+
+#: ../../payment/1_common.rst:71
+msgid "インボイスの表示"
+msgstr "Display invoice"
+
+#: ../../payment/1_common.rst:73
+msgid "作成したインボイスから支払フォームを表示することにより、利用者からBitcoin/Monacoinによる支払いを促します。 支払いフォームのURLは"
+msgstr "Prompting the user to pay by displaying a payment form from the created invoice. The URL of the payment form is"
+
+#: ../../payment/1_common.rst:75
+msgid "https://zaif.jp/invoice/form/{invoiceId}"
+msgstr ""
+
+#: ../../payment/1_common.rst:77
+msgid "となります。{invoiceId}はインボイスの作成時に発行されたIDになります。 下記のようにしてiframeによる表示を行うことも可能です。"
+msgstr "{invoiceId} is issued on invoice creation. It is also possible to display by iframe as follows."
+
+#: ../../payment/1_common.rst:89
+msgid "また、インボイス作成時に取得したデータを利用し、事業者様のECサイト上で独自にフォームを表示していただくことも可能です。"
+msgstr "Also, you can create an custom form from data acquired at invoice creation."
+

@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../public/2_individual/2_currency_pairs.rst:5
+msgid "currency_pairs"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:6
+msgid "通貨ペア情報を取得します。"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:9
+msgid "リクエスト"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:10
+msgid "/currency_pairs/{currency_pair}"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:11
+msgid "例. https://api.zaif.jp/api/1/currency_pairs/btc_jpy"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:14
+msgid "パラメータ"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:15
+msgid "なし"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:19
+msgid "戻り値"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:20
+msgid "currency_pairにallを指定した場合、有効な全ての通貨ペア情報を取得します。"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:61
+msgid "currency_pairにbtc_jpy等、有効な通貨ペア情報を指定した場合、その情報のみを取得します。"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "キー"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "詳細"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "型"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "name"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "通貨ペアの名前"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "str"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "title"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "通貨ペアのタイトル"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "currency_pair"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "通貨ペアのシステム文字列"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "description"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "通貨ペアの詳細"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "is_token"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+#: ../../public/2_individual/2_currency_pairs.rst:106
+msgid "token種別"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "boolean"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "event_number"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "イベントトークンの場合、0以外"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "int"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "seq"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "通貨シークエンス"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "item_unit_min"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "アイテム通貨最小値"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "float"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "item_unit_step"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "アイテム通貨入力単位"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "item_japanese"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "アイテム通貨 日本語表記"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "aux_unit_min"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "相手通貨最小値"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "aux_unit_step"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "相手通貨入力単位"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "aux_unit_point"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "相手通貨小数点"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "aux_japanese"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:1
+msgid "相手通貨 日本語表記"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:103
+msgid "補足"
+msgstr ""
+
+#: ../../public/2_individual/2_currency_pairs.rst:108
+msgid "tokenの場合、true"
+msgstr ""
+

@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../trade/1_common.rst:3
+msgid "共通情報"
+msgstr ""
+
+#: ../../trade/1_common.rst:5
+msgid "トレードAPIに共通する情報です。 パラメータなど、API個別の情報はそれぞれのページを参照してください。"
+msgstr ""
+
+#: ../../trade/1_common.rst:9
+msgid "事前準備"
+msgstr ""
+
+#: ../../trade/1_common.rst:10
+msgid ""
+"取引APIを利用するには、`アカウント情報のページ <https://zaif.jp/api_keys>`_ のページからAPI "
+"Keyの発行をおこなってください。"
+msgstr ""
+
+#: ../../trade/1_common.rst:14
+msgid "リクエスト方法"
+msgstr ""
+
+#: ../../trade/1_common.rst:17
+msgid "エンドポイント"
+msgstr ""
+
+#: ../../trade/1_common.rst:19
+msgid "https://api.zaif.jp/tapi"
+msgstr ""
+
+#: ../../trade/1_common.rst:22
+msgid "リクエスト種別"
+msgstr ""
+
+#: ../../trade/1_common.rst:24
+msgid "POST"
+msgstr ""
+
+#: ../../trade/1_common.rst:27
+msgid "認証"
+msgstr ""
+
+#: ../../trade/1_common.rst:28
+msgid "取得したAPI Keysを利用して、下記のようにHTTPヘッダを設定し、認証情報を送信します。"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "キー"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "詳細"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "具体例"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "key"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "APIキー"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "490f983a-5fab-49b2-b789-9d1f130874d3"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "sign"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "署名"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "詳細は下記"
+msgstr ""
+
+#: ../../trade/1_common.rst:38
+msgid ""
+"signはPOSTする全てのパラメータ（nonceとmethodおよびメソッド毎のパラメータ）を "
+"URLエンコードしたクエリ形式(param1=val1&param2=val2)のメッセージとして、Secret Keyを用いてHMAC-"
+"SHA512で署名します。"
+msgstr ""
+
+#: ../../trade/1_common.rst:42
+msgid "パラメータ"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "nonce"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "1以上の数を実行都度増分して送信します"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "23123"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "method"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "APIメソッド名"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "get_info"
+msgstr ""
+
+#: ../../trade/1_common.rst:50
+msgid "**注意**"
+msgstr ""
+
+#: ../../trade/1_common.rst:51
+msgid "その他のメソッド毎の固有のパラメータも全てPOSTパラメータにて送信してください。"
+msgstr ""
+
+#: ../../trade/1_common.rst:52
+msgid "nonceパラメータの値は実効毎に増分されていないとエラーが発生します。また増分量は少数点以下の値にも対応しております。"
+msgstr ""
+
+#: ../../trade/1_common.rst:55 ../../trade/1_common.rst:76
+msgid "戻り値"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "型"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "success"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "成功フラグ"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "int"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "return"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "実行結果"
+msgstr ""
+
+#: ../../trade/1_common.rst:1
+msgid "dict or string"
+msgstr ""
+
+#: ../../trade/1_common.rst:72
+msgid "補足"
+msgstr ""
+
+#: ../../trade/1_common.rst:78
+msgid "処理に成功した場合、successには1が、returnには実行結果が設定されます。"
+msgstr ""
+
+#: ../../trade/1_common.rst:79
+msgid "処理に失敗した場合、successには0が、returnにはエラーメッセージが設定されます。"
+msgstr ""
+

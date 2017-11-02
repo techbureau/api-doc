@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, techbureau
+# This file is distributed under the same license as the Zaif api document
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaif api document v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-15 17:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../faq/2_individual/2_trade.rst:3
+msgid "取引API"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:5
+msgid "取引APIに関する、よくあるお問い合わせ一覧です"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:8
+msgid "get_info"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:11
+msgid "get_info2"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:14
+msgid "get_personal_info"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:17
+msgid "get_id_info"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:20
+msgid "trade_history"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:23
+msgid "取引履歴の確認でorder_idを使って取引結果を照合できない"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:24
+msgid ""
+"order_idは取引注文のidで、trade history APIのidは取引結果のidなので別物となります。 したがって、trade "
+"history APIでは、order_idを使ってデータを参照することはできません。"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:28
+msgid "actiuve_orders"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:31
+msgid "cancel_order"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:35
+msgid "withdraw"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:38
+msgid "出金ができない"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:39
+msgid "初入金から7日は出金できないZaifの仕様となっています"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:42
+msgid "deposit_history"
+msgstr ""
+
+#: ../../faq/2_individual/2_trade.rst:45
+msgid "withdraw_history"
+msgstr ""
+
