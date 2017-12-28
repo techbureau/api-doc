@@ -36,6 +36,7 @@ withdraw
     {
       "success": 1,
       "return": {
+          "id": 23634,
           "fee": 0.001,
           "txid":,
           "funds": {
@@ -49,6 +50,7 @@ withdraw
 .. csv-table::
    :header: "キー", "詳細", "型"
 
+   "id", "出金id", "int"
    "txid", "振替えID", "str"
    "fee", "今回の引き出しにかかった手数料", "float"
    "funds", "残高", "dict"
