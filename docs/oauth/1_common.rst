@@ -72,7 +72,7 @@ scope詳細
 4. *tokenをリクエストします*
     前述のcodeパラメータを使って、tokenが取得できるWeb APIを実行し、tokenを取得します。なお、戻り値はJSONになります。
 
-    エンドポイント:https://oauth.zaif.jp/v1/token
+    エンドポイント:https://oauth.zaif.jp/oauth/v1/token
 
     メソッド:POST
 
@@ -112,7 +112,7 @@ scope詳細
 6. *access tokenの期限が切れた場合*
     期限が切れたaccess tokenは利用できなくなります。下記tokenの再発行Web APIを利用して、token を再発行して下さい。
 
-    エンドポイント:https://oauth.zaif.jp/v1/refresh_token
+    エンドポイント:https://oauth.zaif.jp/oauth/v1/refresh_token
 
     メソッド:POST
 
