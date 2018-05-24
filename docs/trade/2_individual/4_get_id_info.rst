@@ -31,6 +31,6 @@ get_id_info
 
    "id", "ユーザーid", "str"
    "email", "メールアドレス", "str"
-   "name", "APIキー", "int"
-   "kana", "総トレード数", "int"
-   "certified", "認証済み", "bool"
+   "name", "ユーザ名", "int"
+   "kana", "ユーザ名カナ", "int"
+   "certified", "認証済みかどうか", "bool"
