@@ -32,7 +32,7 @@ trade
 | **価格および数量の数値について**
 | 下記の単位以外で注文しようとした場合、invalid price parameterまたはinvalid amount parameterというエラーが返されます
 | 価格（priceおよびlimit）、もしくは数量(amount)が適切でない場合があります
-| 適切な価格や数量は公開APIのcurrency_pairs :doc:`public/2_individual/2_currency_pairs` で取得できます
+| 適切な価格や数量は公開APIの :doc:`../../public/2_individual/2_currency_pairs` で取得できます
 | 通貨ペアごとに適切な価格や数量の最低量や単位は変わりますので、ご注意ください
 
 
