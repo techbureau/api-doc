@@ -26,7 +26,9 @@ group_id,currency_pairに指定できる値は :ref:`public_futures-groups` を�
       "vwap": 115847.1429,
       "volume": 150.0007,
       "bid": 116995.0,
-      "ask": 117000.0
+      "ask": 117000.0,
+      "swap_rate_bid": 0.1,
+      "swap_rate_ask": -0.1
    }
 
 .. csv-table::
@@ -39,6 +41,11 @@ group_id,currency_pairに指定できる値は :ref:`public_futures-groups` を�
    "volume", "過去24時間の出来高", "float"
    "bid", "買気配値", "float"
    "ask", "売気配値", "float"
+   "swap_rate_bid", "買いスワップレート", "float"
+   "swap_rate_ask", "売りスワップレート", "float"
+
+`swap_rate_bid` および `swap_rate_ask` は、
+:ref:`public_futures-groups` の `use_swap` が `true` である `group_id` を指定した場合にのみ値が返されます。
 
 補足
 ==============
