@@ -1,4 +1,4 @@
-# [Zaif API Document](https://techbureau-api-document.readthedocs.io/ja/latest/)
+# [Zaif API Documentation](https://techbureau-api-document.readthedocs.io/ja/latest/)
 
 ## build documentation in local environment
 
