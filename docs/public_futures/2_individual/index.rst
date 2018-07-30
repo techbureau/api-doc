@@ -12,4 +12,5 @@
    3_ticker
    4_trades
    5_depth
+   6_swap_history
 

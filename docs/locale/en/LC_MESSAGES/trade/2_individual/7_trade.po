@@ -141,7 +141,7 @@ msgstr "Also, please be careful not to use slash"
 
 #: ../../trade/2_individual/7_trade.rst:30
 msgid "**価格および数量の数値について**"
-msgstr "**About price and amount figures **"
+msgstr "**About price and amount figures**"
 
 #: ../../trade/2_individual/7_trade.rst:31
 msgid ""
